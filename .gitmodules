@@ -1,0 +1,3 @@
+[submodule "shared_library"]
+	path = shared_library
+	url = ssh://git@gitlab.local.horsot-consulting.com:2222/horsot-consulting/technic/kicad/shared_library.git
