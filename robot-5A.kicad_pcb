@@ -75,8 +75,19 @@
     )
   )
 
+  (property "board_name" "robot-5A-pcb")
   (property "client_name" "EPITA")
+  (property "designer" "Jeremie")
+  (property "erc" "")
+  (property "git_date" "")
+  (property "project_name" "robot-5A")
+  (property "reviewer" "Xavier")
+  (property "version" "0.1")
+  (property "version_state" "draft")
 
   (net 0 "")
+
+  (gr_rect (start 86 53) (end 186 153)
+    (stroke (width 0.1) (type default)) (fill none) (layer "Edge.Cuts") (tstamp 6beee17b-148c-47b5-b176-b561c221042a))
 
 )

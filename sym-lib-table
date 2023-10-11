@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "0shared")(type "KiCad")(uri "${KIPRJMOD}/shared_library/symbols/shared_library.kicad_sym")(options "")(descr ""))
   (lib (name "0db")(type "Database")(uri "${KIPRJMOD}/shared_library/symbols/database_library.kicad_dbl")(options "")(descr ""))
+  (lib (name "shared_library")(type "KiCad")(uri "${KIPRJMOD}/shared_library/symbols/shared_library.kicad_sym")(options "")(descr ""))
 )

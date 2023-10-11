@@ -935,71 +935,6 @@
         )
       )
     )
-    (symbol "Diode:PMEG1020EH" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
-      (property "Reference" "D" (at 0 2.54 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "PMEG1020EH" (at 0 -2.54 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "Diode_SMD:D_SOD-123F" (at 0 -4.445 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PMEG1020EH_EJ.pdf" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "forward voltage diode" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "10V, 2A ultra low Vf MEGA Schottky barrier rectifier, SOD-123F" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "D*SOD?123F*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "PMEG1020EH_0_1"
-        (polyline
-          (pts
-            (xy 1.27 0)
-            (xy -1.27 0)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 1.27 1.27)
-            (xy 1.27 -1.27)
-            (xy -1.27 0)
-            (xy 1.27 1.27)
-          )
-          (stroke (width 0.2032) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -1.905 0.635)
-            (xy -1.905 1.27)
-            (xy -1.27 1.27)
-            (xy -1.27 -1.27)
-            (xy -0.635 -1.27)
-            (xy -0.635 -0.635)
-          )
-          (stroke (width 0.2032) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "PMEG1020EH_1_1"
-        (pin passive line (at -3.81 0 0) (length 2.54)
-          (name "K" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 3.81 0 180) (length 2.54)
-          (name "A" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
     (symbol "Jumper:Jumper_2_Bridged" (pin_names (offset 0) hide) (in_bom yes) (on_board yes)
       (property "Reference" "JP" (at 0 1.905 0)
         (effects (font (size 1.27 1.27)))
@@ -1816,6 +1751,9 @@
   (junction (at 228.6 114.3) (diameter 0) (color 0 0 0 0)
     (uuid 2a286897-9aab-4c5e-8137-8c90bca73cf4)
   )
+  (junction (at 76.2 114.3) (diameter 0) (color 0 0 0 0)
+    (uuid 2c42351e-beb0-4e7b-b5ef-9773c012c184)
+  )
   (junction (at 332.74 154.94) (diameter 0) (color 0 0 0 0)
     (uuid 2d8f4f6e-1cbd-45bb-9650-75601e6fd716)
   )
@@ -1966,9 +1904,6 @@
   (junction (at 69.85 76.2) (diameter 0) (color 0 0 0 0)
     (uuid e6dfb805-9b8e-43e9-b591-1e96fb93fadc)
   )
-  (junction (at 346.71 93.98) (diameter 0) (color 0 0 0 0)
-    (uuid ec2ec671-3a91-42ef-b4bc-137bc0f57bd9)
-  )
   (junction (at 62.23 76.2) (diameter 0) (color 0 0 0 0)
     (uuid eef74121-5d78-476d-ab60-8f0333ccca36)
   )
@@ -2111,10 +2046,6 @@
     (stroke (width 0) (type default))
     (uuid 265ab53d-ad36-4dfb-89e7-78059cfff5e2)
   )
-  (wire (pts (xy 332.74 80.01) (xy 336.55 80.01))
-    (stroke (width 0) (type default))
-    (uuid 265c1758-f68b-4c19-8eab-286b101003f6)
-  )
   (wire (pts (xy 48.26 114.3) (xy 48.26 78.74))
     (stroke (width 0) (type default))
     (uuid 280e521d-cc8a-4787-9b18-d7fe78166031)
@@ -2163,10 +2094,6 @@
     (stroke (width 0) (type default))
     (uuid 33cf814e-8965-455d-a1b2-07210529af43)
   )
-  (wire (pts (xy 344.17 93.98) (xy 346.71 93.98))
-    (stroke (width 0) (type default))
-    (uuid 363da91f-24c3-4dc2-8f9b-43452dc8ebc3)
-  )
   (wire (pts (xy 314.96 114.3) (xy 332.74 114.3))
     (stroke (width 0) (type default))
     (uuid 37c64d30-644f-48c2-af2e-d68c64b53a04)
@@ -2191,7 +2118,7 @@
     (stroke (width 0) (type default))
     (uuid 3d99fb4f-31db-4739-875e-deb041fd268c)
   )
-  (wire (pts (xy 66.04 114.3) (xy 127 114.3))
+  (wire (pts (xy 66.04 114.3) (xy 76.2 114.3))
     (stroke (width 0) (type default))
     (uuid 3de4c41f-4fa0-44db-8318-5f550d0ff9e4)
   )
@@ -2230,10 +2157,6 @@
   (wire (pts (xy 143.51 137.16) (xy 161.29 137.16))
     (stroke (width 0) (type default))
     (uuid 5900dc3d-e5cc-48b6-aa12-e8deedc0257e)
-  )
-  (wire (pts (xy 346.71 80.01) (xy 344.17 80.01))
-    (stroke (width 0) (type default))
-    (uuid 60c9c87d-fffc-43a5-92a6-b7e26cc5bf2f)
   )
   (wire (pts (xy 139.7 137.16) (xy 142.24 137.16))
     (stroke (width 0) (type default))
@@ -2411,13 +2334,17 @@
     (stroke (width 0) (type default))
     (uuid 98085862-5560-4a26-932b-ae382ae56542)
   )
-  (wire (pts (xy 346.71 93.98) (xy 353.06 93.98))
+  (wire (pts (xy 344.17 93.98) (xy 353.06 93.98))
     (stroke (width 0) (type default))
     (uuid 983b871a-f442-45a3-9602-616ed17deb91)
   )
   (wire (pts (xy 332.74 93.98) (xy 336.55 93.98))
     (stroke (width 0) (type default))
     (uuid 9845ad7d-3b97-4515-b95e-8d25181c5a34)
+  )
+  (wire (pts (xy 76.2 114.3) (xy 127 114.3))
+    (stroke (width 0) (type default))
+    (uuid 99d47b51-5fb7-46a3-ae84-78f3809f6305)
   )
   (wire (pts (xy 134.62 76.2) (xy 149.86 76.2))
     (stroke (width 0) (type default))
@@ -2623,10 +2550,6 @@
     (stroke (width 0) (type default))
     (uuid f7fe9aa3-2373-45d1-8f93-1a3d6844ba62)
   )
-  (wire (pts (xy 346.71 80.01) (xy 346.71 93.98))
-    (stroke (width 0) (type default))
-    (uuid f914bad5-f453-4549-9917-17b32037b8b1)
-  )
   (wire (pts (xy 173.99 151.13) (xy 173.99 147.32))
     (stroke (width 0) (type default))
     (uuid f96ac8b6-3c4b-4b60-84ba-730ca82431cd)
@@ -2659,8 +2582,8 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 51e16eb7-34cd-4e9c-a1bd-6f1635513e4d)
   )
-  (text "TODO:\n  - Le fusible n'a pas d'empreinte\nQuestion:\n  - Sachant qu'il y a a un BMS coté Lipo estce que le fusible est utile ?\n  - Il y a 2 netTie ici + 1 sur le racine c'est voulu ?"
-    (at 328.93 248.92 0)
+  (text "Question:\n  - est-ce une bonne idée de changer les empreintes vers du 0805 pour les capas ?"
+    (at 314.96 250.19 0)
     (effects (font (size 1.27 1.27) (thickness 0.254) bold (color 251 0 0 1)) (justify left bottom))
     (uuid 5975c35e-607e-4fdc-8069-0a99eba071de)
   )
@@ -2710,10 +2633,6 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid aa89ea02-e7ce-41f2-b69c-a227cf90086c)
   )
-  (label "Vflyback_RTN" (at 267.97 88.9 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid fa95eb4e-ec43-44c9-aba7-cc417440f9b6)
-  )
 
   (hierarchical_label "5V_out" (shape output) (at 359.41 93.98 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
@@ -2735,10 +2654,6 @@
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 92bb6283-29ca-4973-a739-3609e637e9e8)
   )
-  (hierarchical_label "5Vusb_in" (shape input) (at 332.74 80.01 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid b26a320d-287f-45a6-93f1-6c0226bafb0c)
-  )
   (hierarchical_label "5V_RTN" (shape input) (at 359.41 114.3 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid ca949d50-a009-41a3-856e-611e7433b06f)
@@ -2751,7 +2666,7 @@
   (symbol (lib_id "0db:resistors/Koa RK73H2ATTD2201F") (at 228.6 110.49 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 010d7221-ee5b-44ee-8761-d97fb44f0e51)
-    (property "Reference" "R413" (at 231.14 106.68 0)
+    (property "Reference" "R410" (at 231.14 106.68 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "2.2k 1%" (at 231.14 109.22 0)
@@ -2786,7 +2701,7 @@
     (instances
       (project "robot-5A"
         (path "/31c74e3e-5df4-4637-9173-3740574ecda5/21da4ff5-9a13-4529-9295-d9ae908c5304"
-          (reference "R413") (unit 1)
+          (reference "R410") (unit 1)
         )
       )
     )
@@ -2795,7 +2710,7 @@
   (symbol (lib_id "0db:resistors/Koa RK73H2ATTD8872F") (at 203.2 166.37 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 03d982fe-bab7-4dd2-a1b3-0f591494042f)
-    (property "Reference" "R422" (at 205.74 162.56 0)
+    (property "Reference" "R415" (at 205.74 162.56 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "88.7k 1%" (at 205.74 165.1 0)
@@ -2830,7 +2745,7 @@
     (instances
       (project "robot-5A"
         (path "/31c74e3e-5df4-4637-9173-3740574ecda5/21da4ff5-9a13-4529-9295-d9ae908c5304"
-          (reference "R422") (unit 1)
+          (reference "R415") (unit 1)
         )
       )
     )
@@ -2867,10 +2782,40 @@
     )
   )
 
+  (symbol (lib_id "power:PWR_FLAG") (at 76.2 114.3 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 0b963945-47df-4da3-8118-fcce291869fa)
+    (property "Reference" "#FLG0403" (at 76.2 116.205 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "PWR_FLAG" (at 76.2 119.38 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 76.2 114.3 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 76.2 114.3 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid cff955ab-03b6-4ddb-ab2e-9ddf210f979c))
+    (instances
+      (project "robot-5A"
+        (path "/31c74e3e-5df4-4637-9173-3740574ecda5/21da4ff5-9a13-4529-9295-d9ae908c5304"
+          (reference "#FLG0403") (unit 1)
+        )
+      )
+      (project "Drilling_1500W"
+        (path "/5eefe6a1-faae-4012-9a95-08477ec0e762/2907e733-5db7-4666-a57f-5e0cf9dae560"
+          (reference "#FLG0308") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "0db:resistors/Koa RK73H2ATTD1003F") (at 149.86 81.28 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0bbf2918-ee70-4c93-8a65-8cea275b86f5)
-    (property "Reference" "R407" (at 152.4 77.47 0)
+    (property "Reference" "R401" (at 152.4 77.47 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100k 1%" (at 152.4 80.01 0)
@@ -2905,7 +2850,7 @@
     (instances
       (project "robot-5A"
         (path "/31c74e3e-5df4-4637-9173-3740574ecda5/21da4ff5-9a13-4529-9295-d9ae908c5304"
-          (reference "R407") (unit 1)
+          (reference "R401") (unit 1)
         )
       )
     )
@@ -2914,7 +2859,7 @@
   (symbol (lib_name "resistors/Koa RK73H2ATTD1003F_3") (lib_id "0db:resistors/Koa RK73H2ATTD1003F") (at 270.51 105.41 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 112c13c9-3705-4831-96d3-4f6eb36eb6c3)
-    (property "Reference" "R408" (at 270.51 107.95 90)
+    (property "Reference" "R409" (at 270.51 107.95 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100k 1%" (at 270.51 110.49 90)
@@ -2949,7 +2894,7 @@
     (instances
       (project "robot-5A"
         (path "/31c74e3e-5df4-4637-9173-3740574ecda5/21da4ff5-9a13-4529-9295-d9ae908c5304"
-          (reference "R408") (unit 1)
+          (reference "R409") (unit 1)
         )
       )
     )
@@ -2958,7 +2903,7 @@
   (symbol (lib_name "resistors/Koa RK73H2ATTD1002F_1") (lib_id "0db:resistors/Koa RK73H2ATTD1002F") (at 161.29 168.91 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1ec66bee-1a9c-4bc8-b635-229946fc2232)
-    (property "Reference" "R420" (at 163.83 165.1 0)
+    (property "Reference" "R419" (at 163.83 165.1 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k 1%" (at 163.83 167.64 0)
@@ -2993,7 +2938,7 @@
     (instances
       (project "robot-5A"
         (path "/31c74e3e-5df4-4637-9173-3740574ecda5/21da4ff5-9a13-4529-9295-d9ae908c5304"
-          (reference "R420") (unit 1)
+          (reference "R419") (unit 1)
         )
       )
     )
@@ -3055,7 +3000,7 @@
           (reference "#PWR0116") (unit 1)
         )
         (path "/31c74e3e-5df4-4637-9173-3740574ecda5/21da4ff5-9a13-4529-9295-d9ae908c5304"
-          (reference "#PWR0405") (unit 1)
+          (reference "#PWR0403") (unit 1)
         )
       )
     )
@@ -3064,7 +3009,7 @@
   (symbol (lib_id "0db:capacitors/AVX 12105C106K4Z") (at 314.96 165.1 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 35740457-cb35-4b8b-a1b0-0f7bddbae11f)
-    (property "Reference" "C421" (at 318.77 161.29 0)
+    (property "Reference" "C418" (at 318.77 161.29 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10u 50V" (at 318.77 163.83 0)
@@ -3102,7 +3047,7 @@
     (instances
       (project "robot-5A"
         (path "/31c74e3e-5df4-4637-9173-3740574ecda5/21da4ff5-9a13-4529-9295-d9ae908c5304"
-          (reference "C421") (unit 1)
+          (reference "C418") (unit 1)
         )
       )
       (project "Drilling_1500W"
@@ -3122,7 +3067,7 @@
   (symbol (lib_name "resistors/Koa RK73H2ATTD2202F_4") (lib_id "0db:resistors/Koa RK73H2ATTD2202F") (at 149.86 92.71 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 38380c1a-f2f9-4bf3-baa0-e066b045838b)
-    (property "Reference" "R409" (at 152.4 88.9 0)
+    (property "Reference" "R403" (at 152.4 88.9 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22k 1%" (at 152.4 91.44 0)
@@ -3157,7 +3102,7 @@
     (instances
       (project "robot-5A"
         (path "/31c74e3e-5df4-4637-9173-3740574ecda5/21da4ff5-9a13-4529-9295-d9ae908c5304"
-          (reference "R409") (unit 1)
+          (reference "R403") (unit 1)
         )
       )
     )
@@ -3166,7 +3111,7 @@
   (symbol (lib_id "0db:resistors/Koa RK73Z2ATTD") (at 135.89 137.16 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 394694f5-19b1-48d4-a53e-cef1d4043141)
-    (property "Reference" "R417" (at 135.89 128.27 90)
+    (property "Reference" "R411" (at 135.89 128.27 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0R" (at 135.89 130.81 90)
@@ -3201,7 +3146,7 @@
     (instances
       (project "robot-5A"
         (path "/31c74e3e-5df4-4637-9173-3740574ecda5/21da4ff5-9a13-4529-9295-d9ae908c5304"
-          (reference "R417") (unit 1)
+          (reference "R411") (unit 1)
         )
       )
     )
@@ -3240,7 +3185,7 @@
   (symbol (lib_id "0db:resistors/Koa RK73H2ATTD8872F") (at 203.2 105.41 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4619cc0a-163a-4545-be70-a34229afa345)
-    (property "Reference" "R414" (at 205.74 101.6 0)
+    (property "Reference" "R407" (at 205.74 101.6 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "88.7k 1%" (at 205.74 104.14 0)
@@ -3275,7 +3220,7 @@
     (instances
       (project "robot-5A"
         (path "/31c74e3e-5df4-4637-9173-3740574ecda5/21da4ff5-9a13-4529-9295-d9ae908c5304"
-          (reference "R414") (unit 1)
+          (reference "R407") (unit 1)
         )
       )
     )
@@ -3284,7 +3229,7 @@
   (symbol (lib_id "Regulator_Switching:LT8610") (at 215.9 152.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4ea90b4a-1c39-45ac-a38b-83f70bfefc2e)
-    (property "Reference" "U403" (at 217.9194 139.7 0)
+    (property "Reference" "U402" (at 217.9194 139.7 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "LT8610" (at 217.9194 142.24 0)
@@ -3299,7 +3244,7 @@
     (property "Manufacturer" "Analog Device" (at 215.9 152.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MPN" "LT8610AX" (at 215.9 152.4 0)
+    (property "MPN" "LT8610" (at 215.9 152.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid a7496548-e301-487f-8f8b-8d4df99beead))
@@ -3322,7 +3267,7 @@
     (instances
       (project "robot-5A"
         (path "/31c74e3e-5df4-4637-9173-3740574ecda5/21da4ff5-9a13-4529-9295-d9ae908c5304"
-          (reference "U403") (unit 1)
+          (reference "U402") (unit 1)
         )
       )
       (project "Drilling_1500W"
@@ -3377,7 +3322,7 @@
           (reference "C201") (unit 1)
         )
         (path "/31c74e3e-5df4-4637-9173-3740574ecda5/21da4ff5-9a13-4529-9295-d9ae908c5304"
-          (reference "C409") (unit 1)
+          (reference "C406") (unit 1)
         )
       )
     )
@@ -3427,7 +3372,7 @@
           (reference "C201") (unit 1)
         )
         (path "/31c74e3e-5df4-4637-9173-3740574ecda5/21da4ff5-9a13-4529-9295-d9ae908c5304"
-          (reference "C424") (unit 1)
+          (reference "C411") (unit 1)
         )
       )
     )
@@ -3436,7 +3381,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 353.06 114.3 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 62dc613d-d6f7-482b-b361-5dbc7805d35b)
-    (property "Reference" "#FLG0403" (at 353.06 112.395 0)
+    (property "Reference" "#FLG0404" (at 353.06 112.395 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (at 353.06 110.49 0)
@@ -3452,7 +3397,7 @@
     (instances
       (project "robot-5A"
         (path "/31c74e3e-5df4-4637-9173-3740574ecda5/21da4ff5-9a13-4529-9295-d9ae908c5304"
-          (reference "#FLG0403") (unit 1)
+          (reference "#FLG0404") (unit 1)
         )
       )
       (project "Drilling_1500W"
@@ -3466,7 +3411,7 @@
   (symbol (lib_id "0db:capacitors/AVX 12105C106K4Z") (at 297.18 165.1 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 64f844da-0384-4efc-b28d-c4971911f4c0)
-    (property "Reference" "C420" (at 300.99 161.29 0)
+    (property "Reference" "C417" (at 300.99 161.29 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10u 50V" (at 300.99 163.83 0)
@@ -3504,7 +3449,7 @@
     (instances
       (project "robot-5A"
         (path "/31c74e3e-5df4-4637-9173-3740574ecda5/21da4ff5-9a13-4529-9295-d9ae908c5304"
-          (reference "C420") (unit 1)
+          (reference "C417") (unit 1)
         )
       )
       (project "Drilling_1500W"
@@ -3524,7 +3469,7 @@
   (symbol (lib_id "0db:capacitors/AVX 12105C106K4Z") (at 297.18 104.14 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 680799fc-25cf-409b-ac01-b96a18fe6458)
-    (property "Reference" "C413" (at 300.99 100.33 0)
+    (property "Reference" "C408" (at 300.99 100.33 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10u 50V" (at 300.99 102.87 0)
@@ -3562,7 +3507,7 @@
     (instances
       (project "robot-5A"
         (path "/31c74e3e-5df4-4637-9173-3740574ecda5/21da4ff5-9a13-4529-9295-d9ae908c5304"
-          (reference "C413") (unit 1)
+          (reference "C408") (unit 1)
         )
       )
       (project "Drilling_1500W"
@@ -3622,7 +3567,7 @@
   (symbol (lib_id "0db:capacitors/AVX 12105C106K4Z") (at 314.96 104.14 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 715c052a-6af8-444a-bc36-c70a5f27061f)
-    (property "Reference" "C414" (at 318.77 100.33 0)
+    (property "Reference" "C409" (at 318.77 100.33 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10u 50V" (at 318.77 102.87 0)
@@ -3660,7 +3605,7 @@
     (instances
       (project "robot-5A"
         (path "/31c74e3e-5df4-4637-9173-3740574ecda5/21da4ff5-9a13-4529-9295-d9ae908c5304"
-          (reference "C414") (unit 1)
+          (reference "C409") (unit 1)
         )
       )
       (project "Drilling_1500W"
@@ -3680,7 +3625,7 @@
   (symbol (lib_id "0db:capacitors/AVX 04025A100JAT") (at 271.78 100.33 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 72382e7f-ad33-4c30-b865-8ad240e86da7)
-    (property "Reference" "C412" (at 266.7 99.06 90)
+    (property "Reference" "C405" (at 266.7 99.06 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10p 50V" (at 278.13 99.06 90)
@@ -3721,7 +3666,7 @@
     (instances
       (project "robot-5A"
         (path "/31c74e3e-5df4-4637-9173-3740574ecda5/21da4ff5-9a13-4529-9295-d9ae908c5304"
-          (reference "C412") (unit 1)
+          (reference "C405") (unit 1)
         )
       )
       (project "Drilling_1500W"
@@ -3776,7 +3721,7 @@
           (reference "C201") (unit 1)
         )
         (path "/31c74e3e-5df4-4637-9173-3740574ecda5/21da4ff5-9a13-4529-9295-d9ae908c5304"
-          (reference "C408") (unit 1)
+          (reference "C407") (unit 1)
         )
       )
     )
@@ -3804,7 +3749,7 @@
           (reference "#PWR0209") (unit 1)
         )
         (path "/31c74e3e-5df4-4637-9173-3740574ecda5/21da4ff5-9a13-4529-9295-d9ae908c5304"
-          (reference "#PWR0410") (unit 1)
+          (reference "#PWR0401") (unit 1)
         )
       )
     )
@@ -3813,7 +3758,7 @@
   (symbol (lib_name "resistors/Koa RK73H2ATTD2202F_3") (lib_id "0db:resistors/Koa RK73H2ATTD2202F") (at 246.38 105.41 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7ebdcaee-abcf-4ecb-8db4-cd21bb5ec8b8)
-    (property "Reference" "R410" (at 246.38 107.95 90)
+    (property "Reference" "R408" (at 246.38 107.95 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "22k 1%" (at 246.38 110.49 90)
@@ -3848,7 +3793,7 @@
     (instances
       (project "robot-5A"
         (path "/31c74e3e-5df4-4637-9173-3740574ecda5/21da4ff5-9a13-4529-9295-d9ae908c5304"
-          (reference "R410") (unit 1)
+          (reference "R408") (unit 1)
         )
       )
     )
@@ -3857,7 +3802,7 @@
   (symbol (lib_id "0db:resistors/Koa RK73H2ATTD1002F") (at 66.04 100.33 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7f082b2c-3578-4c07-b420-93495ddc55c4)
-    (property "Reference" "R403" (at 68.58 96.52 0)
+    (property "Reference" "R405" (at 68.58 96.52 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k 1%" (at 68.58 99.06 0)
@@ -3892,7 +3837,7 @@
     (instances
       (project "robot-5A"
         (path "/31c74e3e-5df4-4637-9173-3740574ecda5/21da4ff5-9a13-4529-9295-d9ae908c5304"
-          (reference "R403") (unit 1)
+          (reference "R405") (unit 1)
         )
       )
     )
@@ -3901,7 +3846,7 @@
   (symbol (lib_name "resistors/Koa RK73H2ATTD2202F_1") (lib_id "0db:resistors/Koa RK73H2ATTD2202F") (at 257.81 166.37 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 82527c3d-60de-4ccf-bc86-aecdf84f6d6e)
-    (property "Reference" "R424" (at 257.81 168.91 90)
+    (property "Reference" "R416" (at 257.81 168.91 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "22k 1%" (at 257.81 171.45 90)
@@ -3936,7 +3881,7 @@
     (instances
       (project "robot-5A"
         (path "/31c74e3e-5df4-4637-9173-3740574ecda5/21da4ff5-9a13-4529-9295-d9ae908c5304"
-          (reference "R424") (unit 1)
+          (reference "R416") (unit 1)
         )
       )
     )
@@ -3945,7 +3890,7 @@
   (symbol (lib_id "0db:capacitors/AVX 12105C106K4Z") (at 255.27 149.86 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8582ff18-fd43-46bc-9ccd-4a369b2431d8)
-    (property "Reference" "C418" (at 250.19 148.59 90)
+    (property "Reference" "C412" (at 250.19 148.59 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10u 50V" (at 260.35 148.59 90)
@@ -3986,7 +3931,7 @@
     (instances
       (project "robot-5A"
         (path "/31c74e3e-5df4-4637-9173-3740574ecda5/21da4ff5-9a13-4529-9295-d9ae908c5304"
-          (reference "C418") (unit 1)
+          (reference "C412") (unit 1)
         )
       )
       (project "Drilling_1500W"
@@ -4047,7 +3992,7 @@
           (reference "C201") (unit 1)
         )
         (path "/31c74e3e-5df4-4637-9173-3740574ecda5/21da4ff5-9a13-4529-9295-d9ae908c5304"
-          (reference "C407") (unit 1)
+          (reference "C414") (unit 1)
         )
       )
     )
@@ -4056,7 +4001,7 @@
   (symbol (lib_id "0db:capacitors/AVX 12105C106K4Z") (at 127 83.82 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 91d1b666-4531-4e8f-9b05-2f4c06840a7b)
-    (property "Reference" "C406" (at 130.81 81.28 0)
+    (property "Reference" "C401" (at 130.81 81.28 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u 50V" (at 130.81 83.82 0)
@@ -4094,7 +4039,7 @@
     (instances
       (project "robot-5A"
         (path "/31c74e3e-5df4-4637-9173-3740574ecda5/21da4ff5-9a13-4529-9295-d9ae908c5304"
-          (reference "C406") (unit 1)
+          (reference "C401") (unit 1)
         )
       )
       (project "Drilling_1500W"
@@ -4108,7 +4053,7 @@
   (symbol (lib_id "0db:capacitors/AVX 06035C104KAZ") (at 240.03 152.4 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 96695e18-5ade-4901-ba9c-da98b353933f)
-    (property "Reference" "C417" (at 236.22 151.13 90)
+    (property "Reference" "C413" (at 236.22 151.13 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100n 50V" (at 246.38 151.13 90)
@@ -4149,7 +4094,7 @@
     (instances
       (project "robot-5A"
         (path "/31c74e3e-5df4-4637-9173-3740574ecda5/21da4ff5-9a13-4529-9295-d9ae908c5304"
-          (reference "C417") (unit 1)
+          (reference "C413") (unit 1)
         )
       )
       (project "Drilling_1500W"
@@ -4181,7 +4126,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 353.06 154.94 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9f9e484a-b1f5-4552-8074-734404625361)
-    (property "Reference" "#FLG0405" (at 353.06 153.035 0)
+    (property "Reference" "#FLG0406" (at 353.06 153.035 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (at 353.06 151.13 0)
@@ -4197,7 +4142,7 @@
     (instances
       (project "robot-5A"
         (path "/31c74e3e-5df4-4637-9173-3740574ecda5/21da4ff5-9a13-4529-9295-d9ae908c5304"
-          (reference "#FLG0405") (unit 1)
+          (reference "#FLG0406") (unit 1)
         )
       )
       (project "Drilling_1500W"
@@ -4211,7 +4156,7 @@
   (symbol (lib_id "0db:resistors/Koa RK73Z2ATTD") (at 340.36 154.94 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a85b4dbe-3ed4-428c-8501-ae1a6d56006d)
-    (property "Reference" "R427" (at 340.36 146.05 90)
+    (property "Reference" "R413" (at 340.36 146.05 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0R" (at 340.36 148.59 90)
@@ -4246,7 +4191,7 @@
     (instances
       (project "robot-5A"
         (path "/31c74e3e-5df4-4637-9173-3740574ecda5/21da4ff5-9a13-4529-9295-d9ae908c5304"
-          (reference "R427") (unit 1)
+          (reference "R413") (unit 1)
         )
       )
     )
@@ -4255,7 +4200,7 @@
   (symbol (lib_id "0db:capacitors/AVX 04025A100JAT") (at 271.78 161.29 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b7fb2850-5362-486f-aae0-af81383f1408)
-    (property "Reference" "C419" (at 266.7 160.02 90)
+    (property "Reference" "C415" (at 266.7 160.02 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10p 50V" (at 281.94 160.02 90)
@@ -4296,7 +4241,7 @@
     (instances
       (project "robot-5A"
         (path "/31c74e3e-5df4-4637-9173-3740574ecda5/21da4ff5-9a13-4529-9295-d9ae908c5304"
-          (reference "C419") (unit 1)
+          (reference "C415") (unit 1)
         )
       )
       (project "Drilling_1500W"
@@ -4307,50 +4252,10 @@
     )
   )
 
-  (symbol (lib_id "Diode:PMEG1020EH") (at 340.36 80.01 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid bd9848a5-087a-4356-bf32-952f130815ec)
-    (property "Reference" "D401" (at 340.36 73.66 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "PMEG1020EH" (at 340.6775 76.2 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Diode_SMD:D_SOD-123F" (at 340.36 75.565 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PMEG1020EH.pdf" (at 340.36 80.01 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN" "PMEG1020EH" (at 340.36 80.01 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer" "Nexperia" (at 340.36 80.01 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 28541775-1f76-4e78-b1a5-8cb0fb239e42))
-    (pin "2" (uuid 1eff5369-a466-49ef-93cb-37a245a70e9c))
-    (instances
-      (project "robot-5A"
-        (path "/31c74e3e-5df4-4637-9173-3740574ecda5/21da4ff5-9a13-4529-9295-d9ae908c5304"
-          (reference "D401") (unit 1)
-        )
-      )
-      (project "Drilling_1500W"
-        (path "/5eefe6a1-faae-4012-9a95-08477ec0e762/f35597a0-d76a-4e5c-b9ae-13dc1a10a140"
-          (reference "D?") (unit 1)
-        )
-        (path "/5eefe6a1-faae-4012-9a95-08477ec0e762/2907e733-5db7-4666-a57f-5e0cf9dae560"
-          (reference "D301") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "0db:resistors/Koa RK73H2ATTD2203F") (at 269.24 166.37 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bf482ccb-5711-4974-b4a8-9a2540cfbf2e)
-    (property "Reference" "R425" (at 269.24 168.91 90)
+    (property "Reference" "R417" (at 269.24 168.91 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "220k 1%" (at 269.24 171.45 90)
@@ -4385,7 +4290,7 @@
     (instances
       (project "robot-5A"
         (path "/31c74e3e-5df4-4637-9173-3740574ecda5/21da4ff5-9a13-4529-9295-d9ae908c5304"
-          (reference "R425") (unit 1)
+          (reference "R417") (unit 1)
         )
       )
     )
@@ -4394,7 +4299,7 @@
   (symbol (lib_id "0db:capacitors/AVX 12105C106K4Z") (at 332.74 104.14 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c148244c-d344-4c8a-b257-f815527d09f0)
-    (property "Reference" "C415" (at 336.55 100.33 0)
+    (property "Reference" "C410" (at 336.55 100.33 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10u 50V" (at 336.55 102.87 0)
@@ -4432,7 +4337,7 @@
     (instances
       (project "robot-5A"
         (path "/31c74e3e-5df4-4637-9173-3740574ecda5/21da4ff5-9a13-4529-9295-d9ae908c5304"
-          (reference "C415") (unit 1)
+          (reference "C410") (unit 1)
         )
       )
       (project "Drilling_1500W"
@@ -4458,10 +4363,16 @@
     (property "Value" "Fuse" (at 54.61 73.66 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 54.61 77.978 90)
+    (property "Footprint" "Fuse:Fuse_0805_2012Metric" (at 54.61 77.978 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 54.61 76.2 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MPN" "MFU0805FF02000P500" (at 54.61 76.2 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "VISHAY" (at 54.61 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 114a2a71-e582-458d-ad6e-b2bc82a9953d))
@@ -4488,7 +4399,7 @@
   (symbol (lib_name "resistors/Koa RK73H2ATTD1003F_2") (lib_id "0db:resistors/Koa RK73H2ATTD1003F") (at 161.29 143.51 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cf43e7d8-0d23-483a-89a7-3ba6b66ab04a)
-    (property "Reference" "R418" (at 163.83 139.7 0)
+    (property "Reference" "R412" (at 163.83 139.7 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100k 1%" (at 163.83 142.24 0)
@@ -4523,7 +4434,7 @@
     (instances
       (project "robot-5A"
         (path "/31c74e3e-5df4-4637-9173-3740574ecda5/21da4ff5-9a13-4529-9295-d9ae908c5304"
-          (reference "R418") (unit 1)
+          (reference "R412") (unit 1)
         )
       )
     )
@@ -4562,7 +4473,7 @@
   (symbol (lib_id "0db:resistors/Koa RK73Z2ATTD") (at 340.36 93.98 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d582800e-54cc-4013-97b0-84071e40a0e2)
-    (property "Reference" "R412" (at 340.36 85.09 90)
+    (property "Reference" "R404" (at 340.36 85.09 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0R" (at 340.36 87.63 90)
@@ -4597,7 +4508,7 @@
     (instances
       (project "robot-5A"
         (path "/31c74e3e-5df4-4637-9173-3740574ecda5/21da4ff5-9a13-4529-9295-d9ae908c5304"
-          (reference "R412") (unit 1)
+          (reference "R404") (unit 1)
         )
       )
     )
@@ -4606,7 +4517,7 @@
   (symbol (lib_id "0db:resistors/Koa RK73H2ATTD10R0F") (at 281.94 166.37 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d7b9f4da-5f45-4f71-b76c-8cc53c8cccda)
-    (property "Reference" "R426" (at 281.94 168.91 90)
+    (property "Reference" "R418" (at 281.94 168.91 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10R 1%" (at 281.94 171.45 90)
@@ -4641,7 +4552,7 @@
     (instances
       (project "robot-5A"
         (path "/31c74e3e-5df4-4637-9173-3740574ecda5/21da4ff5-9a13-4529-9295-d9ae908c5304"
-          (reference "R426") (unit 1)
+          (reference "R418") (unit 1)
         )
       )
     )
@@ -4691,7 +4602,7 @@
           (reference "C201") (unit 1)
         )
         (path "/31c74e3e-5df4-4637-9173-3740574ecda5/21da4ff5-9a13-4529-9295-d9ae908c5304"
-          (reference "C401") (unit 1)
+          (reference "C404") (unit 1)
         )
       )
     )
@@ -4741,10 +4652,41 @@
     )
   )
 
+  (symbol (lib_id "power:-BATT") (at 267.97 88.9 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid de102bbf-547b-4af3-af76-4d2c0c4b29fe)
+    (property "Reference" "#PWR0210" (at 267.97 85.09 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "-BATT" (at 267.97 93.98 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 267.97 88.9 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 267.97 88.9 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 01fb68ea-165d-4925-8ea3-b70c8e0d66b2))
+    (instances
+      (project "robot-5A"
+        (path "/31c74e3e-5df4-4637-9173-3740574ecda5/0b0db332-2fe8-4011-b664-91b81fb498a3"
+          (reference "#PWR0210") (unit 1)
+        )
+        (path "/31c74e3e-5df4-4637-9173-3740574ecda5"
+          (reference "#PWR0116") (unit 1)
+        )
+        (path "/31c74e3e-5df4-4637-9173-3740574ecda5/21da4ff5-9a13-4529-9295-d9ae908c5304"
+          (reference "#PWR0402") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Regulator_Switching:LT8610") (at 215.9 91.44 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e4174e69-f5b1-47bc-83de-85b3437eeca2)
-    (property "Reference" "U402" (at 217.9194 78.74 0)
+    (property "Reference" "U401" (at 217.9194 78.74 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "LT8610" (at 217.9194 81.28 0)
@@ -4759,7 +4701,7 @@
     (property "Manufacturer" "Analog Device" (at 215.9 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MPN" "LT8610AX" (at 215.9 91.44 0)
+    (property "MPN" "LT8610" (at 215.9 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 95f4dca1-4655-4e67-9802-b21669e56410))
@@ -4782,7 +4724,7 @@
     (instances
       (project "robot-5A"
         (path "/31c74e3e-5df4-4637-9173-3740574ecda5/21da4ff5-9a13-4529-9295-d9ae908c5304"
-          (reference "U402") (unit 1)
+          (reference "U401") (unit 1)
         )
       )
       (project "Drilling_1500W"
@@ -4796,7 +4738,7 @@
   (symbol (lib_name "resistors/Koa RK73H2ATTD2202F_5") (lib_id "0db:resistors/Koa RK73H2ATTD2202F") (at 149.86 105.41 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e62b7c3d-3372-4416-91bd-4e967a091615)
-    (property "Reference" "R428" (at 152.4 101.6 0)
+    (property "Reference" "R406" (at 152.4 101.6 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22k 1%" (at 152.4 104.14 0)
@@ -4831,7 +4773,7 @@
     (instances
       (project "robot-5A"
         (path "/31c74e3e-5df4-4637-9173-3740574ecda5/21da4ff5-9a13-4529-9295-d9ae908c5304"
-          (reference "R428") (unit 1)
+          (reference "R406") (unit 1)
         )
       )
     )
@@ -4840,7 +4782,7 @@
   (symbol (lib_name "resistors/Koa RK73H2ATTD1003F_1") (lib_id "0db:resistors/Koa RK73H2ATTD1003F") (at 228.6 171.45 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e9624f2a-6faa-4535-9e8a-2c73d94257c1)
-    (property "Reference" "R423" (at 231.14 167.64 0)
+    (property "Reference" "R420" (at 231.14 167.64 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100k 1%" (at 231.14 170.18 0)
@@ -4875,7 +4817,7 @@
     (instances
       (project "robot-5A"
         (path "/31c74e3e-5df4-4637-9173-3740574ecda5/21da4ff5-9a13-4529-9295-d9ae908c5304"
-          (reference "R423") (unit 1)
+          (reference "R420") (unit 1)
         )
       )
     )
@@ -4884,7 +4826,7 @@
   (symbol (lib_id "0db:capacitors/AVX 06035C104KAZ") (at 240.03 91.44 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e9a85963-c07a-4ea1-b275-d5b946cda75f)
-    (property "Reference" "C410" (at 236.22 90.17 90)
+    (property "Reference" "C403" (at 236.22 90.17 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100n 50V" (at 246.38 90.17 90)
@@ -4925,7 +4867,7 @@
     (instances
       (project "robot-5A"
         (path "/31c74e3e-5df4-4637-9173-3740574ecda5/21da4ff5-9a13-4529-9295-d9ae908c5304"
-          (reference "C410") (unit 1)
+          (reference "C403") (unit 1)
         )
       )
       (project "Drilling_1500W"
@@ -4957,7 +4899,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 142.24 137.16 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f3d3435c-de47-4b9c-8d78-af67856c42a9)
-    (property "Reference" "#FLG0404" (at 142.24 135.255 0)
+    (property "Reference" "#FLG0405" (at 142.24 135.255 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (at 142.24 133.35 0)
@@ -4973,7 +4915,7 @@
     (instances
       (project "robot-5A"
         (path "/31c74e3e-5df4-4637-9173-3740574ecda5/21da4ff5-9a13-4529-9295-d9ae908c5304"
-          (reference "#FLG0404") (unit 1)
+          (reference "#FLG0405") (unit 1)
         )
       )
       (project "Drilling_1500W"
@@ -4987,7 +4929,7 @@
   (symbol (lib_id "0db:capacitors/AVX 12105C106K4Z") (at 255.27 88.9 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f5ed4a3b-0810-4dcc-886f-ec50c0d1d888)
-    (property "Reference" "C411" (at 250.19 87.63 90)
+    (property "Reference" "C402" (at 250.19 87.63 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10u 50V" (at 256.54 87.63 90)
@@ -5028,7 +4970,7 @@
     (instances
       (project "robot-5A"
         (path "/31c74e3e-5df4-4637-9173-3740574ecda5/21da4ff5-9a13-4529-9295-d9ae908c5304"
-          (reference "C411") (unit 1)
+          (reference "C402") (unit 1)
         )
       )
       (project "Drilling_1500W"
@@ -5048,7 +4990,7 @@
   (symbol (lib_name "resistors/Koa RK73H2ATTD2202F_2") (lib_id "0db:resistors/Koa RK73H2ATTD2202F") (at 161.29 158.75 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f6d06d25-f7ba-441a-baee-d4d137edee81)
-    (property "Reference" "R419" (at 163.83 154.94 0)
+    (property "Reference" "R414" (at 163.83 154.94 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22k 1%" (at 163.83 157.48 0)
@@ -5083,7 +5025,7 @@
     (instances
       (project "robot-5A"
         (path "/31c74e3e-5df4-4637-9173-3740574ecda5/21da4ff5-9a13-4529-9295-d9ae908c5304"
-          (reference "R419") (unit 1)
+          (reference "R414") (unit 1)
         )
       )
     )
@@ -5199,7 +5141,7 @@
   (symbol (lib_id "0db:capacitors/AVX 12105C106K4Z") (at 332.74 165.1 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fba43b74-ebe5-4fe0-914f-37aac1d56074)
-    (property "Reference" "C422" (at 336.55 161.29 0)
+    (property "Reference" "C419" (at 336.55 161.29 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10u 50V" (at 336.55 163.83 0)
@@ -5237,7 +5179,7 @@
     (instances
       (project "robot-5A"
         (path "/31c74e3e-5df4-4637-9173-3740574ecda5/21da4ff5-9a13-4529-9295-d9ae908c5304"
-          (reference "C422") (unit 1)
+          (reference "C419") (unit 1)
         )
       )
       (project "Drilling_1500W"

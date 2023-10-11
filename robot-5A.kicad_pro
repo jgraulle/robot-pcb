@@ -434,7 +434,7 @@
     "page_layout_descr_file": ""
   },
   "schematic": {
-    "annotate_start_num": 0,
+    "annotate_start_num": 100,
     "drawing": {
       "dashed_lines_dash_length_ratio": 12.0,
       "dashed_lines_gap_length_ratio": 3.0,
@@ -486,13 +486,35 @@
     ],
     [
       "d8294481-be6f-4a58-b460-96c71b592728",
-      "Sensors"
+      "Sensors1"
+    ],
+    [
+      "10e55c87-0700-4a38-9d7d-4b1a08c1fb0e",
+      "Sensors2"
+    ],
+    [
+      "2da7d61b-3a44-4475-aba8-51162102f12c",
+      "Sensors3"
+    ],
+    [
+      "afc9d5fe-e90d-4002-8bce-8777ad0cd774",
+      "Sensors4"
+    ],
+    [
+      "2a3e722a-d6a2-441d-92e4-f2d54293231f",
+      "Sensors5"
+    ],
+    [
+      "1d4f0b65-d660-408d-b5d6-f560b1329d59",
+      "Sensors6"
     ]
   ],
   "text_variables": {
     "board_name": "robot-5A-pcb",
     "client_name": "EPITA",
     "designer": "Jeremie",
+    "erc": "",
+    "git_date": "",
     "project_name": "robot-5A",
     "reviewer": "Xavier",
     "version": "0.1",
