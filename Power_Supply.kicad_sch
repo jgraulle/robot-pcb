@@ -5,20 +5,20 @@
   (paper "A3")
 
   (lib_symbols
-    (symbol "0db:capacitors/AVX 04025A100JAT" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
+    (symbol "0db:capacitors/AVX 0805YA100JAT" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 0.635 2.54 0)
         (effects (font (size 1.27 1.27)) (justify left))
       )
-      (property "Value" "10p 50V" (at 0.635 -2.54 0)
+      (property "Value" "10p 16V" (at 0.635 -2.54 0)
         (effects (font (size 1.27 1.27)) (justify left))
       )
-      (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 0.9652 -3.81 0)
+      (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 0.9652 -3.81 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "Datasheet" "https://datasheets.kyocera-avx.com/C0GNP0-Dielectric.pdf" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "Value 2" "0402 5%" (at 0 0 0)
+      (property "Value 2" "0805 5%" (at 0 0 0)
         (effects (font (size 0.8 0.8)))
       )
       (property "Value 3" "C0G commercial" (at 0 0 0)
@@ -27,28 +27,28 @@
       (property "Manufacturer" "Kyocera AVX" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "MPN" "04025A100JAT" (at 0 0 0)
+      (property "MPN" "0805YA100JAT" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "compatible_mpns" "04025A100JAT2A 04025A100JAT4A" (at 0 0 0)
+      (property "compatible_mpns" "0805YA100JAT2A 0805YA100JAT4A" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "Tolerance" "5%" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "Voltage Rating" "50V" (at 0 0 0)
+      (property "Voltage Rating" "16V" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "ki_keywords" "cap capacitor" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_description" "Kyocera AVX MLCC C0G 10p 5% 0402 50V E3 E6 E12 D10p" (at 0 0 0)
+      (property "ki_description" "Kyocera AVX MLCC C0G 10p 5% 0805 16V E3 E6 E12 D10p" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_fp_filters" "Capacitor_SMD:C_0402_1005Metric_*" (at 0 0 0)
+      (property "ki_fp_filters" "Capacitor_SMD:C_0805_2012Metric_*" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (symbol "capacitors/AVX 04025A100JAT_0_1"
+      (symbol "capacitors/AVX 0805YA100JAT_0_1"
         (polyline
           (pts
             (xy -2.032 -0.762)
@@ -66,79 +66,7 @@
           (fill (type none))
         )
       )
-      (symbol "capacitors/AVX 04025A100JAT_1_1"
-        (pin passive line (at 0 3.81 270) (length 2.794)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 0 -3.81 90) (length 2.794)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "0db:capacitors/AVX 06035C104KAZ" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
-      (property "Reference" "C" (at 0.635 2.54 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Value" "100n 50V" (at 0.635 -2.54 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 0.9652 -3.81 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "https://datasheets.kyocera-avx.com/FlexitermMLCC.pdf" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Value 2" "0603 10%" (at 0 0 0)
-        (effects (font (size 0.8 0.8)))
-      )
-      (property "Value 3" "X7R commercial" (at 0 0 0)
-        (effects (font (size 0.8 0.8)))
-      )
-      (property "Manufacturer" "Kyocera AVX" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "MPN" "06035C104KAZ" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "compatible_mpns" "06035C104KAZ2A 06035C104KAZ4A" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Tolerance" "10%" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Voltage Rating" "50V" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "cap capacitor" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Kyocera AVX MLCC Flexiterm 100n 10% 0603 50V E3 E6 E12 D100n" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "Capacitor_SMD:C_0603_1608Metric_*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "capacitors/AVX 06035C104KAZ_0_1"
-        (polyline
-          (pts
-            (xy -2.032 -0.762)
-            (xy 2.032 -0.762)
-          )
-          (stroke (width 0.508) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -2.032 0.762)
-            (xy 2.032 0.762)
-          )
-          (stroke (width 0.508) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "capacitors/AVX 06035C104KAZ_1_1"
+      (symbol "capacitors/AVX 0805YA100JAT_1_1"
         (pin passive line (at 0 3.81 270) (length 2.794)
           (name "~" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
@@ -892,49 +820,6 @@
         )
       )
     )
-    (symbol "Device:NetTie_2" (pin_numbers hide) (pin_names (offset 0) hide) (in_bom no) (on_board yes)
-      (property "Reference" "NT" (at 0 1.27 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "NetTie_2" (at 0 -1.27 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "net tie short" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Net tie, 2 pins" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "Net*Tie*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "NetTie_2_0_1"
-        (polyline
-          (pts
-            (xy -1.27 0)
-            (xy 1.27 0)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "NetTie_2_1_1"
-        (pin passive line (at -2.54 0 0) (length 2.54)
-          (name "1" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 2.54 0 180) (length 2.54)
-          (name "2" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
     (symbol "Jumper:Jumper_2_Bridged" (pin_names (offset 0) hide) (in_bom yes) (on_board yes)
       (property "Reference" "JP" (at 0 1.905 0)
         (effects (font (size 1.27 1.27)))
@@ -1135,11 +1020,11 @@
         )
       )
     )
-    (symbol "power:-BATT" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "#PWR" (at 0 -3.81 0)
+    (symbol "power:GND" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "#PWR" (at 0 -6.35 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "Value" "-BATT" (at 0 3.556 0)
+      (property "Value" "GND" (at 0 -3.81 0)
         (effects (font (size 1.27 1.27)))
       )
       (property "Footprint" "" (at 0 0 0)
@@ -1148,35 +1033,29 @@
       (property "Datasheet" "" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_keywords" "global power battery" (at 0 0 0)
+      (property "ki_keywords" "global power" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_description" "Power symbol creates a global label with name \"-BATT\"" (at 0 0 0)
+      (property "ki_description" "Power symbol creates a global label with name \"GND\" , ground" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (symbol "-BATT_0_1"
+      (symbol "GND_0_1"
         (polyline
           (pts
             (xy 0 0)
-            (xy 0 2.54)
+            (xy 0 -1.27)
+            (xy 1.27 -1.27)
+            (xy 0 -2.54)
+            (xy -1.27 -1.27)
+            (xy 0 -1.27)
           )
           (stroke (width 0) (type default))
           (fill (type none))
         )
-        (polyline
-          (pts
-            (xy 0.762 1.27)
-            (xy -0.762 1.27)
-            (xy 0 2.54)
-            (xy 0.762 1.27)
-          )
-          (stroke (width 0) (type default))
-          (fill (type outline))
-        )
       )
-      (symbol "-BATT_1_1"
-        (pin power_in line (at 0 0 90) (length 0) hide
-          (name "-BATT" (effects (font (size 1.27 1.27))))
+      (symbol "GND_1_1"
+        (pin power_in line (at 0 0 270) (length 0) hide
+          (name "GND" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
         )
       )
@@ -1799,15 +1678,6 @@
   (junction (at 288.29 93.98) (diameter 0) (color 0 0 0 0)
     (uuid 4d8f5306-9e71-4c29-a24a-fed9806f1923)
   )
-  (junction (at 332.74 175.26) (diameter 0) (color 0 0 0 0)
-    (uuid 521fc3ad-4b5d-477f-8aa6-b35d5b8e0017)
-  )
-  (junction (at 353.06 114.3) (diameter 0) (color 0 0 0 0)
-    (uuid 53d806b0-5718-4e45-a35f-6f02726b5466)
-  )
-  (junction (at 332.74 114.3) (diameter 0) (color 0 0 0 0)
-    (uuid 586bf022-6b81-449b-a9b7-02541612003c)
-  )
   (junction (at 127 76.2) (diameter 0) (color 0 0 0 0)
     (uuid 5ad1eef2-84f2-4007-9a55-e2620f40279e)
   )
@@ -1837,9 +1707,6 @@
   )
   (junction (at 314.96 93.98) (diameter 0) (color 0 0 0 0)
     (uuid 9e929b7b-40c1-4c99-b860-f7e6ae6b52f4)
-  )
-  (junction (at 143.51 175.26) (diameter 0) (color 0 0 0 0)
-    (uuid a153f1a2-2b26-4c04-b366-69362d16da6a)
   )
   (junction (at 149.86 114.3) (diameter 0) (color 0 0 0 0)
     (uuid a1f0ea27-0d01-4055-a7fd-4ce2e6ed3126)
@@ -1946,10 +1813,6 @@
     (stroke (width 0) (type default))
     (uuid 0a83ecd2-3e6f-4957-8d1f-b30e610948dd)
   )
-  (wire (pts (xy 215.9 114.3) (xy 219.71 114.3))
-    (stroke (width 0) (type default))
-    (uuid 0af78141-b961-4edc-b87d-1a2b255ffba2)
-  )
   (wire (pts (xy 274.32 105.41) (xy 288.29 105.41))
     (stroke (width 0) (type default))
     (uuid 0ddf5ab6-ed63-4d99-8ef8-5f7bc963be09)
@@ -2022,10 +1885,6 @@
     (stroke (width 0) (type default))
     (uuid 2485b0ee-c60d-4477-af90-bce0730e0433)
   )
-  (wire (pts (xy 119.38 175.26) (xy 143.51 175.26))
-    (stroke (width 0) (type default))
-    (uuid 248970c5-c8b0-411f-9283-c6d9972f78af)
-  )
   (wire (pts (xy 332.74 161.29) (xy 332.74 154.94))
     (stroke (width 0) (type default))
     (uuid 25213fb7-5098-4b9c-a37e-2555232cc24f)
@@ -2034,10 +1893,6 @@
     (stroke (width 0) (type default))
     (uuid 2561471d-978c-44ed-8a81-60a5dce3e41d)
   )
-  (wire (pts (xy 332.74 114.3) (xy 353.06 114.3))
-    (stroke (width 0) (type default))
-    (uuid 25e3af61-9381-4222-b3cb-ac8486800b44)
-  )
   (wire (pts (xy 187.96 154.94) (xy 187.96 161.29))
     (stroke (width 0) (type default))
     (uuid 2650f09b-42de-4b6b-aef3-ea450e50997a)
@@ -2045,10 +1900,6 @@
   (wire (pts (xy 119.38 137.16) (xy 132.08 137.16))
     (stroke (width 0) (type default))
     (uuid 265ab53d-ad36-4dfb-89e7-78059cfff5e2)
-  )
-  (wire (pts (xy 48.26 114.3) (xy 48.26 78.74))
-    (stroke (width 0) (type default))
-    (uuid 280e521d-cc8a-4787-9b18-d7fe78166031)
   )
   (wire (pts (xy 228.6 175.26) (xy 297.18 175.26))
     (stroke (width 0) (type default))
@@ -2113,10 +1964,6 @@
   (wire (pts (xy 228.6 114.3) (xy 297.18 114.3))
     (stroke (width 0) (type default))
     (uuid 3c0e3dfb-051f-4fb3-9117-29410a63c520)
-  )
-  (wire (pts (xy 24.13 78.74) (xy 48.26 78.74))
-    (stroke (width 0) (type default))
-    (uuid 3d99fb4f-31db-4739-875e-deb041fd268c)
   )
   (wire (pts (xy 66.04 114.3) (xy 76.2 114.3))
     (stroke (width 0) (type default))
@@ -2198,7 +2045,7 @@
     (stroke (width 0) (type default))
     (uuid 725270ac-7a69-4922-8cfb-ce48e9838ee5)
   )
-  (wire (pts (xy 224.79 114.3) (xy 228.6 114.3))
+  (wire (pts (xy 215.9 114.3) (xy 228.6 114.3))
     (stroke (width 0) (type default))
     (uuid 74f88fee-a777-429a-9242-86f1b294b49f)
   )
@@ -2234,7 +2081,7 @@
     (stroke (width 0) (type default))
     (uuid 7e130591-a939-4a74-a487-ea811266b64b)
   )
-  (wire (pts (xy 215.9 175.26) (xy 219.71 175.26))
+  (wire (pts (xy 215.9 175.26) (xy 228.6 175.26))
     (stroke (width 0) (type default))
     (uuid 7e781340-e16d-49b4-8364-f6be4d763a2b)
   )
@@ -2330,10 +2177,6 @@
     (stroke (width 0) (type default))
     (uuid 97a90c4b-d5c9-457a-bc50-6f8182decaea)
   )
-  (wire (pts (xy 224.79 175.26) (xy 228.6 175.26))
-    (stroke (width 0) (type default))
-    (uuid 98085862-5560-4a26-932b-ae382ae56542)
-  )
   (wire (pts (xy 344.17 93.98) (xy 353.06 93.98))
     (stroke (width 0) (type default))
     (uuid 983b871a-f442-45a3-9602-616ed17deb91)
@@ -2414,10 +2257,6 @@
     (stroke (width 0) (type default))
     (uuid b6f61f4e-76c9-4b20-a6fb-87c463caa84b)
   )
-  (wire (pts (xy 353.06 114.3) (xy 359.41 114.3))
-    (stroke (width 0) (type default))
-    (uuid b98e3845-ab60-46f0-8233-212baeafdc54)
-  )
   (wire (pts (xy 250.19 105.41) (xy 252.73 105.41))
     (stroke (width 0) (type default))
     (uuid bbb6b95e-362f-4b38-9603-3f7540c44f12)
@@ -2449,10 +2288,6 @@
   (wire (pts (xy 275.59 100.33) (xy 288.29 100.33))
     (stroke (width 0) (type default))
     (uuid cc2cb6d2-7092-431a-a7cb-f672713d4b8b)
-  )
-  (wire (pts (xy 48.26 114.3) (xy 66.04 114.3))
-    (stroke (width 0) (type default))
-    (uuid cf20d36c-fa39-4c79-99a9-3bcb7ba02f46)
   )
   (wire (pts (xy 314.96 175.26) (xy 314.96 168.91))
     (stroke (width 0) (type default))
@@ -2505,10 +2340,6 @@
   (wire (pts (xy 314.96 175.26) (xy 332.74 175.26))
     (stroke (width 0) (type default))
     (uuid dec60522-69c7-47c5-b635-f8a2af958b1c)
-  )
-  (wire (pts (xy 332.74 175.26) (xy 359.41 175.26))
-    (stroke (width 0) (type default))
-    (uuid e4b324cf-f15b-4dc8-841e-dd19a8fcdc2b)
   )
   (wire (pts (xy 215.9 142.24) (xy 215.9 137.16))
     (stroke (width 0) (type default))
@@ -2582,8 +2413,8 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 51e16eb7-34cd-4e9c-a1bd-6f1635513e4d)
   )
-  (text "Question:\n  - est-ce une bonne idée de changer les empreintes vers du 0805 pour les capas ?"
-    (at 314.96 250.19 0)
+  (text "Question:\n  - est-ce une bonne idée de changer les empreintes des 1210 vers du 0805 pour les capas ?\n  - j'ai remplacé capa TR/SS buck 3.3V de 100n 50V 0603 en 100n 16V 0805\n  - j'ai remplacé capa BST buck 3.3V et 5V de 100n 50V 0603 en 100n 16V 0805\n  - j'ai remplacé capa FB buck 3.3V et 5V de 10p 50V 0402 en 10p 16V 0805\n  - j'ai remplacé Package_SO:LTC_MSOP-16-1EP_3x4mm_P0.5mm_EP2.15x3.26mm\n                  par Package_SO:MSOP-16-1EP_3x4mm_P0.5mm_EP1.65x2.85mm\n  - est-ce que l'empreinte des NetTie est bonne ?"
+    (at 309.88 251.46 0)
     (effects (font (size 1.27 1.27) (thickness 0.254) bold (color 251 0 0 1)) (justify left bottom))
     (uuid 5975c35e-607e-4fdc-8069-0a99eba071de)
   )
@@ -2625,38 +2456,18 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 39198b88-32ea-4979-9cfd-e19f81e382f9)
   )
-  (label "5V_RTN" (at 264.16 149.86 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 5ff6064b-6480-4801-b0ea-62b6547f545f)
-  )
-  (label "5V_RTN" (at 119.38 175.26 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid aa89ea02-e7ce-41f2-b69c-a227cf90086c)
-  )
 
   (hierarchical_label "5V_out" (shape output) (at 359.41 93.98 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 12ce95c8-f36a-4134-acd2-300cf7b38be4)
   )
-  (hierarchical_label "batt.in-" (shape input) (at 24.13 78.74 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 43d5cb99-1b63-4422-8056-63af1cbe4051)
-  )
   (hierarchical_label "3.3VD_out" (shape output) (at 359.41 154.94 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 6c4a33bc-2025-480e-821e-1dad6f1fddda)
   )
-  (hierarchical_label "3.3VD_RTN" (shape input) (at 359.41 175.26 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 6ff48eec-fe4c-401c-bfba-95dd7dddf912)
-  )
   (hierarchical_label "batt.in+" (shape input) (at 24.13 76.2 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 92bb6283-29ca-4973-a739-3609e637e9e8)
-  )
-  (hierarchical_label "5V_RTN" (shape input) (at 359.41 114.3 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid ca949d50-a009-41a3-856e-611e7433b06f)
   )
   (hierarchical_label "batt.sense" (shape output) (at 105.41 95.25 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
@@ -2696,8 +2507,8 @@
     (property "Power Rating" "0.25W" (at 228.6 110.49 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid eba25248-5557-4e5d-b6ad-2e62bb70a483))
-    (pin "2" (uuid 04793c07-86df-428f-9d30-ffe87d79900d))
+    (pin "1" (uuid cbd1c330-a077-4a6a-865b-18b2e204a0de))
+    (pin "2" (uuid 10152872-628c-4c1c-a9a1-b23e1b5f1f01))
     (instances
       (project "robot-5A"
         (path "/31c74e3e-5df4-4637-9173-3740574ecda5/21da4ff5-9a13-4529-9295-d9ae908c5304"
@@ -2740,43 +2551,12 @@
     (property "Power Rating" "0.25W" (at 203.2 166.37 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 7592395e-9071-4581-afd1-ed2877a6655b))
-    (pin "2" (uuid cdca8827-c687-4650-bec3-ae34d22b1b0a))
+    (pin "1" (uuid be30b21f-8623-4fd2-99eb-e3eabb8d88ac))
+    (pin "2" (uuid cbeed55c-757c-47cd-9609-c4be1fe3431b))
     (instances
       (project "robot-5A"
         (path "/31c74e3e-5df4-4637-9173-3740574ecda5/21da4ff5-9a13-4529-9295-d9ae908c5304"
           (reference "R415") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:NetTie_2") (at 222.25 175.26 0) (unit 1)
-    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 05e603dd-5161-42e4-9004-f7310b49170a)
-    (property "Reference" "NT402" (at 222.25 170.18 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "NetTie_2" (at 222.25 172.72 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 222.25 175.26 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 222.25 175.26 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 34a3ff7d-d203-4548-9ff5-c709dab63bfe))
-    (pin "2" (uuid 2d9a807c-9e56-4f52-860f-b781f005e002))
-    (instances
-      (project "robot-5A"
-        (path "/31c74e3e-5df4-4637-9173-3740574ecda5/21da4ff5-9a13-4529-9295-d9ae908c5304"
-          (reference "NT402") (unit 1)
-        )
-      )
-      (project "Drilling_1500W"
-        (path "/5eefe6a1-faae-4012-9a95-08477ec0e762/2907e733-5db7-4666-a57f-5e0cf9dae560"
-          (reference "NT301") (unit 1)
         )
       )
     )
@@ -2797,7 +2577,7 @@
     (property "Datasheet" "~" (at 76.2 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid cff955ab-03b6-4ddb-ab2e-9ddf210f979c))
+    (pin "1" (uuid c195bea2-82e0-41d8-acf0-ade91d7490e7))
     (instances
       (project "robot-5A"
         (path "/31c74e3e-5df4-4637-9173-3740574ecda5/21da4ff5-9a13-4529-9295-d9ae908c5304"
@@ -2845,8 +2625,8 @@
     (property "Power Rating" "0.25W" (at 149.86 81.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 4e42598e-51f3-4d55-a079-a84a5dc3cbc0))
-    (pin "2" (uuid b39454f4-36a2-470b-b9ca-8d6968e5e0ca))
+    (pin "1" (uuid c5f64bd7-0b16-459c-9eb9-ae10bc89f0f3))
+    (pin "2" (uuid 403bbdbe-d5ab-4d3f-8c80-2b545a40edff))
     (instances
       (project "robot-5A"
         (path "/31c74e3e-5df4-4637-9173-3740574ecda5/21da4ff5-9a13-4529-9295-d9ae908c5304"
@@ -2889,8 +2669,8 @@
     (property "Power Rating" "0.25W" (at 270.51 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid ec47fab8-4672-4400-8e35-b68bcd5ca46d))
-    (pin "2" (uuid aabf14f3-20e4-43ba-a362-24701434c212))
+    (pin "1" (uuid 6c7cfeca-133e-4eca-ab29-bdb8ace65d8c))
+    (pin "2" (uuid 6d337ffa-a401-4a73-8a59-6a6bc8a13f50))
     (instances
       (project "robot-5A"
         (path "/31c74e3e-5df4-4637-9173-3740574ecda5/21da4ff5-9a13-4529-9295-d9ae908c5304"
@@ -2933,8 +2713,8 @@
     (property "Power Rating" "0.25W" (at 161.29 168.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid ad34d5cf-78dd-4977-a46c-15ae2dfb8196))
-    (pin "2" (uuid 4307ba84-e883-4c4c-b276-ad185c53373a))
+    (pin "1" (uuid 51cbf0e3-58cb-40d3-a467-3d69d464f01b))
+    (pin "2" (uuid 6bcc4270-2ab0-443d-84a6-482d5da56654))
     (instances
       (project "robot-5A"
         (path "/31c74e3e-5df4-4637-9173-3740574ecda5/21da4ff5-9a13-4529-9295-d9ae908c5304"
@@ -2944,63 +2724,42 @@
     )
   )
 
-  (symbol (lib_id "Device:NetTie_2") (at 222.25 114.3 0) (unit 1)
-    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 283dc01b-498d-42aa-9947-031e114ef7d6)
-    (property "Reference" "NT401" (at 222.25 109.22 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "NetTie_2" (at 222.25 111.76 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 222.25 114.3 0)
+  (symbol (lib_id "power:GND") (at 267.97 88.9 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 281a033c-c6d8-4bd9-9719-5ebfe14b398d)
+    (property "Reference" "#PWR015" (at 267.97 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 222.25 114.3 0)
+    (property "Value" "GND" (at 270.51 91.44 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 267.97 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 1f1d5bb5-54b1-41ee-9176-53bf026924c2))
-    (pin "2" (uuid 5991cf8d-c2e0-4d3e-bace-3f85db7a6960))
+    (property "Datasheet" "" (at 267.97 88.9 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid d6a8e705-a65b-4cdd-85cb-20d5f38af2f5))
     (instances
-      (project "robot-5A"
-        (path "/31c74e3e-5df4-4637-9173-3740574ecda5/21da4ff5-9a13-4529-9295-d9ae908c5304"
-          (reference "NT401") (unit 1)
+      (project "Projet 3eme Annee - ROBOT"
+        (path "/1aac3609-adba-4d2d-8e1d-af0a67a435be/ac33b847-a31b-465c-98ee-f2cd132dff51"
+          (reference "#PWR015") (unit 1)
         )
       )
-      (project "Drilling_1500W"
-        (path "/5eefe6a1-faae-4012-9a95-08477ec0e762/2907e733-5db7-4666-a57f-5e0cf9dae560"
-          (reference "NT305") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:-BATT") (at 66.04 114.3 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 2f4aa808-dd01-4dab-8fe6-4bddb13f6c55)
-    (property "Reference" "#PWR0210" (at 66.04 110.49 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "-BATT" (at 66.04 119.38 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 66.04 114.3 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 66.04 114.3 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 10f30fdf-f5f0-45c9-b1e5-0c299b7f53d7))
-    (instances
       (project "robot-5A"
         (path "/31c74e3e-5df4-4637-9173-3740574ecda5/0b0db332-2fe8-4011-b664-91b81fb498a3"
-          (reference "#PWR0210") (unit 1)
-        )
-        (path "/31c74e3e-5df4-4637-9173-3740574ecda5"
-          (reference "#PWR0116") (unit 1)
+          (reference "#PWR0202") (unit 1)
         )
         (path "/31c74e3e-5df4-4637-9173-3740574ecda5/21da4ff5-9a13-4529-9295-d9ae908c5304"
-          (reference "#PWR0403") (unit 1)
+          (reference "#PWR0402") (unit 1)
+        )
+      )
+      (project "Schema Racine"
+        (path "/863c816c-15ce-4ba4-85fc-c05936885c62"
+          (reference "#PWR07") (unit 1)
+        )
+        (path "/863c816c-15ce-4ba4-85fc-c05936885c62/b1b41484-38c2-41aa-8827-fdff47b56ed0"
+          (reference "#PWR046") (unit 1)
         )
       )
     )
@@ -3042,8 +2801,8 @@
     (property "Voltage Rating" "50V" (at 314.96 165.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b95cc761-2c42-429b-b143-7b249f64e7cc))
-    (pin "2" (uuid bfed9c95-8874-4b41-9990-5e8f1aaa2387))
+    (pin "1" (uuid 8a947736-cc0d-4465-bc93-e4a4a3d77c0c))
+    (pin "2" (uuid 7dea7921-c8b6-4732-98f7-15ea3cd6bf23))
     (instances
       (project "robot-5A"
         (path "/31c74e3e-5df4-4637-9173-3740574ecda5/21da4ff5-9a13-4529-9295-d9ae908c5304"
@@ -3097,8 +2856,8 @@
     (property "Power Rating" "0.25W" (at 149.86 92.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 2b934214-1dae-4678-9a2c-58bbde583ec9))
-    (pin "2" (uuid 078ec951-0aff-4b0b-977d-44b99ff28746))
+    (pin "1" (uuid 7e93a194-a847-4f4a-9dd9-edc61cd6cf4e))
+    (pin "2" (uuid 630c91fd-cb46-4913-b4a6-8f10290a9e45))
     (instances
       (project "robot-5A"
         (path "/31c74e3e-5df4-4637-9173-3740574ecda5/21da4ff5-9a13-4529-9295-d9ae908c5304"
@@ -3141,12 +2900,53 @@
     (property "Power Rating" "" (at 135.89 137.16 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 5469e981-94da-45f5-9ca6-87af6fb411fc))
-    (pin "2" (uuid 52b86ff0-7dec-48ea-a1b5-822a2fdea7c0))
+    (pin "1" (uuid 5523d352-89bc-46f7-bcd5-c2ed8d27b5da))
+    (pin "2" (uuid 54896296-337b-4d4b-b407-fd5f50a1b5c2))
     (instances
       (project "robot-5A"
         (path "/31c74e3e-5df4-4637-9173-3740574ecda5/21da4ff5-9a13-4529-9295-d9ae908c5304"
           (reference "R411") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 161.29 175.26 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 3b0ec70a-38b0-4518-8a01-7256dfe30b7d)
+    (property "Reference" "#PWR015" (at 161.29 181.61 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 163.83 177.8 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 161.29 175.26 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 161.29 175.26 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid bcca2a6b-dfce-4454-a5f4-7c9009c507be))
+    (instances
+      (project "Projet 3eme Annee - ROBOT"
+        (path "/1aac3609-adba-4d2d-8e1d-af0a67a435be/ac33b847-a31b-465c-98ee-f2cd132dff51"
+          (reference "#PWR015") (unit 1)
+        )
+      )
+      (project "robot-5A"
+        (path "/31c74e3e-5df4-4637-9173-3740574ecda5/0b0db332-2fe8-4011-b664-91b81fb498a3"
+          (reference "#PWR0202") (unit 1)
+        )
+        (path "/31c74e3e-5df4-4637-9173-3740574ecda5/21da4ff5-9a13-4529-9295-d9ae908c5304"
+          (reference "#PWR0403") (unit 1)
+        )
+      )
+      (project "Schema Racine"
+        (path "/863c816c-15ce-4ba4-85fc-c05936885c62"
+          (reference "#PWR07") (unit 1)
+        )
+        (path "/863c816c-15ce-4ba4-85fc-c05936885c62/b1b41484-38c2-41aa-8827-fdff47b56ed0"
+          (reference "#PWR046") (unit 1)
         )
       )
     )
@@ -3167,7 +2967,7 @@
     (property "Datasheet" "~" (at 62.23 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 8d94f4d2-599f-41dc-ac3f-d4569aa30fd6))
+    (pin "1" (uuid a0db9d00-d3fe-494d-a9c8-6287e0deff93))
     (instances
       (project "robot-5A"
         (path "/31c74e3e-5df4-4637-9173-3740574ecda5/21da4ff5-9a13-4529-9295-d9ae908c5304"
@@ -3215,8 +3015,8 @@
     (property "Power Rating" "0.25W" (at 203.2 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b1804c36-2f3c-4840-8d08-29e184379dfa))
-    (pin "2" (uuid b9fc1fea-0231-42ad-9bd3-0708478ca718))
+    (pin "1" (uuid f484952d-4bdf-4063-9cc8-0ffba504ab0d))
+    (pin "2" (uuid 3aad3ea7-db1c-4fd3-bf7b-aeb43eb88ce0))
     (instances
       (project "robot-5A"
         (path "/31c74e3e-5df4-4637-9173-3740574ecda5/21da4ff5-9a13-4529-9295-d9ae908c5304"
@@ -3235,7 +3035,7 @@
     (property "Value" "LT8610" (at 217.9194 142.24 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Package_SO:LTC_MSOP-16-1EP_3x4mm_P0.5mm_EP2.15x3.26mm" (at 215.9 165.1 0)
+    (property "Footprint" "Package_SO:MSOP-16-1EP_3x4mm_P0.5mm_EP1.65x2.85mm" (at 215.9 165.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/8610fa.pdf" (at 215.9 158.75 0)
@@ -3247,23 +3047,23 @@
     (property "MPN" "LT8610" (at 215.9 152.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid a7496548-e301-487f-8f8b-8d4df99beead))
-    (pin "10" (uuid 1e27e537-c23e-4952-b7f9-fb6d64bfec26))
-    (pin "11" (uuid be96f902-7435-4d48-ab9a-4ca8fd5f8ff6))
-    (pin "12" (uuid abdcf546-0d4e-4ff1-80f6-8ab7faa97413))
-    (pin "13" (uuid 92f867b1-e671-4c5c-aa8f-dc466ce475a9))
-    (pin "14" (uuid 24f5674d-b1ca-4013-bc86-0ad62d401268))
-    (pin "15" (uuid e0fc188e-e800-4048-99b7-ec0e6da9e1ac))
-    (pin "16" (uuid 9ac2e97d-bd27-46d5-aee9-7e29d032255d))
-    (pin "17" (uuid 34fd07e4-52a1-4242-9529-9c599a1903f2))
-    (pin "2" (uuid c925f7fc-9144-4303-ad39-14b87d39f9ec))
-    (pin "3" (uuid a3ab1e08-13fb-4baf-9c86-722813cdce87))
-    (pin "4" (uuid b4e4031d-6d12-4ba1-b24d-a8442ece7ea9))
-    (pin "5" (uuid b732f60a-68df-49c8-b57f-a0a4d4e23ef4))
-    (pin "6" (uuid cfb84aec-ffad-406d-819f-63ec1d92519b))
-    (pin "7" (uuid 206fd4b8-1409-45e5-96ec-ae95a37eb1c8))
-    (pin "8" (uuid 567650e3-ac59-467f-8b63-13942758a38c))
-    (pin "9" (uuid 702443be-a0b1-4653-8001-71e7490f0a2b))
+    (pin "1" (uuid 64a4383e-24a5-4f53-b934-aa8ededef830))
+    (pin "10" (uuid 47652000-91b2-4455-86c5-6205429dcb1d))
+    (pin "11" (uuid b153cb76-7ffc-4789-9c3f-52477cca9c8b))
+    (pin "12" (uuid 078134ed-05e0-4818-b66e-9382d3580190))
+    (pin "13" (uuid 44cffff6-d322-478b-85f2-7864489d7a48))
+    (pin "14" (uuid 7f4ef47b-6ca2-49fc-980a-e8f4759cce89))
+    (pin "15" (uuid 8a97f2be-30f6-4186-9824-e5719441f37f))
+    (pin "16" (uuid 35a2e428-789f-4b34-9434-7a8868592abc))
+    (pin "17" (uuid f69aaacd-e7e6-44ec-80f2-248601544b3f))
+    (pin "2" (uuid 77ad8ebb-1def-4b7b-bd3a-43d13eb386e5))
+    (pin "3" (uuid 8ca41a13-a6e4-43ec-8575-7191c39428f7))
+    (pin "4" (uuid a65d8676-1621-4398-9c39-f3c7c5fff0d4))
+    (pin "5" (uuid 6da0e019-d4fe-43e1-838b-4ac302985ddf))
+    (pin "6" (uuid dd24827f-ecdb-48bb-850b-54dc0d173cdd))
+    (pin "7" (uuid 078b5235-cc4e-43cf-a685-5730590b2509))
+    (pin "8" (uuid c938e7d5-95ee-49b6-a9c7-531ff8d3f012))
+    (pin "9" (uuid 79cd8a2f-93bb-483e-a31b-e5e10bf29fb6))
     (instances
       (project "robot-5A"
         (path "/31c74e3e-5df4-4637-9173-3740574ecda5/21da4ff5-9a13-4529-9295-d9ae908c5304"
@@ -3314,8 +3114,8 @@
     (property "Voltage Rating" "16V" (at 186.69 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 922dac24-9ea3-4dcc-a478-8a3d2db3ee03))
-    (pin "2" (uuid 80a21dcc-6458-4e5a-ac2b-a7f681dbf7ad))
+    (pin "1" (uuid bd41a513-5d60-4c3f-810a-720bb6808af6))
+    (pin "2" (uuid 516eee5b-3c1b-460f-aa9e-1192648f5594))
     (instances
       (project "robot-5A"
         (path "/31c74e3e-5df4-4637-9173-3740574ecda5/0b0db332-2fe8-4011-b664-91b81fb498a3"
@@ -3364,8 +3164,8 @@
     (property "Voltage Rating" "16V" (at 163.83 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 283ad54d-a869-4544-b3b1-fb4885b9e30a))
-    (pin "2" (uuid d6073821-effd-41cf-8ae1-621a0f49f7f0))
+    (pin "1" (uuid f2d04d75-bda5-44eb-bfbb-4c70f911f894))
+    (pin "2" (uuid 108cf544-2e0d-463b-8b7d-96874fa1845a))
     (instances
       (project "robot-5A"
         (path "/31c74e3e-5df4-4637-9173-3740574ecda5/0b0db332-2fe8-4011-b664-91b81fb498a3"
@@ -3373,36 +3173,6 @@
         )
         (path "/31c74e3e-5df4-4637-9173-3740574ecda5/21da4ff5-9a13-4529-9295-d9ae908c5304"
           (reference "C411") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:PWR_FLAG") (at 353.06 114.3 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 62dc613d-d6f7-482b-b361-5dbc7805d35b)
-    (property "Reference" "#FLG0404" (at 353.06 112.395 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "PWR_FLAG" (at 353.06 110.49 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 353.06 114.3 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 353.06 114.3 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 61184680-12a6-4472-a0bb-89c830ed6145))
-    (instances
-      (project "robot-5A"
-        (path "/31c74e3e-5df4-4637-9173-3740574ecda5/21da4ff5-9a13-4529-9295-d9ae908c5304"
-          (reference "#FLG0404") (unit 1)
-        )
-      )
-      (project "Drilling_1500W"
-        (path "/5eefe6a1-faae-4012-9a95-08477ec0e762/2907e733-5db7-4666-a57f-5e0cf9dae560"
-          (reference "#FLG0308") (unit 1)
         )
       )
     )
@@ -3444,8 +3214,8 @@
     (property "Voltage Rating" "50V" (at 297.18 165.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid cc1d6cc9-f3f2-4e57-a98c-12a60d320187))
-    (pin "2" (uuid f0840516-e8e7-40b4-9789-8a772e0aa845))
+    (pin "1" (uuid 15c6ed91-dbfa-4703-a0b7-c587d25076f4))
+    (pin "2" (uuid ee17ea1a-8e13-4797-a4c1-66d2957dcbaa))
     (instances
       (project "robot-5A"
         (path "/31c74e3e-5df4-4637-9173-3740574ecda5/21da4ff5-9a13-4529-9295-d9ae908c5304"
@@ -3502,8 +3272,8 @@
     (property "Voltage Rating" "50V" (at 297.18 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 463b57cc-8116-4ee2-8232-62ce05e1cc7f))
-    (pin "2" (uuid 051b334e-dd6d-4c73-8ba2-702d44656da5))
+    (pin "1" (uuid fec64dce-6140-4e8d-a0bd-a2ecc828e86f))
+    (pin "2" (uuid de5ef649-6f41-43b1-ba32-a9ac68aeb6f7))
     (instances
       (project "robot-5A"
         (path "/31c74e3e-5df4-4637-9173-3740574ecda5/21da4ff5-9a13-4529-9295-d9ae908c5304"
@@ -3533,7 +3303,7 @@
     (property "Value" "10µH 2.8A" (at 259.08 156.21 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Inductor_SMD:L_Vishay_IHLP-2020" (at 259.08 154.94 0)
+    (property "Footprint" "0Package:L_Vishay_IHLP-3232" (at 259.08 154.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.vishay.com/doc?34563" (at 259.08 154.94 0)
@@ -3548,8 +3318,8 @@
     (property "Mnf Ref" "" (at 259.08 154.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 05ce2d1e-4264-4b9b-8034-1036e86a1395))
-    (pin "2" (uuid 13a81760-9c6d-4f9e-9799-b4ec1dfe58cd))
+    (pin "1" (uuid 0aae72b1-d3af-42d8-8c41-3f4a17b06ff1))
+    (pin "2" (uuid be571b75-c081-491f-8ce8-a18f5e806c5e))
     (instances
       (project "robot-5A"
         (path "/31c74e3e-5df4-4637-9173-3740574ecda5/21da4ff5-9a13-4529-9295-d9ae908c5304"
@@ -3600,8 +3370,8 @@
     (property "Voltage Rating" "50V" (at 314.96 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 2f6ecebb-c937-4115-a30e-513d5be9cd3f))
-    (pin "2" (uuid 87a9f6af-21d9-4326-b773-f75a644f465b))
+    (pin "1" (uuid d80b6c80-a6a5-4290-85c3-04213851687a))
+    (pin "2" (uuid 806bf449-6228-435a-a250-222b4ae87623))
     (instances
       (project "robot-5A"
         (path "/31c74e3e-5df4-4637-9173-3740574ecda5/21da4ff5-9a13-4529-9295-d9ae908c5304"
@@ -3617,61 +3387,6 @@
         )
         (path "/5eefe6a1-faae-4012-9a95-08477ec0e762/2907e733-5db7-4666-a57f-5e0cf9dae560"
           (reference "C339") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "0db:capacitors/AVX 04025A100JAT") (at 271.78 100.33 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 72382e7f-ad33-4c30-b865-8ad240e86da7)
-    (property "Reference" "C405" (at 266.7 99.06 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "10p 50V" (at 278.13 99.06 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 275.59 99.3648 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://datasheets.kyocera-avx.com/C0GNP0-Dielectric.pdf" (at 271.78 100.33 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value 2" "0402 5%" (at 271.78 96.52 90)
-      (effects (font (size 0.8 0.8)))
-    )
-    (property "Value 3" "C0G commercial" (at 271.78 100.33 0)
-      (effects (font (size 0.8 0.8)) hide)
-    )
-    (property "Manufacturer" "Kyocera AVX" (at 271.78 100.33 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN" "04025A100JAT" (at 271.78 100.33 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Mnf Ref" "" (at 271.78 100.33 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "compatible_mpns" "04025A100JAT2A 04025A100JAT4A" (at 271.78 100.33 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Tolerance" "5%" (at 271.78 100.33 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Voltage Rating" "50V" (at 271.78 100.33 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 8203c09f-7d6d-4762-971f-8b2e607155fa))
-    (pin "2" (uuid 04538c69-0420-464f-aff0-7ba38ce0a399))
-    (instances
-      (project "robot-5A"
-        (path "/31c74e3e-5df4-4637-9173-3740574ecda5/21da4ff5-9a13-4529-9295-d9ae908c5304"
-          (reference "C405") (unit 1)
-        )
-      )
-      (project "Drilling_1500W"
-        (path "/5eefe6a1-faae-4012-9a95-08477ec0e762/2907e733-5db7-4666-a57f-5e0cf9dae560"
-          (reference "C326") (unit 1)
         )
       )
     )
@@ -3713,8 +3428,8 @@
     (property "Voltage Rating" "16V" (at 134.62 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid d4ff87e4-b543-43f3-bb32-50a1600e7e77))
-    (pin "2" (uuid 518f6bc6-7e28-4164-b453-67f4b7950e0c))
+    (pin "1" (uuid 21f66b46-72a7-4b90-b8e0-7b37cd83b8ad))
+    (pin "2" (uuid 2f35fc99-78c7-4104-a649-bc374cafe8f5))
     (instances
       (project "robot-5A"
         (path "/31c74e3e-5df4-4637-9173-3740574ecda5/0b0db332-2fe8-4011-b664-91b81fb498a3"
@@ -3742,7 +3457,7 @@
     (property "Datasheet" "" (at 69.85 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid fa2271b8-cc43-441e-a371-6d7051ca54d1))
+    (pin "1" (uuid b212c575-ba3c-4d67-aeaf-76b375970e9e))
     (instances
       (project "robot-5A"
         (path "/31c74e3e-5df4-4637-9173-3740574ecda5/0b0db332-2fe8-4011-b664-91b81fb498a3"
@@ -3750,6 +3465,53 @@
         )
         (path "/31c74e3e-5df4-4637-9173-3740574ecda5/21da4ff5-9a13-4529-9295-d9ae908c5304"
           (reference "#PWR0401") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "0db:capacitors/AVX 0805YA100JAT") (at 271.78 100.33 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 7dfd6ddf-0f26-4771-b5a2-508178fc761c)
+    (property "Reference" "C405" (at 267.97 97.79 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "10p 16V" (at 278.13 97.79 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 275.59 99.3648 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://datasheets.kyocera-avx.com/C0GNP0-Dielectric.pdf" (at 271.78 100.33 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value 2" "0805 5%" (at 271.78 96.52 90)
+      (effects (font (size 0.8 0.8)))
+    )
+    (property "Value 3" "C0G commercial" (at 271.78 95.25 90)
+      (effects (font (size 0.8 0.8)))
+    )
+    (property "Manufacturer" "Kyocera AVX" (at 271.78 100.33 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MPN" "0805YA100JAT" (at 271.78 100.33 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "compatible_mpns" "0805YA100JAT2A 0805YA100JAT4A" (at 271.78 100.33 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Tolerance" "5%" (at 271.78 100.33 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Voltage Rating" "16V" (at 271.78 100.33 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 8a449c03-f091-487f-9fd9-a1b8fbf07160))
+    (pin "2" (uuid b54d1d8f-b234-4c21-bbed-48c9b6852931))
+    (instances
+      (project "robot-5A"
+        (path "/31c74e3e-5df4-4637-9173-3740574ecda5/21da4ff5-9a13-4529-9295-d9ae908c5304"
+          (reference "C405") (unit 1)
         )
       )
     )
@@ -3788,8 +3550,8 @@
     (property "Power Rating" "0.25W" (at 246.38 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 74b22992-cd76-45d5-abb7-2f7ce32f47c8))
-    (pin "2" (uuid 8e925a81-42b8-4ce9-8565-501643e6a3f3))
+    (pin "1" (uuid 592e0e6f-e2ce-45ea-8d81-7f0ac449b62b))
+    (pin "2" (uuid eb050cf9-767b-4969-b146-51dac261977f))
     (instances
       (project "robot-5A"
         (path "/31c74e3e-5df4-4637-9173-3740574ecda5/21da4ff5-9a13-4529-9295-d9ae908c5304"
@@ -3832,8 +3594,8 @@
     (property "Power Rating" "0.25W" (at 66.04 100.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid af842fdd-9b12-4da8-8196-dc7e2c00dce4))
-    (pin "2" (uuid dca7fef9-52a0-4061-a959-6cf4247b31c9))
+    (pin "1" (uuid c073e12d-8e62-40a2-a41f-94da08bbcb30))
+    (pin "2" (uuid 4f190080-0898-4706-99ee-9f335cf5a163))
     (instances
       (project "robot-5A"
         (path "/31c74e3e-5df4-4637-9173-3740574ecda5/21da4ff5-9a13-4529-9295-d9ae908c5304"
@@ -3876,8 +3638,8 @@
     (property "Power Rating" "0.25W" (at 257.81 166.37 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid ded70a4c-8cea-4542-9155-c66dea656a85))
-    (pin "2" (uuid 8f11ac59-be99-44ac-acf5-5ab171a9f045))
+    (pin "1" (uuid fa81ae1e-7228-4760-b029-012e26b030dd))
+    (pin "2" (uuid c9cef212-c73c-4aeb-b8b8-522dede357f7))
     (instances
       (project "robot-5A"
         (path "/31c74e3e-5df4-4637-9173-3740574ecda5/21da4ff5-9a13-4529-9295-d9ae908c5304"
@@ -3926,8 +3688,8 @@
     (property "Mnf Ref" "" (at 255.27 149.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 0787d944-9002-41ca-ba57-9d4bbafcb8c9))
-    (pin "2" (uuid e6dddaa4-6fb9-4b35-9ab8-6671a508c3de))
+    (pin "1" (uuid 83d6328a-a1bc-41e3-bf7a-e3f6e852368c))
+    (pin "2" (uuid 4a501205-a4d9-4e45-ad96-5ff8ea5b5aa8))
     (instances
       (project "robot-5A"
         (path "/31c74e3e-5df4-4637-9173-3740574ecda5/21da4ff5-9a13-4529-9295-d9ae908c5304"
@@ -3943,6 +3705,47 @@
         )
         (path "/5eefe6a1-faae-4012-9a95-08477ec0e762/2907e733-5db7-4666-a57f-5e0cf9dae560"
           (reference "C315") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 66.04 114.3 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 88eb1efe-7ce8-47ab-85bb-7b9ff868ed92)
+    (property "Reference" "#PWR015" (at 66.04 120.65 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 68.58 116.84 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 66.04 114.3 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 66.04 114.3 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 4c0d40d7-db7e-46e6-9e0a-7ef292d417c6))
+    (instances
+      (project "Projet 3eme Annee - ROBOT"
+        (path "/1aac3609-adba-4d2d-8e1d-af0a67a435be/ac33b847-a31b-465c-98ee-f2cd132dff51"
+          (reference "#PWR015") (unit 1)
+        )
+      )
+      (project "robot-5A"
+        (path "/31c74e3e-5df4-4637-9173-3740574ecda5/0b0db332-2fe8-4011-b664-91b81fb498a3"
+          (reference "#PWR0202") (unit 1)
+        )
+        (path "/31c74e3e-5df4-4637-9173-3740574ecda5/21da4ff5-9a13-4529-9295-d9ae908c5304"
+          (reference "#PWR0404") (unit 1)
+        )
+      )
+      (project "Schema Racine"
+        (path "/863c816c-15ce-4ba4-85fc-c05936885c62"
+          (reference "#PWR07") (unit 1)
+        )
+        (path "/863c816c-15ce-4ba4-85fc-c05936885c62/b1b41484-38c2-41aa-8827-fdff47b56ed0"
+          (reference "#PWR046") (unit 1)
         )
       )
     )
@@ -3984,8 +3787,8 @@
     (property "Voltage Rating" "16V" (at 143.51 154.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 2d654b2b-c58c-4695-b882-d48fcd917523))
-    (pin "2" (uuid ec73af70-ac6e-4a0c-a5ed-7c7774850026))
+    (pin "1" (uuid 53f4ca3a-d7d9-4a98-a5f5-212aaacc8538))
+    (pin "2" (uuid 3abe601a-d9b2-437a-a670-4932a13ecbba))
     (instances
       (project "robot-5A"
         (path "/31c74e3e-5df4-4637-9173-3740574ecda5/0b0db332-2fe8-4011-b664-91b81fb498a3"
@@ -4034,8 +3837,8 @@
     (property "Voltage Rating" "50V" (at 127 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 01ce62d8-923f-4e7b-801f-ac17a671c932))
-    (pin "2" (uuid 355205c0-ce42-4415-bdc5-490f586f9418))
+    (pin "1" (uuid cb63fef0-2500-4503-b8d0-120a88c81745))
+    (pin "2" (uuid b0b9cac6-cbce-43ed-a7d4-61fcd6d63bf9))
     (instances
       (project "robot-5A"
         (path "/31c74e3e-5df4-4637-9173-3740574ecda5/21da4ff5-9a13-4529-9295-d9ae908c5304"
@@ -4050,74 +3853,48 @@
     )
   )
 
-  (symbol (lib_id "0db:capacitors/AVX 06035C104KAZ") (at 240.03 152.4 90) (unit 1)
+  (symbol (lib_id "0db:capacitors/AVX 0805YA100JAT") (at 271.78 161.29 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
-    (uuid 96695e18-5ade-4901-ba9c-da98b353933f)
-    (property "Reference" "C413" (at 236.22 151.13 90)
+    (uuid 99abeb3c-04cb-4288-8800-5c7a865a2b24)
+    (property "Reference" "C415" (at 267.97 158.75 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "100n 50V" (at 246.38 151.13 90)
+    (property "Value" "10p 16V" (at 278.13 158.75 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 243.84 151.4348 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 275.59 160.3248 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "https://datasheets.kyocera-avx.com/FlexitermMLCC.pdf" (at 240.03 152.4 0)
+    (property "Datasheet" "https://datasheets.kyocera-avx.com/C0GNP0-Dielectric.pdf" (at 271.78 161.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value 2" "0603 10%" (at 240.03 146.05 90)
+    (property "Value 2" "0805 5%" (at 271.78 157.48 90)
       (effects (font (size 0.8 0.8)))
     )
-    (property "Value 3" "X7R commercial" (at 240.03 152.4 0)
-      (effects (font (size 0.8 0.8)) hide)
+    (property "Value 3" "C0G commercial" (at 271.78 156.21 90)
+      (effects (font (size 0.8 0.8)))
     )
-    (property "Manufacturer" "Kyocera AVX" (at 240.03 152.4 0)
+    (property "Manufacturer" "Kyocera AVX" (at 271.78 161.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MPN" "06035C104KAZ" (at 240.03 152.4 0)
+    (property "MPN" "0805YA100JAT" (at 271.78 161.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "compatible_mpns" "06035C104KAZ2A 06035C104KAZ4A" (at 240.03 152.4 0)
+    (property "compatible_mpns" "0805YA100JAT2A 0805YA100JAT4A" (at 271.78 161.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Tolerance" "10%" (at 240.03 152.4 0)
+    (property "Tolerance" "5%" (at 271.78 161.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Voltage Rating" "50V" (at 240.03 152.4 0)
+    (property "Voltage Rating" "16V" (at 271.78 161.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Mnf Ref" "" (at 240.03 152.4 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 4aa9a6a4-6f45-4006-bf84-e88fd8fe1ef4))
-    (pin "2" (uuid b88d41dc-f61f-4440-a778-eec140b6acf5))
+    (pin "1" (uuid f5e55e5b-066b-42b5-8c4c-2211f0b8ef35))
+    (pin "2" (uuid c913ba49-a4ed-4a35-93ee-a1134b73a1d3))
     (instances
       (project "robot-5A"
         (path "/31c74e3e-5df4-4637-9173-3740574ecda5/21da4ff5-9a13-4529-9295-d9ae908c5304"
-          (reference "C413") (unit 1)
-        )
-      )
-      (project "Drilling_1500W"
-        (path "/5eefe6a1-faae-4012-9a95-08477ec0e762/7fda7897-9e42-4c15-ac79-0d2aa06642ad"
-          (reference "C?") (unit 1)
-        )
-        (path "/5eefe6a1-faae-4012-9a95-08477ec0e762/4c9f662a-5431-4fdc-aafe-1ce29a5dc5c7"
-          (reference "C?") (unit 1)
-        )
-        (path "/5eefe6a1-faae-4012-9a95-08477ec0e762/9babca35-4cf2-44c3-b74e-d18f5b63052c"
-          (reference "C?") (unit 1)
-        )
-        (path "/5eefe6a1-faae-4012-9a95-08477ec0e762/b7e33818-8c57-42a4-bd49-481b76b97627"
-          (reference "C?") (unit 1)
-        )
-        (path "/5eefe6a1-faae-4012-9a95-08477ec0e762/2c00fa1a-56f9-4d34-974b-4b10828bcb3d"
-          (reference "C?") (unit 1)
-        )
-        (path "/5eefe6a1-faae-4012-9a95-08477ec0e762/997705b4-669b-4a09-b264-5018b5491f2a"
-          (reference "C?") (unit 1)
-        )
-        (path "/5eefe6a1-faae-4012-9a95-08477ec0e762/2907e733-5db7-4666-a57f-5e0cf9dae560"
-          (reference "C312") (unit 1)
+          (reference "C415") (unit 1)
         )
       )
     )
@@ -4138,7 +3915,7 @@
     (property "Datasheet" "~" (at 353.06 154.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 43ad6f20-4d24-489c-ac54-a1f199426003))
+    (pin "1" (uuid 12c391ad-c907-4053-9b43-ccd0d4030128))
     (instances
       (project "robot-5A"
         (path "/31c74e3e-5df4-4637-9173-3740574ecda5/21da4ff5-9a13-4529-9295-d9ae908c5304"
@@ -4186,8 +3963,8 @@
     (property "Power Rating" "" (at 340.36 154.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 8d9e88e1-a3ad-4ab9-bbcc-605f8d2a468a))
-    (pin "2" (uuid 186021d4-97d9-4444-bda2-63faed542516))
+    (pin "1" (uuid 1563dc1a-e9d8-4c66-975b-3a5c45ae72b4))
+    (pin "2" (uuid dcac9363-d5e6-47aa-9c9f-da42d8a20856))
     (instances
       (project "robot-5A"
         (path "/31c74e3e-5df4-4637-9173-3740574ecda5/21da4ff5-9a13-4529-9295-d9ae908c5304"
@@ -4197,56 +3974,51 @@
     )
   )
 
-  (symbol (lib_id "0db:capacitors/AVX 04025A100JAT") (at 271.78 161.29 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid b7fb2850-5362-486f-aae0-af81383f1408)
-    (property "Reference" "C415" (at 266.7 160.02 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "10p 50V" (at 281.94 160.02 90)
+  (symbol (lib_id "0db:capacitors/AVX 0805YC104J4Z") (at 187.96 165.1 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid b46461bf-43ac-403b-85bf-4e2e3442618c)
+    (property "Reference" "C201" (at 191.77 161.29 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 275.59 160.3248 0)
+    (property "Value" "100n 16V" (at 191.77 163.83 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 188.9252 168.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "https://datasheets.kyocera-avx.com/C0GNP0-Dielectric.pdf" (at 271.78 161.29 0)
+    (property "Datasheet" "https://datasheets.kyocera-avx.com/FlexitermMLCC.pdf" (at 187.96 165.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value 2" "0402 5%" (at 271.78 157.48 90)
-      (effects (font (size 0.8 0.8)))
+    (property "Value 2" "0805 5%" (at 191.77 166.37 0)
+      (effects (font (size 0.8 0.8)) (justify left))
     )
-    (property "Value 3" "C0G commercial" (at 271.78 161.29 0)
-      (effects (font (size 0.8 0.8)) hide)
+    (property "Value 3" "X7R automotive" (at 191.77 168.91 0)
+      (effects (font (size 0.8 0.8)) (justify left))
     )
-    (property "Manufacturer" "Kyocera AVX" (at 271.78 161.29 0)
+    (property "Manufacturer" "Kyocera AVX" (at 187.96 165.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MPN" "04025A100JAT" (at 271.78 161.29 0)
+    (property "MPN" "0805YC104J4Z" (at 187.96 165.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Mnf Ref" "" (at 271.78 161.29 0)
+    (property "compatible_mpns" "0805YC104J4Z2A 0805YC104J4Z4A" (at 187.96 165.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "compatible_mpns" "04025A100JAT2A 04025A100JAT4A" (at 271.78 161.29 0)
+    (property "Tolerance" "5%" (at 187.96 165.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Tolerance" "5%" (at 271.78 161.29 0)
+    (property "Voltage Rating" "16V" (at 187.96 165.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Voltage Rating" "50V" (at 271.78 161.29 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 7bae7677-16b6-4c8c-9d6c-9ea472a56740))
-    (pin "2" (uuid aefdd96d-5670-4d2a-ac4d-986f489cceff))
+    (pin "1" (uuid 3ec77191-f06b-404c-a232-585e267297e5))
+    (pin "2" (uuid 0651807f-550f-41a9-baa2-5b7e7b2e5617))
     (instances
       (project "robot-5A"
-        (path "/31c74e3e-5df4-4637-9173-3740574ecda5/21da4ff5-9a13-4529-9295-d9ae908c5304"
-          (reference "C415") (unit 1)
+        (path "/31c74e3e-5df4-4637-9173-3740574ecda5/0b0db332-2fe8-4011-b664-91b81fb498a3"
+          (reference "C201") (unit 1)
         )
-      )
-      (project "Drilling_1500W"
-        (path "/5eefe6a1-faae-4012-9a95-08477ec0e762/2907e733-5db7-4666-a57f-5e0cf9dae560"
-          (reference "C318") (unit 1)
+        (path "/31c74e3e-5df4-4637-9173-3740574ecda5/21da4ff5-9a13-4529-9295-d9ae908c5304"
+          (reference "C416") (unit 1)
         )
       )
     )
@@ -4285,8 +4057,8 @@
     (property "Power Rating" "0.25W" (at 269.24 166.37 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid dccc2d41-9b80-404d-80cb-4c480802a5fd))
-    (pin "2" (uuid 304af755-cb58-45c0-bdbe-9de411c90e68))
+    (pin "1" (uuid c17f561f-9a30-4071-9c41-6bc794c1f9a4))
+    (pin "2" (uuid 77412e71-3353-495d-9a0a-ee2029b582fe))
     (instances
       (project "robot-5A"
         (path "/31c74e3e-5df4-4637-9173-3740574ecda5/21da4ff5-9a13-4529-9295-d9ae908c5304"
@@ -4332,8 +4104,8 @@
     (property "Voltage Rating" "50V" (at 332.74 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 523dcf12-f5cd-45da-ade3-90f0651b680a))
-    (pin "2" (uuid 00873c7f-3502-4ebe-9094-679555a7371c))
+    (pin "1" (uuid 054f8a6b-fb68-46e2-8ce5-292a2b9f2d94))
+    (pin "2" (uuid c9f2d2be-4bab-4741-81b9-c01502c96eb8))
     (instances
       (project "robot-5A"
         (path "/31c74e3e-5df4-4637-9173-3740574ecda5/21da4ff5-9a13-4529-9295-d9ae908c5304"
@@ -4349,6 +4121,56 @@
         )
         (path "/5eefe6a1-faae-4012-9a95-08477ec0e762/2907e733-5db7-4666-a57f-5e0cf9dae560"
           (reference "C341") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "0db:capacitors/AVX 0805YC104J4Z") (at 240.03 91.44 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid c8c6bba7-0a00-4dec-a427-8f428f64e478)
+    (property "Reference" "C201" (at 240.03 78.74 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "100n 16V" (at 240.03 81.28 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 243.84 90.4748 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://datasheets.kyocera-avx.com/FlexitermMLCC.pdf" (at 240.03 91.44 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value 2" "0805 5%" (at 240.03 83.82 90)
+      (effects (font (size 0.8 0.8)))
+    )
+    (property "Value 3" "X7R automotive" (at 240.03 86.36 90)
+      (effects (font (size 0.8 0.8)))
+    )
+    (property "Manufacturer" "Kyocera AVX" (at 240.03 91.44 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MPN" "0805YC104J4Z" (at 240.03 91.44 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "compatible_mpns" "0805YC104J4Z2A 0805YC104J4Z4A" (at 240.03 91.44 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Tolerance" "5%" (at 240.03 91.44 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Voltage Rating" "16V" (at 240.03 91.44 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 6ca894cb-be0f-43bc-81ee-95ede01a09da))
+    (pin "2" (uuid 73807218-b35b-4b0d-a1c1-46774085a51a))
+    (instances
+      (project "robot-5A"
+        (path "/31c74e3e-5df4-4637-9173-3740574ecda5/0b0db332-2fe8-4011-b664-91b81fb498a3"
+          (reference "C201") (unit 1)
+        )
+        (path "/31c74e3e-5df4-4637-9173-3740574ecda5/21da4ff5-9a13-4529-9295-d9ae908c5304"
+          (reference "C403") (unit 1)
         )
       )
     )
@@ -4375,8 +4197,8 @@
     (property "Manufacturer" "VISHAY" (at 54.61 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 114a2a71-e582-458d-ad6e-b2bc82a9953d))
-    (pin "2" (uuid 03caec7f-4312-42c0-9ca5-4801323d5424))
+    (pin "1" (uuid f03cb01c-4c40-4be8-9e96-bc929cdb0125))
+    (pin "2" (uuid 29118e68-13d9-460b-a5d9-591cb16be573))
     (instances
       (project "Projet 3eme Annee - ROBOT"
         (path "/1aac3609-adba-4d2d-8e1d-af0a67a435be/9d2eda89-b60d-416c-ba0a-fed26e30e8f8"
@@ -4429,8 +4251,8 @@
     (property "Power Rating" "0.25W" (at 161.29 143.51 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 575bd68b-3bf6-47da-9c61-7400d55c5287))
-    (pin "2" (uuid 9b05e808-d3be-491a-b113-0ea586f7fd3f))
+    (pin "1" (uuid 5ff0aa64-537d-485b-acfb-46c8fe721421))
+    (pin "2" (uuid c1d41df2-1b49-441b-b04c-fa8e13703375))
     (instances
       (project "robot-5A"
         (path "/31c74e3e-5df4-4637-9173-3740574ecda5/21da4ff5-9a13-4529-9295-d9ae908c5304"
@@ -4455,7 +4277,7 @@
     (property "Datasheet" "~" (at 353.06 93.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 94866721-93c1-43ce-b459-9d78c0b06841))
+    (pin "1" (uuid fc5ffb54-6c94-4357-9a1a-c59b15c2f4a8))
     (instances
       (project "robot-5A"
         (path "/31c74e3e-5df4-4637-9173-3740574ecda5/21da4ff5-9a13-4529-9295-d9ae908c5304"
@@ -4503,8 +4325,8 @@
     (property "Power Rating" "" (at 340.36 93.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 1e0460f0-4e3d-4873-b1de-03f58ccc4d84))
-    (pin "2" (uuid 0771c017-8bcb-414f-9147-79ae47d1b2fa))
+    (pin "1" (uuid de207985-8c21-45b9-90d8-a40125bbbdf2))
+    (pin "2" (uuid 26685b94-959d-4735-a7a3-763fe7981eb8))
     (instances
       (project "robot-5A"
         (path "/31c74e3e-5df4-4637-9173-3740574ecda5/21da4ff5-9a13-4529-9295-d9ae908c5304"
@@ -4547,8 +4369,8 @@
     (property "Power Rating" "0.25W" (at 281.94 166.37 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 92ecd575-0772-4ded-abd7-6921f43c2380))
-    (pin "2" (uuid b6459990-b7f3-44c1-a838-62c8e20873ed))
+    (pin "1" (uuid 95bfdab1-9ac7-46ed-82ba-9e42046bb5c6))
+    (pin "2" (uuid 405b3616-139b-4c91-b63e-372411ac657a))
     (instances
       (project "robot-5A"
         (path "/31c74e3e-5df4-4637-9173-3740574ecda5/21da4ff5-9a13-4529-9295-d9ae908c5304"
@@ -4594,8 +4416,8 @@
     (property "Voltage Rating" "16V" (at 80.01 100.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 59a5e763-17c5-48f4-b3dd-0ed45304a109))
-    (pin "2" (uuid 861c38a5-b4de-4fd6-9733-b9f08d27b94f))
+    (pin "1" (uuid 3ff11403-49d1-4016-b634-20e271e78365))
+    (pin "2" (uuid a6494aa9-83e0-4345-9c7a-2e7e799f690a))
     (instances
       (project "robot-5A"
         (path "/31c74e3e-5df4-4637-9173-3740574ecda5/0b0db332-2fe8-4011-b664-91b81fb498a3"
@@ -4641,43 +4463,12 @@
     (property "Power Rating" "0.25W" (at 66.04 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 90379c13-4a2a-40ae-9c87-9c56b656419f))
-    (pin "2" (uuid 7ea901cd-382b-4bce-b847-2a9f80ff0a7a))
+    (pin "1" (uuid 9969c581-8101-4bc1-a9f6-d36a11e6ee87))
+    (pin "2" (uuid a752fcfe-2f8e-458e-b275-0780b292d6ff))
     (instances
       (project "robot-5A"
         (path "/31c74e3e-5df4-4637-9173-3740574ecda5/21da4ff5-9a13-4529-9295-d9ae908c5304"
           (reference "R402") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:-BATT") (at 267.97 88.9 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid de102bbf-547b-4af3-af76-4d2c0c4b29fe)
-    (property "Reference" "#PWR0210" (at 267.97 85.09 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "-BATT" (at 267.97 93.98 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 267.97 88.9 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 267.97 88.9 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 01fb68ea-165d-4925-8ea3-b70c8e0d66b2))
-    (instances
-      (project "robot-5A"
-        (path "/31c74e3e-5df4-4637-9173-3740574ecda5/0b0db332-2fe8-4011-b664-91b81fb498a3"
-          (reference "#PWR0210") (unit 1)
-        )
-        (path "/31c74e3e-5df4-4637-9173-3740574ecda5"
-          (reference "#PWR0116") (unit 1)
-        )
-        (path "/31c74e3e-5df4-4637-9173-3740574ecda5/21da4ff5-9a13-4529-9295-d9ae908c5304"
-          (reference "#PWR0402") (unit 1)
         )
       )
     )
@@ -4692,7 +4483,7 @@
     (property "Value" "LT8610" (at 217.9194 81.28 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Package_SO:LTC_MSOP-16-1EP_3x4mm_P0.5mm_EP2.15x3.26mm" (at 215.9 104.14 0)
+    (property "Footprint" "Package_SO:MSOP-16-1EP_3x4mm_P0.5mm_EP1.65x2.85mm" (at 215.9 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/8610fa.pdf" (at 215.9 97.79 0)
@@ -4704,23 +4495,23 @@
     (property "MPN" "LT8610" (at 215.9 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 95f4dca1-4655-4e67-9802-b21669e56410))
-    (pin "10" (uuid a622aa2d-d752-40e1-81e6-abe7775af048))
-    (pin "11" (uuid 4894d522-b97c-4f9e-802b-20da24280370))
-    (pin "12" (uuid f7f38e44-b80e-4b98-a070-cffb0b69fe8a))
-    (pin "13" (uuid cd27e1a4-ae8a-414f-acc8-e9f1774a67ef))
-    (pin "14" (uuid 04fb9a35-4a26-4452-bbda-52e0b856698e))
-    (pin "15" (uuid 81b97697-3098-413e-ab4b-c73d2764f696))
-    (pin "16" (uuid b3cf914f-42dc-4bb0-ae3b-ac703d20b392))
-    (pin "17" (uuid 1effe998-a980-4e13-b187-3905d716b4a9))
-    (pin "2" (uuid 7346df1b-00ca-45ed-9316-00c7282760b5))
-    (pin "3" (uuid 3717787c-8ed9-4e8f-a1f4-b44f91c4f247))
-    (pin "4" (uuid 1ea47aa9-1743-4cf7-9f9d-81bb653b7acb))
-    (pin "5" (uuid 7bd4f819-7bca-4f16-8553-1c65e71ee191))
-    (pin "6" (uuid 9c104aed-52e1-4162-8390-735cb0d9e257))
-    (pin "7" (uuid 2876edcb-d4db-48f9-bf92-b6ad8a7cbd66))
-    (pin "8" (uuid 3639388b-9a38-4ef5-905a-b905b7a1cfa2))
-    (pin "9" (uuid c4539787-756b-4a7c-93f9-21466ce6a2c1))
+    (pin "1" (uuid e88673ab-32ad-4c8d-ad9e-882ec08dffa9))
+    (pin "10" (uuid 18635d15-e7ae-4841-8f38-9a8bdc260c79))
+    (pin "11" (uuid fd4a2801-b445-4861-92b6-46cb4a8e53ff))
+    (pin "12" (uuid cd87280a-3352-4582-b69c-eab9dd9d7e7f))
+    (pin "13" (uuid 734c371c-79d8-4324-ae8c-1a251f3396db))
+    (pin "14" (uuid 5f287862-b737-4a61-9926-7a8661fbd9f5))
+    (pin "15" (uuid 7d653ee0-2ccf-4d16-b71d-cb45b0279798))
+    (pin "16" (uuid d4699137-22d0-48ad-91fa-973b9105e7af))
+    (pin "17" (uuid ed44f4ff-8a51-4a19-b05e-8a5c8f248c67))
+    (pin "2" (uuid 93b9688b-bcde-4b2a-8306-1aca8377e0d1))
+    (pin "3" (uuid 428acd7f-92f8-465a-8d3b-c9e75d67964e))
+    (pin "4" (uuid 61cca829-09b3-428b-8635-fc006562a001))
+    (pin "5" (uuid 9d03bb2e-c04d-4881-aa1f-48396e3fe703))
+    (pin "6" (uuid 01cb6036-8f7f-45db-b8a7-4c2bdefb6dd3))
+    (pin "7" (uuid 4faa593d-f35f-499d-96f3-e3b7d39f522a))
+    (pin "8" (uuid 0bee136f-0daf-486f-af74-3bbd5903ed39))
+    (pin "9" (uuid bd582985-38c3-4f55-a42a-8ecb614dba5f))
     (instances
       (project "robot-5A"
         (path "/31c74e3e-5df4-4637-9173-3740574ecda5/21da4ff5-9a13-4529-9295-d9ae908c5304"
@@ -4768,8 +4559,8 @@
     (property "Power Rating" "0.25W" (at 149.86 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid ef620a0b-ea81-403e-a930-5ac9a6896a00))
-    (pin "2" (uuid b381d192-8ca9-47f1-a5da-b2afa37462fc))
+    (pin "1" (uuid 26ff6813-d25f-4d9c-9868-4d2f4d08c982))
+    (pin "2" (uuid 8dd5447b-6fe3-4d50-b596-88e36c0f48ab))
     (instances
       (project "robot-5A"
         (path "/31c74e3e-5df4-4637-9173-3740574ecda5/21da4ff5-9a13-4529-9295-d9ae908c5304"
@@ -4812,8 +4603,8 @@
     (property "Power Rating" "0.25W" (at 228.6 171.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 834dece4-f836-4d30-8f9b-10ef5b551fde))
-    (pin "2" (uuid 34126e65-b5d1-409f-8107-dc189e1eb15b))
+    (pin "1" (uuid 0b0a4441-2ba4-481d-af45-f0b6961c1419))
+    (pin "2" (uuid 0026aa89-8381-4894-8667-6aa673958932))
     (instances
       (project "robot-5A"
         (path "/31c74e3e-5df4-4637-9173-3740574ecda5/21da4ff5-9a13-4529-9295-d9ae908c5304"
@@ -4823,74 +4614,92 @@
     )
   )
 
-  (symbol (lib_id "0db:capacitors/AVX 06035C104KAZ") (at 240.03 91.44 90) (unit 1)
+  (symbol (lib_id "power:GND") (at 264.16 149.86 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
-    (uuid e9a85963-c07a-4ea1-b275-d5b946cda75f)
-    (property "Reference" "C403" (at 236.22 90.17 90)
+    (uuid ed95ce78-fc6e-4fc1-adcb-f03352054c0c)
+    (property "Reference" "#PWR015" (at 264.16 156.21 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 266.7 152.4 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "100n 50V" (at 246.38 90.17 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 243.84 90.4748 0)
+    (property "Footprint" "" (at 264.16 149.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "https://datasheets.kyocera-avx.com/FlexitermMLCC.pdf" (at 240.03 91.44 0)
+    (property "Datasheet" "" (at 264.16 149.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value 2" "0603 10%" (at 240.03 85.09 90)
-      (effects (font (size 0.8 0.8)))
-    )
-    (property "Value 3" "X7R commercial" (at 240.03 91.44 0)
-      (effects (font (size 0.8 0.8)) hide)
-    )
-    (property "Manufacturer" "Kyocera AVX" (at 240.03 91.44 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN" "06035C104KAZ" (at 240.03 91.44 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "compatible_mpns" "06035C104KAZ2A 06035C104KAZ4A" (at 240.03 91.44 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Tolerance" "10%" (at 240.03 91.44 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Voltage Rating" "50V" (at 240.03 91.44 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Mnf Ref" "" (at 240.03 91.44 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 3e9bb46c-bc32-4638-910f-102ed979cae5))
-    (pin "2" (uuid 2e43dc7d-9242-45ba-9454-3122eb847e60))
+    (pin "1" (uuid 32839d63-1474-450b-8c78-53108b15f421))
     (instances
-      (project "robot-5A"
-        (path "/31c74e3e-5df4-4637-9173-3740574ecda5/21da4ff5-9a13-4529-9295-d9ae908c5304"
-          (reference "C403") (unit 1)
+      (project "Projet 3eme Annee - ROBOT"
+        (path "/1aac3609-adba-4d2d-8e1d-af0a67a435be/ac33b847-a31b-465c-98ee-f2cd132dff51"
+          (reference "#PWR015") (unit 1)
         )
       )
-      (project "Drilling_1500W"
-        (path "/5eefe6a1-faae-4012-9a95-08477ec0e762/7fda7897-9e42-4c15-ac79-0d2aa06642ad"
-          (reference "C?") (unit 1)
+      (project "robot-5A"
+        (path "/31c74e3e-5df4-4637-9173-3740574ecda5/0b0db332-2fe8-4011-b664-91b81fb498a3"
+          (reference "#PWR0202") (unit 1)
         )
-        (path "/5eefe6a1-faae-4012-9a95-08477ec0e762/4c9f662a-5431-4fdc-aafe-1ce29a5dc5c7"
-          (reference "C?") (unit 1)
+        (path "/31c74e3e-5df4-4637-9173-3740574ecda5/21da4ff5-9a13-4529-9295-d9ae908c5304"
+          (reference "#PWR0405") (unit 1)
         )
-        (path "/5eefe6a1-faae-4012-9a95-08477ec0e762/9babca35-4cf2-44c3-b74e-d18f5b63052c"
-          (reference "C?") (unit 1)
+      )
+      (project "Schema Racine"
+        (path "/863c816c-15ce-4ba4-85fc-c05936885c62"
+          (reference "#PWR07") (unit 1)
         )
-        (path "/5eefe6a1-faae-4012-9a95-08477ec0e762/b7e33818-8c57-42a4-bd49-481b76b97627"
-          (reference "C?") (unit 1)
+        (path "/863c816c-15ce-4ba4-85fc-c05936885c62/b1b41484-38c2-41aa-8827-fdff47b56ed0"
+          (reference "#PWR046") (unit 1)
         )
-        (path "/5eefe6a1-faae-4012-9a95-08477ec0e762/2c00fa1a-56f9-4d34-974b-4b10828bcb3d"
-          (reference "C?") (unit 1)
+      )
+    )
+  )
+
+  (symbol (lib_id "0db:capacitors/AVX 0805YC104J4Z") (at 240.03 152.4 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid f1245503-8528-4eb5-8c03-9d0080374e7f)
+    (property "Reference" "C201" (at 240.03 139.7 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "100n 16V" (at 240.03 142.24 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 243.84 151.4348 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://datasheets.kyocera-avx.com/FlexitermMLCC.pdf" (at 240.03 152.4 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value 2" "0805 5%" (at 240.03 144.78 90)
+      (effects (font (size 0.8 0.8)))
+    )
+    (property "Value 3" "X7R automotive" (at 240.03 147.32 90)
+      (effects (font (size 0.8 0.8)))
+    )
+    (property "Manufacturer" "Kyocera AVX" (at 240.03 152.4 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MPN" "0805YC104J4Z" (at 240.03 152.4 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "compatible_mpns" "0805YC104J4Z2A 0805YC104J4Z4A" (at 240.03 152.4 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Tolerance" "5%" (at 240.03 152.4 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Voltage Rating" "16V" (at 240.03 152.4 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 35de2be6-0f13-4b5f-b3bc-9014466779e3))
+    (pin "2" (uuid 3b3c4f3e-e54d-4471-aa05-8b7c69af5ad9))
+    (instances
+      (project "robot-5A"
+        (path "/31c74e3e-5df4-4637-9173-3740574ecda5/0b0db332-2fe8-4011-b664-91b81fb498a3"
+          (reference "C201") (unit 1)
         )
-        (path "/5eefe6a1-faae-4012-9a95-08477ec0e762/997705b4-669b-4a09-b264-5018b5491f2a"
-          (reference "C?") (unit 1)
-        )
-        (path "/5eefe6a1-faae-4012-9a95-08477ec0e762/2907e733-5db7-4666-a57f-5e0cf9dae560"
-          (reference "C322") (unit 1)
+        (path "/31c74e3e-5df4-4637-9173-3740574ecda5/21da4ff5-9a13-4529-9295-d9ae908c5304"
+          (reference "C413") (unit 1)
         )
       )
     )
@@ -4911,7 +4720,7 @@
     (property "Datasheet" "~" (at 142.24 137.16 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b2a3d801-b6a0-4834-a000-352d0e13aea9))
+    (pin "1" (uuid 33fd2815-1c4d-4f69-9c5a-3d38ca47e3c7))
     (instances
       (project "robot-5A"
         (path "/31c74e3e-5df4-4637-9173-3740574ecda5/21da4ff5-9a13-4529-9295-d9ae908c5304"
@@ -4965,8 +4774,8 @@
     (property "Mnf Ref" "" (at 255.27 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 6864a53e-2d17-4bf4-83ab-8c5ad802481b))
-    (pin "2" (uuid ac98f324-9306-4eb6-a4bd-79dff22c6521))
+    (pin "1" (uuid c11d99b2-59f1-4758-b90b-de28240a1d8f))
+    (pin "2" (uuid d2dede45-5c97-4959-b665-ba3547deaea0))
     (instances
       (project "robot-5A"
         (path "/31c74e3e-5df4-4637-9173-3740574ecda5/21da4ff5-9a13-4529-9295-d9ae908c5304"
@@ -5020,8 +4829,8 @@
     (property "Power Rating" "0.25W" (at 161.29 158.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 7cd648d0-f710-476a-87af-a1877fde4e77))
-    (pin "2" (uuid 218b91cd-6e48-4a36-a913-5568722eed1d))
+    (pin "1" (uuid 74d8784e-babb-472d-be80-043102b168c0))
+    (pin "2" (uuid 2036ee39-3822-4b7f-9f27-e5ce52bc54cc))
     (instances
       (project "robot-5A"
         (path "/31c74e3e-5df4-4637-9173-3740574ecda5/21da4ff5-9a13-4529-9295-d9ae908c5304"
@@ -5052,8 +4861,8 @@
     (property "MPN" "IHLP3232DZER330M8A" (at 259.08 93.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid f57c193b-dfa5-47c8-96ad-cdcad3578183))
-    (pin "2" (uuid 05d55b93-53c2-4dec-b5bb-af3f06dadf3f))
+    (pin "1" (uuid 6ade71c8-c09e-4c54-8f40-914581301ef8))
+    (pin "2" (uuid fb93051d-52bb-47e1-a187-a39f09649481))
     (instances
       (project "robot-5A"
         (path "/31c74e3e-5df4-4637-9173-3740574ecda5/21da4ff5-9a13-4529-9295-d9ae908c5304"
@@ -5063,76 +4872,6 @@
       (project "Drilling_1500W"
         (path "/5eefe6a1-faae-4012-9a95-08477ec0e762/2907e733-5db7-4666-a57f-5e0cf9dae560"
           (reference "L305") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "0db:capacitors/AVX 06035C104KAZ") (at 187.96 165.1 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid f7ef790a-36a7-4ee7-bd37-b64d1e62bf54)
-    (property "Reference" "C416" (at 191.77 161.29 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "100n 50V" (at 191.77 163.83 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 188.9252 168.91 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://datasheets.kyocera-avx.com/FlexitermMLCC.pdf" (at 187.96 165.1 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value 2" "0603 10%" (at 191.77 166.37 0)
-      (effects (font (size 0.8 0.8)) (justify left))
-    )
-    (property "Value 3" "X7R commercial" (at 191.77 168.91 0)
-      (effects (font (size 0.8 0.8)) (justify left))
-    )
-    (property "Manufacturer" "Kyocera AVX" (at 187.96 165.1 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN" "06035C104KAZ" (at 187.96 165.1 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "compatible_mpns" "06035C104KAZ2A 06035C104KAZ4A" (at 187.96 165.1 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Tolerance" "10%" (at 187.96 165.1 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Voltage Rating" "50V" (at 187.96 165.1 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 2513bc4a-2484-45bd-8cb6-056b003d4d5f))
-    (pin "2" (uuid d395e108-4b1a-4ba4-926f-dd6c93d68286))
-    (instances
-      (project "robot-5A"
-        (path "/31c74e3e-5df4-4637-9173-3740574ecda5/21da4ff5-9a13-4529-9295-d9ae908c5304"
-          (reference "C416") (unit 1)
-        )
-      )
-      (project "Drilling_1500W"
-        (path "/5eefe6a1-faae-4012-9a95-08477ec0e762/7fda7897-9e42-4c15-ac79-0d2aa06642ad"
-          (reference "C?") (unit 1)
-        )
-        (path "/5eefe6a1-faae-4012-9a95-08477ec0e762/4c9f662a-5431-4fdc-aafe-1ce29a5dc5c7"
-          (reference "C?") (unit 1)
-        )
-        (path "/5eefe6a1-faae-4012-9a95-08477ec0e762/9babca35-4cf2-44c3-b74e-d18f5b63052c"
-          (reference "C?") (unit 1)
-        )
-        (path "/5eefe6a1-faae-4012-9a95-08477ec0e762/b7e33818-8c57-42a4-bd49-481b76b97627"
-          (reference "C?") (unit 1)
-        )
-        (path "/5eefe6a1-faae-4012-9a95-08477ec0e762/2c00fa1a-56f9-4d34-974b-4b10828bcb3d"
-          (reference "C?") (unit 1)
-        )
-        (path "/5eefe6a1-faae-4012-9a95-08477ec0e762/997705b4-669b-4a09-b264-5018b5491f2a"
-          (reference "C?") (unit 1)
-        )
-        (path "/5eefe6a1-faae-4012-9a95-08477ec0e762/2907e733-5db7-4666-a57f-5e0cf9dae560"
-          (reference "C307") (unit 1)
         )
       )
     )
@@ -5174,8 +4913,8 @@
     (property "Voltage Rating" "50V" (at 332.74 165.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 87740402-b7f6-461a-bfec-0218bc7b9d15))
-    (pin "2" (uuid 4a99cc18-d42e-4204-a392-360dd170a7ce))
+    (pin "1" (uuid 09d5ceb3-87e7-402c-b8d5-ad54438ab60d))
+    (pin "2" (uuid c24b39e4-b0fa-4edd-a8cd-d5a533b7c017))
     (instances
       (project "robot-5A"
         (path "/31c74e3e-5df4-4637-9173-3740574ecda5/21da4ff5-9a13-4529-9295-d9ae908c5304"
@@ -5211,8 +4950,8 @@
     (property "Datasheet" "~" (at 40.64 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid afff5c01-7736-42ef-95c2-dfc82d007121))
-    (pin "2" (uuid da469b9f-45dc-4516-8e83-47b7b1d8b921))
+    (pin "1" (uuid 1fe5425f-810c-473c-84c8-2855959a9100))
+    (pin "2" (uuid d5851783-2536-4ad4-bbc6-967bc4f7708c))
     (instances
       (project "Projet 3eme Annee - ROBOT"
         (path "/1aac3609-adba-4d2d-8e1d-af0a67a435be/9d2eda89-b60d-416c-ba0a-fed26e30e8f8"

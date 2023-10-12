@@ -704,71 +704,6 @@
         )
       )
     )
-    (symbol "Diode:BAT54J" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "D" (at 0 2.54 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "BAT54J" (at 0 -2.54 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "Diode_SMD:D_SOD-323F" (at 0 -4.445 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAT54J.pdf" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "diode Schottky" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "30V 200mA Schottky diode, SOD-323F" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "D*SOD?323F*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "BAT54J_0_1"
-        (polyline
-          (pts
-            (xy 1.27 0)
-            (xy -1.27 0)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 1.27 1.27)
-            (xy 1.27 -1.27)
-            (xy -1.27 0)
-            (xy 1.27 1.27)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -1.905 0.635)
-            (xy -1.905 1.27)
-            (xy -1.27 1.27)
-            (xy -1.27 -1.27)
-            (xy -0.635 -1.27)
-            (xy -0.635 -0.635)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "BAT54J_1_1"
-        (pin passive line (at -3.81 0 0) (length 2.54)
-          (name "K" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 3.81 0 180) (length 2.54)
-          (name "A" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
     (symbol "Diode:PMEG1020EH" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "D" (at 0 2.54 0)
         (effects (font (size 1.27 1.27)))
@@ -1228,6 +1163,12 @@
   (junction (at 285.75 210.82) (diameter 0) (color 0 0 0 0)
     (uuid 0a03fbd1-1eb5-4b84-b030-ea8eb6d2acb9)
   )
+  (junction (at 113.03 69.85) (diameter 0) (color 0 0 0 0)
+    (uuid 0df6ae79-ce79-4fb2-80f0-bf2663c6a27d)
+  )
+  (junction (at 111.76 74.93) (diameter 0) (color 0 0 0 0)
+    (uuid 23a2b195-4aa7-4e63-8175-089ca3718eb1)
+  )
   (junction (at 285.75 220.98) (diameter 0) (color 0 0 0 0)
     (uuid 26def145-5fd7-45df-a75f-0983de957fb6)
   )
@@ -1236,9 +1177,6 @@
   )
   (junction (at 170.18 52.07) (diameter 0) (color 0 0 0 0)
     (uuid 7da1f8db-a8d6-4ada-8844-b61ba63ba967)
-  )
-  (junction (at 158.75 85.09) (diameter 0) (color 0 0 0 0)
-    (uuid 925fb6ef-2d7b-4cd8-8df3-738083a6b4e6)
   )
   (junction (at 261.62 227.33) (diameter 0) (color 0 0 0 0)
     (uuid b90427e0-f950-4846-80a9-a2683ef4a9be)
@@ -1264,7 +1202,7 @@
   (no_connect (at 154.94 182.88) (uuid 927e5c02-7e76-4681-a45d-a994d8d6ac72))
   (no_connect (at 257.81 185.42) (uuid 94525219-b96d-4cae-80bb-7746e0940b33))
   (no_connect (at 114.3 177.8) (uuid a76aef95-b145-4a6f-9abd-f9a131ea5a84))
-  (no_connect (at 110.49 71.12) (uuid d092d3b2-9df8-43ac-b012-12a6010ec10c))
+  (no_connect (at 110.49 72.39) (uuid d092d3b2-9df8-43ac-b012-12a6010ec10c))
   (no_connect (at 154.94 180.34) (uuid df39dd75-e236-4e3d-a8e6-0a863d1bbca7))
   (no_connect (at 114.3 139.7) (uuid f402a5c1-f4d8-4db2-85f4-4107933fdcb9))
 
@@ -1279,10 +1217,6 @@
   (wire (pts (xy 113.03 69.85) (xy 118.11 69.85))
     (stroke (width 0) (type default))
     (uuid 104db653-4d0d-4e38-bac7-d43b7961341b)
-  )
-  (wire (pts (xy 158.75 78.74) (xy 158.75 85.09))
-    (stroke (width 0) (type default))
-    (uuid 1087b9f1-6f39-4038-948d-270cc9c66b4f)
   )
   (wire (pts (xy 170.18 66.04) (xy 170.18 76.2))
     (stroke (width 0) (type default))
@@ -1345,9 +1279,9 @@
     (stroke (width 0) (type default))
     (uuid 38d2a8cd-2e50-4b4e-828c-6702afad1c18)
   )
-  (wire (pts (xy 151.13 78.74) (xy 158.75 78.74))
+  (wire (pts (xy 111.76 74.93) (xy 113.03 74.93))
     (stroke (width 0) (type default))
-    (uuid 399f939f-7adf-48f8-b363-3d7a0ee3cd6d)
+    (uuid 39f2b073-3356-495d-bf59-436789ffb712)
   )
   (wire (pts (xy 285.75 200.66) (xy 285.75 201.93))
     (stroke (width 0) (type default))
@@ -1361,10 +1295,6 @@
     (stroke (width 0) (type default))
     (uuid 3eaac9db-6e91-4909-87d4-1fbf8f96f224)
   )
-  (wire (pts (xy 151.13 85.09) (xy 158.75 85.09))
-    (stroke (width 0) (type default))
-    (uuid 3f2c6c84-c600-4e13-a150-c5eb863235cb)
-  )
   (wire (pts (xy 106.68 182.88) (xy 107.95 182.88))
     (stroke (width 0) (type default))
     (uuid 3f52d5af-4acb-4fd2-a21a-33308021bd4d)
@@ -1372,10 +1302,6 @@
   (wire (pts (xy 257.81 92.71) (xy 262.89 92.71))
     (stroke (width 0) (type default))
     (uuid 4110a4da-5f8b-4c7b-a6d9-a78a1b3c4fe9)
-  )
-  (wire (pts (xy 113.03 72.39) (xy 118.11 72.39))
-    (stroke (width 0) (type default))
-    (uuid 44eb7f1a-8679-4d56-8908-14a17d033ff7)
   )
   (wire (pts (xy 257.81 187.96) (xy 262.89 187.96))
     (stroke (width 0) (type default))
@@ -1425,6 +1351,10 @@
     (stroke (width 0) (type default))
     (uuid 5aa6287c-633d-40ab-84e6-c09bc316dc24)
   )
+  (wire (pts (xy 111.76 74.93) (xy 110.49 74.93))
+    (stroke (width 0) (type default))
+    (uuid 5d90747d-40e5-4825-b89f-a435b86b261a)
+  )
   (wire (pts (xy 154.94 139.7) (xy 160.02 139.7))
     (stroke (width 0) (type default))
     (uuid 5ff8c519-08c8-4f5e-80fe-34357082baa5)
@@ -1457,6 +1387,10 @@
     (stroke (width 0) (type default))
     (uuid 6c0b8f97-78c2-4d12-8958-9861f38a7a14)
   )
+  (wire (pts (xy 110.49 69.85) (xy 113.03 69.85))
+    (stroke (width 0) (type default))
+    (uuid 6e0ee1fc-58c8-45cd-abf2-1d023321b4e9)
+  )
   (wire (pts (xy 257.81 185.42) (xy 262.89 185.42))
     (stroke (width 0) (type default))
     (uuid 6e17d4f1-6761-44c3-98e6-ce8ae247e822)
@@ -1473,10 +1407,6 @@
   (wire (pts (xy 110.49 170.18) (xy 110.49 189.23))
     (stroke (width 0) (type default))
     (uuid 755b11c8-5857-47a6-b227-dce4a34b0df7)
-  )
-  (wire (pts (xy 113.03 73.66) (xy 113.03 72.39))
-    (stroke (width 0) (type default))
-    (uuid 780dd060-9e5e-4755-9e73-20cd838e893a)
   )
   (wire (pts (xy 257.81 39.37) (xy 262.89 39.37))
     (stroke (width 0) (type default))
@@ -1571,10 +1501,6 @@
     (stroke (width 0) (type default))
     (uuid a2f787a9-8b0a-4e6b-9bab-9b0d54c9bbf7)
   )
-  (wire (pts (xy 113.03 68.58) (xy 110.49 68.58))
-    (stroke (width 0) (type default))
-    (uuid a2fb614c-a2a7-4b6c-9a1d-b0b4bb2057c8)
-  )
   (wire (pts (xy 257.81 157.48) (xy 262.89 157.48))
     (stroke (width 0) (type default))
     (uuid a8b66062-730b-4cc0-a6d1-92dff429d475)
@@ -1592,9 +1518,9 @@
     (stroke (width 0) (type default))
     (uuid b1644fe0-b604-4bc6-b3d7-4b87c489dc2c)
   )
-  (wire (pts (xy 158.75 85.09) (xy 158.75 90.17))
+  (wire (pts (xy 111.76 77.47) (xy 111.76 74.93))
     (stroke (width 0) (type default))
-    (uuid b2fe53bc-bb97-4319-bb49-4321c6cbda8f)
+    (uuid b26a4840-0d08-4485-8ac7-f1ecf64811cc)
   )
   (wire (pts (xy 170.18 76.2) (xy 170.18 77.47))
     (stroke (width 0) (type default))
@@ -1665,7 +1591,7 @@
     (stroke (width 0) (type default))
     (uuid d8995c03-e489-4fbe-ad33-78b7d257cbff)
   )
-  (wire (pts (xy 113.03 69.85) (xy 113.03 68.58))
+  (wire (pts (xy 113.03 69.85) (xy 113.03 67.31))
     (stroke (width 0) (type default))
     (uuid d9f7d3a5-edbf-4b51-90e0-7b96ecb77648)
   )
@@ -1676,10 +1602,6 @@
   (wire (pts (xy 257.81 76.2) (xy 262.89 76.2))
     (stroke (width 0) (type default))
     (uuid dfed899f-1606-4c3e-b6ca-203b2b0b6b3a)
-  )
-  (wire (pts (xy 110.49 73.66) (xy 113.03 73.66))
-    (stroke (width 0) (type default))
-    (uuid e00866f1-d496-4ff3-a06a-cbebf316cc1d)
   )
   (wire (pts (xy 295.91 115.57) (xy 300.99 115.57))
     (stroke (width 0) (type default))
@@ -1751,7 +1673,7 @@
     (effects (font (size 2.54 2.54)) (justify left bottom))
     (uuid 00684d2c-4fbf-4eef-9996-f8a3bfdaca24)
   )
-  (text "TODO:\n  - ajouter le cavalier pour le J104\nQuestion:\n  - Est-ce que le pilotage du buzzer 40mA est correct (N-MOSFET et résistance)\n  - Est-ce que je peux réutiliser PMEG1020EH pour le buzzer ou il faut une Schottky diodes classique ?"
+  (text "TODO:\n  - ajouter le cavalier pour le J104\nQuestion:\n  - Est-ce que le pilotage du buzzer 40mA est correct (N-MOSFET et résistance)\n"
     (at 302.26 250.19 0)
     (effects (font (size 1.27 1.27) (thickness 0.254) bold (color 251 0 0 1)) (justify left bottom))
     (uuid 04cb2404-7713-4e5b-893a-004c0f542085)
@@ -1770,7 +1692,7 @@
     (uuid f5fbd305-c67a-4e47-9c5a-61232fdcd528)
   )
 
-  (label "sensor.1.din" (at 99.06 152.4 0) (fields_autoplaced)
+  (label "sensor.2.din" (at 99.06 152.4 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 0c766b0b-e695-4d36-9f3d-037838e9f45f)
   )
@@ -1778,7 +1700,7 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 12a6013e-c35a-40a2-8271-95871b76a38b)
   )
-  (label "sensor.2.din" (at 99.06 154.94 0) (fields_autoplaced)
+  (label "sensor.3.adcIn" (at 99.06 154.94 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 12c5a4c2-1a55-4f9e-971b-adc29aec4c40)
   )
@@ -1798,7 +1720,7 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 366a115b-20fc-4804-9506-07cf9f60ca67)
   )
-  (label "sensor.6.din" (at 160.02 149.86 0) (fields_autoplaced)
+  (label "sensor.5.din" (at 160.02 149.86 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 3be762b6-3143-43cf-b07f-b89eb9001a95)
   )
@@ -1834,11 +1756,11 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 565483f2-6881-4ccb-b8bb-ace71d818816)
   )
-  (label "sensor.3.adcIn" (at 99.06 149.86 0) (fields_autoplaced)
+  (label "sensor.2.adcIn" (at 99.06 149.86 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 57d15056-c6ac-4cc0-ab4b-b88516eb629f)
   )
-  (label "sensor.5.din" (at 160.02 142.24 0) (fields_autoplaced)
+  (label "sensor.6.dout" (at 160.02 142.24 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 5a2aa758-fb8b-4a1d-ac69-ed1106cd7b64)
   )
@@ -1846,7 +1768,7 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 64278b23-122e-4717-8637-9a069101f486)
   )
-  (label "sensor.5.din" (at 160.02 154.94 0) (fields_autoplaced)
+  (label "sensor.5.dout" (at 160.02 154.94 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 782355cc-1a44-4870-8dfc-f0c30f3ce3c1)
   )
@@ -1942,7 +1864,7 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid d2d8a09c-87e5-403a-8a6c-c8863f21dc4a)
   )
-  (label "sensor.2.adcIn" (at 99.06 147.32 0) (fields_autoplaced)
+  (label "sensor.1.din" (at 99.06 147.32 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid f20dd4b9-4900-4d1a-9bb4-33db01904902)
   )
@@ -1961,6 +1883,35 @@
   (label "sensor.6.dout" (at 300.99 185.42 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid fefb46e7-4190-4cae-a12a-323001c8ee26)
+  )
+
+  (netclass_flag "" (length 2.54) (shape round) (at 113.03 67.31 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 4cb638ae-99d4-440a-95cf-33d0bed66119)
+    (property "Netclass" "Alimentation" (at 112.3315 64.77 0)
+      (effects (font (size 1.27 1.27) italic) (justify right))
+    )
+  )
+  (netclass_flag "" (length 2.54) (shape round) (at 113.03 74.93 270) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (uuid 6dcc8b8d-6890-453b-ab91-2818a6c367ea)
+    (property "Netclass" "Alimentation" (at 115.57 75.6285 90)
+      (effects (font (size 1.27 1.27) italic) (justify right))
+    )
+  )
+  (netclass_flag "" (length 2.54) (shape round) (at 161.29 82.55 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (uuid 92fa0f7a-7d5b-4af9-a0ef-6a5782a312a4)
+    (property "Netclass" "Alimentation" (at 161.9885 85.09 0)
+      (effects (font (size 1.27 1.27) italic) (justify left))
+    )
+  )
+  (netclass_flag "" (length 2.54) (shape round) (at 154.94 76.2 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid bd9f5fa1-22cc-4ed3-8a98-90283ce707d4)
+    (property "Netclass" "Alimentation" (at 155.6385 73.66 0)
+      (effects (font (size 1.27 1.27) italic) (justify left))
+    )
   )
 
   (symbol (lib_id "Diode:PMEG1020EH") (at 102.87 182.88 180) (unit 1)
@@ -1984,8 +1935,8 @@
     (property "Manufacturer" "Nexperia" (at 102.87 182.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 135727ae-08c4-41c8-9ce0-eaa2dd5c114a))
-    (pin "2" (uuid a46e4d7a-cc59-4d55-8d11-79510fe9f9ce))
+    (pin "1" (uuid 69e24f5f-cc6f-4d19-abe6-32d1dd37b0e9))
+    (pin "2" (uuid 39016818-2222-4294-b11e-4cf17a6bcb55))
     (instances
       (project "robot-5A"
         (path "/31c74e3e-5df4-4637-9173-3740574ecda5"
@@ -2036,8 +1987,8 @@
     (property "Power Rating" "" (at 285.75 205.74 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid f7a44a74-a494-4a3c-82ec-0654424d77be))
-    (pin "2" (uuid a6cfad12-2a76-4d02-8d71-cb2f086a15a7))
+    (pin "1" (uuid 27964dba-2b84-4980-982c-30165ffc3a1d))
+    (pin "2" (uuid 569e0a97-d30d-4bb9-b2cd-6473d7d81ed7))
     (instances
       (project "robot-5A"
         (path "/31c74e3e-5df4-4637-9173-3740574ecda5/21da4ff5-9a13-4529-9295-d9ae908c5304"
@@ -2065,8 +2016,8 @@
     (property "Datasheet" "~" (at 260.35 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 58ef51bf-086a-410a-ad62-5ddaa33d28ae))
-    (pin "2" (uuid 9dfba8be-7bd5-4c05-aca4-77bf19098d6d))
+    (pin "1" (uuid 01dc5726-7847-44f0-916a-77ebf8317d7d))
+    (pin "2" (uuid 55d7e6a3-fa7d-450d-89cd-c18764459fd8))
     (instances
       (project "robot-5A"
         (path "/31c74e3e-5df4-4637-9173-3740574ecda5/0b0db332-2fe8-4011-b664-91b81fb498a3"
@@ -2094,14 +2045,14 @@
     (property "Datasheet" "" (at 161.29 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 7d0efb68-9955-4421-8043-14a04c420079))
+    (pin "1" (uuid 7c9d2768-bcd3-4ccb-89ca-584022e75601))
     (instances
       (project "robot-5A"
         (path "/31c74e3e-5df4-4637-9173-3740574ecda5/5282b8dc-14d4-47d7-bac6-4c8478894f21"
           (reference "#PWR0304") (unit 1)
         )
         (path "/31c74e3e-5df4-4637-9173-3740574ecda5"
-          (reference "#PWR0103") (unit 1)
+          (reference "#PWR0104") (unit 1)
         )
       )
     )
@@ -2122,14 +2073,14 @@
     (property "Datasheet" "" (at 161.29 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 53e9f028-8433-41ef-8111-fba5a4f32738))
+    (pin "1" (uuid bb9a79c3-c4a9-429b-9c67-357a383def7e))
     (instances
       (project "robot-5A"
         (path "/31c74e3e-5df4-4637-9173-3740574ecda5/0b0db332-2fe8-4011-b664-91b81fb498a3"
           (reference "#PWR0201") (unit 1)
         )
         (path "/31c74e3e-5df4-4637-9173-3740574ecda5"
-          (reference "#PWR0105") (unit 1)
+          (reference "#PWR0106") (unit 1)
         )
       )
     )
@@ -2150,7 +2101,7 @@
     (property "Datasheet" "" (at 285.75 200.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid e737acd8-8bd1-48e6-adb3-dfff14814ff3))
+    (pin "1" (uuid 1a4547c2-3f20-401a-8f07-d637f73c38b3))
     (instances
       (project "robot-5A"
         (path "/31c74e3e-5df4-4637-9173-3740574ecda5/0b0db332-2fe8-4011-b664-91b81fb498a3"
@@ -2178,7 +2129,7 @@
     (property "Datasheet" "" (at 170.18 77.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid fe8feebe-ea4b-43e1-812d-0454fc6bd5a3))
+    (pin "1" (uuid f352c2c4-0e48-492e-ade7-e27ff22175c2))
     (instances
       (project "Projet 3eme Annee - ROBOT"
         (path "/1aac3609-adba-4d2d-8e1d-af0a67a435be"
@@ -2187,7 +2138,7 @@
       )
       (project "robot-5A"
         (path "/31c74e3e-5df4-4637-9173-3740574ecda5"
-          (reference "#PWR0104") (unit 1)
+          (reference "#PWR0105") (unit 1)
         )
       )
       (project "Schema Racine"
@@ -2234,8 +2185,8 @@
     (property "Voltage Rating" "16V" (at 170.18 62.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 3c43c384-4224-4e16-8476-c4716a82d31a))
-    (pin "2" (uuid 6b3e85e0-aa5b-4ac2-a281-11e4c34a6260))
+    (pin "1" (uuid 23e9d727-23c8-491d-adc9-aa2e55e82c73))
+    (pin "2" (uuid d58fd3a0-e7da-46e5-bf4f-b881d2be9757))
     (instances
       (project "robot-5A"
         (path "/31c74e3e-5df4-4637-9173-3740574ecda5/0b0db332-2fe8-4011-b664-91b81fb498a3"
@@ -2246,38 +2197,6 @@
         )
         (path "/31c74e3e-5df4-4637-9173-3740574ecda5"
           (reference "C101") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Diode:BAT54J") (at 285.75 215.9 90) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 2cb6337d-4592-476b-842a-31967a66f5ca)
-    (property "Reference" "D102" (at 283.21 214.3125 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "BAT54J" (at 283.21 216.8525 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Diode_SMD:D_SOD-323F" (at 290.195 215.9 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAT54J.pdf" (at 285.75 215.9 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN" "BAT54JFILM" (at 285.75 215.9 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer" "STMicroelectronics" (at 285.75 215.9 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid df6c28db-7de1-44e5-909c-d688aca60d15))
-    (pin "2" (uuid 962bfcef-1ac7-4d13-a8ab-b5403a6c657c))
-    (instances
-      (project "robot-5A"
-        (path "/31c74e3e-5df4-4637-9173-3740574ecda5"
-          (reference "D102") (unit 1)
         )
       )
     )
@@ -2298,7 +2217,7 @@
     (property "Datasheet" "" (at 285.75 234.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 8be0ea2b-17cd-4371-a239-cfa73156d91c))
+    (pin "1" (uuid 94dffd0f-7dde-48a6-b559-83341c8b92a4))
     (instances
       (project "Projet 3eme Annee - ROBOT"
         (path "/1aac3609-adba-4d2d-8e1d-af0a67a435be/9d2eda89-b60d-416c-ba0a-fed26e30e8f8"
@@ -2336,7 +2255,7 @@
     (property "Datasheet" "" (at 157.48 189.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid f50b7155-359b-4332-8231-bbcb495119e1))
+    (pin "1" (uuid 256f1e06-861a-41a8-8745-85bf597b35ed))
     (instances
       (project "Projet 3eme Annee - ROBOT"
         (path "/1aac3609-adba-4d2d-8e1d-af0a67a435be"
@@ -2389,8 +2308,8 @@
     (property "Power Rating" "0.25W" (at 209.55 67.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 8250bdb0-fb74-4475-9e1b-6ef77ff06b86))
-    (pin "2" (uuid 42ee8f28-d9c5-4e14-8e6e-ec4789ee9670))
+    (pin "1" (uuid e94f8b1f-1f95-4538-b3ab-6482f57976a3))
+    (pin "2" (uuid bf0b5804-42a4-4936-a61e-e4bab3ba13a1))
     (instances
       (project "robot-5A"
         (path "/31c74e3e-5df4-4637-9173-3740574ecda5/d8294481-be6f-4a58-b460-96c71b592728"
@@ -2401,6 +2320,41 @@
         )
         (path "/31c74e3e-5df4-4637-9173-3740574ecda5"
           (reference "R102") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 111.76 77.47 0) (mirror y) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 4f4bc4aa-95b7-463f-ab24-14ab61a5cadf)
+    (property "Reference" "#PWR010" (at 111.76 83.82 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 109.22 80.01 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 111.76 77.47 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 111.76 77.47 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 81aa3604-4bc0-4df0-855b-737b493a2737))
+    (instances
+      (project "Projet 3eme Annee - ROBOT"
+        (path "/1aac3609-adba-4d2d-8e1d-af0a67a435be"
+          (reference "#PWR010") (unit 1)
+        )
+      )
+      (project "robot-5A"
+        (path "/31c74e3e-5df4-4637-9173-3740574ecda5"
+          (reference "#PWR0103") (unit 1)
+        )
+      )
+      (project "Schema Racine"
+        (path "/863c816c-15ce-4ba4-85fc-c05936885c62"
+          (reference "#PWR015") (unit 1)
         )
       )
     )
@@ -2421,7 +2375,7 @@
     (property "Datasheet" "" (at 110.49 189.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 41030362-1a94-45c7-8f8f-65c53db049e3))
+    (pin "1" (uuid 7e41a077-598d-4a39-9c17-a250a8bc3695))
     (instances
       (project "Projet 3eme Annee - ROBOT"
         (path "/1aac3609-adba-4d2d-8e1d-af0a67a435be"
@@ -2456,7 +2410,7 @@
     (property "Datasheet" "" (at 93.98 182.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 0b261f1c-80c8-4410-8152-f9de98e5f2ff))
+    (pin "1" (uuid 08635df3-1bbe-4c6d-b346-019e1ec6370e))
     (instances
       (project "robot-5A"
         (path "/31c74e3e-5df4-4637-9173-3740574ecda5/5282b8dc-14d4-47d7-bac6-4c8478894f21"
@@ -2502,12 +2456,52 @@
     (property "Power Rating" "0.25W" (at 261.62 233.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 40873f49-88e6-46f4-a327-90c417e8cca7))
-    (pin "2" (uuid d277a587-3e75-4502-873e-dd0996f7915b))
+    (pin "1" (uuid 92f575e7-aa34-4525-afdf-dab8e7bb956f))
+    (pin "2" (uuid 4e0a9869-8f38-4d91-a98d-74185ca9e157))
     (instances
       (project "robot-5A"
         (path "/31c74e3e-5df4-4637-9173-3740574ecda5"
           (reference "R105") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Diode:PMEG1020EH") (at 285.75 215.9 90) (mirror x) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 7696e3e7-e58b-49ec-8ccb-cf375a16b022)
+    (property "Reference" "D102" (at 283.21 214.3125 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "PMEG1020EH" (at 283.21 216.8525 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Diode_SMD:D_SOD-123F" (at 290.195 215.9 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PMEG1020EH.pdf" (at 285.75 215.9 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MPN" "PMEG1020EH" (at 285.75 215.9 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "Nexperia" (at 285.75 215.9 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 466e4df3-d910-46ac-8e36-7bde1cc2c8a0))
+    (pin "2" (uuid b4909313-c80b-4ac8-89df-540a7977d3d5))
+    (instances
+      (project "robot-5A"
+        (path "/31c74e3e-5df4-4637-9173-3740574ecda5"
+          (reference "D102") (unit 1)
+        )
+      )
+      (project "Drilling_1500W"
+        (path "/5eefe6a1-faae-4012-9a95-08477ec0e762/f35597a0-d76a-4e5c-b9ae-13dc1a10a140"
+          (reference "D?") (unit 1)
+        )
+        (path "/5eefe6a1-faae-4012-9a95-08477ec0e762"
+          (reference "D101") (unit 1)
         )
       )
     )
@@ -2528,7 +2522,7 @@
     (property "Datasheet" "" (at 261.62 240.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid f7e5d20a-bf38-4b62-b317-a59579219d98))
+    (pin "1" (uuid 07c20342-35dc-42d0-94c7-3558cf3bbc08))
     (instances
       (project "Projet 3eme Annee - ROBOT"
         (path "/1aac3609-adba-4d2d-8e1d-af0a67a435be/9d2eda89-b60d-416c-ba0a-fed26e30e8f8"
@@ -2566,8 +2560,8 @@
     (property "Datasheet" "~" (at 307.34 36.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid f7c43e2d-8108-47f8-9cbe-82046d67a7f6))
-    (pin "2" (uuid 21166cef-d787-447d-a68e-12ddad03b28d))
+    (pin "1" (uuid e2834c02-32bf-4e6b-9e9d-3d6c01f0f342))
+    (pin "2" (uuid 0b913df8-903e-4586-99e1-87b4bfe4af1a))
     (instances
       (project "robot-5A"
         (path "/31c74e3e-5df4-4637-9173-3740574ecda5/0b0db332-2fe8-4011-b664-91b81fb498a3"
@@ -2613,8 +2607,8 @@
     (property "Power Rating" "0.25W" (at 266.7 227.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 1bc80e17-07e8-42b8-a13d-ae3238748bba))
-    (pin "2" (uuid e81b2f59-0e1a-41f2-98c4-b0e6a7dbf214))
+    (pin "1" (uuid e18da894-8ebe-4c80-9488-24358e7e3beb))
+    (pin "2" (uuid 7566d89b-e8f8-4bdc-b874-acd523699951))
     (instances
       (project "robot-5A"
         (path "/31c74e3e-5df4-4637-9173-3740574ecda5/0b0db332-2fe8-4011-b664-91b81fb498a3"
@@ -2660,8 +2654,8 @@
     (property "Power Rating" "0.25W" (at 199.39 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 73cbcbf1-a4ea-4df0-8aa1-d92d03c6bc91))
-    (pin "2" (uuid aaf22220-2e30-47c0-a2bb-e84c57c36c51))
+    (pin "1" (uuid 77abb2e5-c788-4dd8-b534-87db97656ef8))
+    (pin "2" (uuid 7a84bfd4-2d4d-4f31-a108-ab3cb1a943d9))
     (instances
       (project "robot-5A"
         (path "/31c74e3e-5df4-4637-9173-3740574ecda5/21da4ff5-9a13-4529-9295-d9ae908c5304"
@@ -2689,8 +2683,8 @@
     (property "Datasheet" "~" (at 307.34 43.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid a9a945da-ffb1-45b8-9a7b-f0e2e51c29d2))
-    (pin "2" (uuid 0593d91f-9ff8-4f01-8e02-5ca683adefb5))
+    (pin "1" (uuid 223d7815-f63f-491c-b640-00078ba38f79))
+    (pin "2" (uuid 87fb6b69-fdcd-4376-8e67-810096767e04))
     (instances
       (project "robot-5A"
         (path "/31c74e3e-5df4-4637-9173-3740574ecda5/0b0db332-2fe8-4011-b664-91b81fb498a3"
@@ -2724,8 +2718,8 @@
     (property "MPN" "LD-BZEN-1205" (at 292.1 215.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 1d3bd8d4-e68d-4d75-a7b3-0e79ab36b24c))
-    (pin "2" (uuid 09f4b97b-6193-468b-8279-8b2d9131df39))
+    (pin "1" (uuid 414a65e9-535c-48d4-8244-636a352b6262))
+    (pin "2" (uuid d05b44eb-e54c-447f-ad33-9c4c16386179))
     (instances
       (project "Projet 3eme Annee - ROBOT"
         (path "/1aac3609-adba-4d2d-8e1d-af0a67a435be/9d2eda89-b60d-416c-ba0a-fed26e30e8f8"
@@ -2763,7 +2757,7 @@
     (property "Datasheet" "~" (at 107.95 182.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 2edec38b-d602-4c1d-95f8-e9c6fbfde420))
+    (pin "1" (uuid 1ce55414-6732-415e-9864-5b8d5ed5ab3a))
     (instances
       (project "robot-5A"
         (path "/31c74e3e-5df4-4637-9173-3740574ecda5"
@@ -2774,7 +2768,7 @@
   )
 
   (symbol (lib_id "0shared:ESP32-DEVKITC") (at 134.62 160.02 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid bdf63d34-c901-43df-97b4-2242bcbb8261)
     (property "Reference" "U2" (at 134.62 129.54 0)
       (effects (font (size 1.27 1.27)))
@@ -2782,7 +2776,7 @@
     (property "Value" "ESP32-DEVKITC" (at 134.62 132.08 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "esp:MODULE_ESP32-DEVKITC" (at 134.62 160.02 0)
+    (property "Footprint" "0Package:ESP32-DevKitC" (at 134.62 160.02 0)
       (effects (font (size 1.27 1.27)) (justify bottom) hide)
     )
     (property "Datasheet" "" (at 134.62 160.02 0)
@@ -2791,44 +2785,44 @@
     (property "Manufacturer" "ESPRESSIF" (at 134.62 160.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 5747ed56-f5de-4938-8f23-d009d5c65f52))
-    (pin "10" (uuid 67dfd485-2738-4607-844b-2ea957d9673c))
-    (pin "11" (uuid 4f88c3fd-5ca0-48a2-b6e7-677a28ba5dec))
-    (pin "12" (uuid a6ce4ef3-34a5-4349-985e-555d3b41d97c))
-    (pin "13" (uuid b0b2c6cd-3a55-45b5-92e6-1fe61bba8513))
-    (pin "14" (uuid 4496d09f-50ea-452e-9ff0-555d4f93a621))
-    (pin "15" (uuid 08d24099-fe25-468e-9eed-ca512c8f66df))
-    (pin "16" (uuid 3e889e1a-08c2-4118-aad5-1e6857423e49))
-    (pin "17" (uuid e32221bd-35fe-47e8-b08a-e7e0f441cb49))
-    (pin "18" (uuid c658c5f4-e82d-4494-a2ef-b3968a984345))
-    (pin "19" (uuid 9e62e219-b25a-4ae5-845d-9a7a91149bb9))
-    (pin "2" (uuid 5c4fd70b-bde1-46f2-89af-09df025f0a8c))
-    (pin "20" (uuid 2015f9b1-d6b8-434e-af07-4168f831b826))
-    (pin "21" (uuid 3c420021-61bf-4dd0-a536-667750bdf34b))
-    (pin "22" (uuid 8006fd8d-e381-4f61-8453-7b7f5bf71a07))
-    (pin "23" (uuid 36c59db5-6100-4b37-9aff-fa2b2ac01795))
-    (pin "24" (uuid 1c724381-16ba-438c-800b-652111037403))
-    (pin "25" (uuid e6c43a79-1227-4eac-a611-18f80a93d747))
-    (pin "26" (uuid 3a6ab7f0-9430-4941-8fae-cda1bd493fb1))
-    (pin "27" (uuid f4027427-7737-454f-a616-aa65dbfb5aaf))
-    (pin "28" (uuid fb90473d-f710-4f2f-b450-5ca892d55cb1))
-    (pin "29" (uuid f4cb6921-1d54-47c7-b86f-2239f6cdf98c))
-    (pin "3" (uuid c1516d37-3067-4227-b2da-0981b511e70c))
-    (pin "30" (uuid 4a66d6ee-2994-4ab8-af77-4165ae7d27ce))
-    (pin "31" (uuid 6820d641-abeb-40aa-883a-b3c44b1961f1))
-    (pin "32" (uuid c12730c1-ac43-4724-a1bc-6b600944fd82))
-    (pin "33" (uuid c480960a-7c88-4fba-8a55-bef04c2f4ab6))
-    (pin "34" (uuid 22159745-3f17-408d-8e4d-c0b3f2b8d115))
-    (pin "35" (uuid aa9fc9c5-563d-483a-90ee-71f2529a282c))
-    (pin "36" (uuid 7ba29de9-4f9e-4909-ad2b-c5f23c80cde4))
-    (pin "37" (uuid ddab7153-95f5-453b-b31c-a7bfbd316fdd))
-    (pin "38" (uuid f7a51e87-28a0-4628-9749-921a6b3da953))
-    (pin "4" (uuid f03c3604-9656-4b4e-8b9f-76f3ba0cf00a))
-    (pin "5" (uuid 2aa49fdc-c14d-4acc-9201-57405803405c))
-    (pin "6" (uuid 2e6fcf7f-854c-431a-9fb8-a4c41faea9cb))
-    (pin "7" (uuid 23cd079b-7260-40d4-94d4-9f4ec0a65232))
-    (pin "8" (uuid 55eb0e48-9185-42d3-a877-3c634b168af6))
-    (pin "9" (uuid 1341faaa-da73-4674-82e7-54240dd4290b))
+    (pin "1" (uuid ad9413cb-4614-42b7-88ad-9fc7a96646e5))
+    (pin "10" (uuid 4526302b-db6e-4d0e-abbe-94990755daa7))
+    (pin "11" (uuid d7da7f45-f4ce-465e-96bc-eefaf26f79a6))
+    (pin "12" (uuid aaf40200-0ea9-441a-82ef-ec4141f459cf))
+    (pin "13" (uuid d4d69ac9-60ed-4132-b077-96962d2ce21c))
+    (pin "14" (uuid bcd5d143-15ae-4014-96e9-d8392a6a0dec))
+    (pin "15" (uuid f18af51b-61ae-4721-80a2-7ac6743ac67f))
+    (pin "16" (uuid 6bdfb27b-4471-47e4-a451-ca43ac5cbc36))
+    (pin "17" (uuid e1b901d6-3636-4c3a-9273-0bd3651c1526))
+    (pin "18" (uuid d64e3a01-1d7d-4de2-b1ee-29fe0341d4c9))
+    (pin "19" (uuid 16801956-44dc-4044-acb3-708d3169a586))
+    (pin "2" (uuid c8761f5f-b719-455b-bef0-a6b614262a11))
+    (pin "20" (uuid be0c294f-b18d-4629-83e5-fa225f7d5032))
+    (pin "21" (uuid c8d21dea-37aa-45be-ae6e-acf50376d98a))
+    (pin "22" (uuid a1d9a3ac-8c79-4908-9b85-6ee5922e934e))
+    (pin "23" (uuid 8fadfead-0d74-4ae0-8f1e-bfe1bd849e61))
+    (pin "24" (uuid 587c8f80-7bd2-46b2-be33-d9fc8ba3b4af))
+    (pin "25" (uuid d397a841-9d7f-48c8-9d4c-0175e5e0d8e2))
+    (pin "26" (uuid 8fb0d7e8-2802-450c-85b7-676156f8fedf))
+    (pin "27" (uuid bebd8563-bf94-494e-8e12-6d531ae69cdd))
+    (pin "28" (uuid 772f2e38-2b3e-4b2f-b154-345d4ed6438c))
+    (pin "29" (uuid 97bec700-678e-49b2-810d-f17294a09694))
+    (pin "3" (uuid 8c9d2880-5edf-464b-a998-e144fa80a9ab))
+    (pin "30" (uuid 2f8d701d-3dcd-47e5-aa81-0ae002277a10))
+    (pin "31" (uuid 4e6e01ba-4014-4f9f-9c13-12eff1e30b61))
+    (pin "32" (uuid 08673230-1d70-4f91-bd7c-a491ebfe51e9))
+    (pin "33" (uuid dd9e85b1-34d3-4e86-b2e4-796d9c4fde61))
+    (pin "34" (uuid 92385cd1-231d-48bb-b5f1-ff5ab23a06d6))
+    (pin "35" (uuid ae541ba2-ab6d-40e5-ade3-bd1538084938))
+    (pin "36" (uuid 45978ae2-319a-478b-89c8-d925e6aada00))
+    (pin "37" (uuid cdb1d37a-cd3d-42ff-a5fd-d30f82a24a42))
+    (pin "38" (uuid 3f71484b-74b5-408d-b79c-9f9506461cc6))
+    (pin "4" (uuid 8f65caab-bed1-48ca-8416-827b789d4a1b))
+    (pin "5" (uuid 5bf02c7b-3817-4425-a46c-b4070d09be63))
+    (pin "6" (uuid 9bd53530-0643-4d1a-ba6c-4080d030f6be))
+    (pin "7" (uuid 9ec820ad-5a81-447c-8e4d-23c025bbdc8b))
+    (pin "8" (uuid 05b630a1-14e5-41b3-910e-12945f7c55a6))
+    (pin "9" (uuid f9cc8a39-5eb7-41a7-be8e-3a95c20e19cc))
     (instances
       (project "Projet 3eme Annee - ROBOT"
         (path "/1aac3609-adba-4d2d-8e1d-af0a67a435be"
@@ -2853,63 +2847,28 @@
     )
   )
 
-  (symbol (lib_id "Connector_Generic:Conn_01x03") (at 105.41 71.12 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+  (symbol (lib_id "Connector_Generic:Conn_01x03") (at 105.41 72.39 0) (mirror y) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid d944cfd9-c456-4066-bf81-c750555fc290)
-    (property "Reference" "J104" (at 105.41 62.23 0)
+    (property "Reference" "J104" (at 99.06 73.66 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "Conn_01x03" (at 105.41 64.77 0)
+    (property "Value" "Conn_01x03" (at 96.52 71.12 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Connector_JST:JST_XH_B3B-XH-AM_1x03_P2.50mm_Vertical" (at 105.41 71.12 0)
+    (property "Footprint" "Connector_JST:JST_XH_B3B-XH-AM_1x03_P2.50mm_Vertical" (at 105.41 72.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 105.41 71.12 0)
+    (property "Datasheet" "~" (at 105.41 72.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid ffbe30fb-2130-4d09-be88-a1faed72eb15))
-    (pin "2" (uuid 509cb1ba-7a35-4356-9da4-15a7393acff3))
-    (pin "3" (uuid af3803a6-04f4-4e9a-a8ce-776bb7853b80))
+    (pin "1" (uuid d02a850b-4eea-4089-9711-db24d05c2383))
+    (pin "2" (uuid 40968724-f6c3-4a17-8b80-cad49db2777c))
+    (pin "3" (uuid fa687117-3966-4772-84c2-82c8db43bcfa))
     (instances
       (project "robot-5A"
         (path "/31c74e3e-5df4-4637-9173-3740574ecda5"
           (reference "J104") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 158.75 90.17 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid dc63899b-30ea-4b03-9748-c5f12a89ab8e)
-    (property "Reference" "#PWR08" (at 158.75 96.52 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 161.29 92.71 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 158.75 90.17 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 158.75 90.17 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 203d6907-aa72-437b-8994-b5cfbdc5bd73))
-    (instances
-      (project "Projet 3eme Annee - ROBOT"
-        (path "/1aac3609-adba-4d2d-8e1d-af0a67a435be"
-          (reference "#PWR08") (unit 1)
-        )
-      )
-      (project "robot-5A"
-        (path "/31c74e3e-5df4-4637-9173-3740574ecda5"
-          (reference "#PWR0106") (unit 1)
-        )
-      )
-      (project "Schema Racine"
-        (path "/863c816c-15ce-4ba4-85fc-c05936885c62"
-          (reference "#PWR07") (unit 1)
         )
       )
     )
@@ -2942,9 +2901,12 @@
     (property "Value 3" "VGS = +-8V" (at 283.21 227.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid a6c9e1f0-2725-40f4-919b-201c80ffe42b))
-    (pin "2" (uuid 255e13fd-b493-46c2-8bf9-cfdc638d06cc))
-    (pin "3" (uuid 447c2a82-a6e2-40f1-993f-a066d8f36f8b))
+    (property "autreXavier" "2N7002" (at 283.21 227.33 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid cc846f46-6627-4b7d-bb8e-d9191c0ab697))
+    (pin "2" (uuid 9a15d718-56e5-46cd-85ca-5b868f033f79))
+    (pin "3" (uuid 9873ad23-e961-481c-93a6-a0943a889d35))
     (instances
       (project "robot-5A"
         (path "/31c74e3e-5df4-4637-9173-3740574ecda5"
@@ -2969,7 +2931,7 @@
     (property "Datasheet" "" (at 170.18 50.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid aa659973-3d85-448b-9efe-abfaf5b293e8))
+    (pin "1" (uuid 58b74dd3-cf6f-4eb9-ba53-117f043a0e0c))
     (instances
       (project "robot-5A"
         (path "/31c74e3e-5df4-4637-9173-3740574ecda5/0b0db332-2fe8-4011-b664-91b81fb498a3"
@@ -2997,11 +2959,11 @@
     (property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" (at 195.58 62.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 2883d257-8461-4016-8920-ea29b8f46851))
-    (pin "5" (uuid eb5070c2-36c8-47f5-ae4c-5b7f213b0ad2))
-    (pin "1" (uuid 92244f39-9e9b-4fc3-8586-474243b40a6a))
-    (pin "3" (uuid a2037243-177a-4a03-ad74-d6dfde709613))
-    (pin "4" (uuid c9a1ee14-8031-4bf1-a509-906a7a9ffd9c))
+    (pin "2" (uuid df33c038-7a19-4600-92dc-ff02d9e7c887))
+    (pin "5" (uuid 0734552e-97d7-468e-8850-5e6eb736b7f8))
+    (pin "1" (uuid 40373234-b11b-4158-883e-bd951a8853c9))
+    (pin "3" (uuid 1202ee6b-ea25-47bb-8f61-9d8a609036a2))
+    (pin "4" (uuid f8fb57dd-2898-4b6d-9ce7-bb8c806f5bfe))
     (instances
       (project "robot-5A"
         (path "/31c74e3e-5df4-4637-9173-3740574ecda5"
@@ -3026,7 +2988,7 @@
     (property "Datasheet" "" (at 246.38 52.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 5cddfdf4-815e-4417-b344-09895217e65e))
+    (pin "1" (uuid ff47e85b-f594-4225-89fe-55e9ac3afaa4))
     (instances
       (project "robot-5A"
         (path "/31c74e3e-5df4-4637-9173-3740574ecda5/0b0db332-2fe8-4011-b664-91b81fb498a3"
@@ -3186,17 +3148,9 @@
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid eedc2c39-d88c-46e9-a099-ff061e9aa441)
     )
-    (pin "5V_RTN" output (at 151.13 78.74 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 525d0f8e-3c9b-420c-ab60-766875404f99)
-    )
     (pin "3.3VD_out" output (at 151.13 82.55 0)
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid e3542c43-a95a-42f1-8ee5-dbbdbfbe3a9e)
-    )
-    (pin "3.3VD_RTN" input (at 151.13 85.09 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid de569486-5621-498b-97a7-82d8ed60dfe3)
     )
     (pin "batt.sense" output (at 151.13 69.85 0)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -3205,10 +3159,6 @@
     (pin "batt.in+" input (at 118.11 69.85 180)
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid 2e44c419-8a8c-4bc3-a42e-97a71c5cd6b4)
-    )
-    (pin "batt.in-" input (at 118.11 72.39 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 93e22cb6-fc7d-4b9a-8a6b-ea57f76fe4a0)
     )
     (instances
       (project "Schema Racine"

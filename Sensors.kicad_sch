@@ -77,78 +77,6 @@
         )
       )
     )
-    (symbol "0db:capacitors/AVX 0805YC684J4Z" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
-      (property "Reference" "C" (at 0.635 2.54 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Value" "680n 16V" (at 0.635 -2.54 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 0.9652 -3.81 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "https://datasheets.kyocera-avx.com/FlexitermMLCC.pdf" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Value 2" "0805 5%" (at 0 0 0)
-        (effects (font (size 0.8 0.8)))
-      )
-      (property "Value 3" "X7R automotive" (at 0 0 0)
-        (effects (font (size 0.8 0.8)))
-      )
-      (property "Manufacturer" "Kyocera AVX" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "MPN" "0805YC684J4Z" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "compatible_mpns" "0805YC684J4Z2A 0805YC684J4Z4A" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Tolerance" "5%" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Voltage Rating" "16V" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "cap capacitor" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Kyocera AVX MLCC Flexiterm 680n 5% 0805 16V E6 E12 D100n" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "Capacitor_SMD:C_0805_2012Metric_*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "capacitors/AVX 0805YC684J4Z_0_1"
-        (polyline
-          (pts
-            (xy -2.032 -0.762)
-            (xy 2.032 -0.762)
-          )
-          (stroke (width 0.508) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -2.032 0.762)
-            (xy 2.032 0.762)
-          )
-          (stroke (width 0.508) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "capacitors/AVX 0805YC684J4Z_1_1"
-        (pin passive line (at 0 3.81 270) (length 2.794)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 0 -3.81 90) (length 2.794)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
     (symbol "0db:resistors/Koa RK73H2ATTD2000F" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "R" (at 2.032 0 90)
         (effects (font (size 1.27 1.27)))
@@ -971,8 +899,8 @@
     (property "Power Rating" "0.25W" (at 106.68 128.27 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 253341a1-9a1d-4eb5-a5c6-81e897928eb7))
-    (pin "2" (uuid b629af3e-8412-48bc-94a3-cc842c1f326e))
+    (pin "1" (uuid 5c73bc69-d0ca-4af1-8b23-b204c1a76798))
+    (pin "2" (uuid 72593a9e-eefd-4630-be78-4336eab5645c))
     (instances
       (project "robot-5A"
         (path "/31c74e3e-5df4-4637-9173-3740574ecda5/0b0db332-2fe8-4011-b664-91b81fb498a3"
@@ -1000,68 +928,6 @@
     )
   )
 
-  (symbol (lib_id "0db:capacitors/AVX 0805YC684J4Z") (at 111.76 74.93 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 112f3d69-dab2-4039-b10b-fe3337b45d9d)
-    (property "Reference" "C511" (at 107.95 71.12 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "680n 16V" (at 107.95 73.66 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 110.7948 78.74 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://datasheets.kyocera-avx.com/FlexitermMLCC.pdf" (at 111.76 74.93 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value 2" "0805 5%" (at 107.95 76.2 0)
-      (effects (font (size 0.8 0.8)) (justify left))
-    )
-    (property "Value 3" "X7R automotive" (at 107.95 78.74 0)
-      (effects (font (size 0.8 0.8)) (justify left))
-    )
-    (property "Manufacturer" "Kyocera AVX" (at 111.76 74.93 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN" "0805YC684J4Z" (at 111.76 74.93 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "compatible_mpns" "0805YC684J4Z2A 0805YC684J4Z4A" (at 111.76 74.93 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Tolerance" "5%" (at 111.76 74.93 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Voltage Rating" "16V" (at 111.76 74.93 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 00eb7e1d-90d3-4edc-99fd-b424e7e1ab88))
-    (pin "2" (uuid 617815af-9dfc-4cc3-abab-db880d9bd9b2))
-    (instances
-      (project "robot-5A"
-        (path "/31c74e3e-5df4-4637-9173-3740574ecda5/d8294481-be6f-4a58-b460-96c71b592728"
-          (reference "C511") (unit 1)
-        )
-        (path "/31c74e3e-5df4-4637-9173-3740574ecda5/10e55c87-0700-4a38-9d7d-4b1a08c1fb0e"
-          (reference "C521") (unit 1)
-        )
-        (path "/31c74e3e-5df4-4637-9173-3740574ecda5/2da7d61b-3a44-4475-aba8-51162102f12c"
-          (reference "C531") (unit 1)
-        )
-        (path "/31c74e3e-5df4-4637-9173-3740574ecda5/afc9d5fe-e90d-4002-8bce-8777ad0cd774"
-          (reference "C541") (unit 1)
-        )
-        (path "/31c74e3e-5df4-4637-9173-3740574ecda5/2a3e722a-d6a2-441d-92e4-f2d54293231f"
-          (reference "C551") (unit 1)
-        )
-        (path "/31c74e3e-5df4-4637-9173-3740574ecda5/1d4f0b65-d660-408d-b5d6-f560b1329d59"
-          (reference "C561") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "74xGxx:74LVC2G17") (at 219.71 90.17 0) (unit 3)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 137c960e-37ef-43c7-ac35-72fcac536dbb)
@@ -1077,12 +943,12 @@
     (property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" (at 219.71 90.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 2a025ba0-c866-429d-b715-a075dff1d4ed))
-    (pin "6" (uuid d4b0de2c-fd21-4169-806b-ec7fee2453a7))
-    (pin "3" (uuid f77802ab-11d5-423a-9b4f-87faaba2a1fd))
-    (pin "4" (uuid 41e66184-5dee-4b9d-ad81-3088978f4e4a))
-    (pin "2" (uuid 19594911-70cd-479e-809a-8591a4ddf1e1))
-    (pin "5" (uuid 918927a1-ebfd-4dc0-a29c-e925bd445472))
+    (pin "1" (uuid 094ad436-35b4-4497-a1d3-1f0da7fec2ad))
+    (pin "6" (uuid 853ea5ba-b477-4221-8151-d8ee70138ff3))
+    (pin "3" (uuid 825a371d-a4b5-4e87-8355-53d360eea876))
+    (pin "4" (uuid d838c4b8-6905-4a81-9b05-60e845e780e0))
+    (pin "2" (uuid d35ff9e9-bac4-4e2b-84bd-9ae5daa8f1a8))
+    (pin "5" (uuid 047bcf6c-02fd-4bfd-a0ff-ad606ca4b29b))
     (instances
       (project "robot-5A"
         (path "/31c74e3e-5df4-4637-9173-3740574ecda5/d8294481-be6f-4a58-b460-96c71b592728"
@@ -1122,12 +988,12 @@
     (property "Datasheet" "~" (at 186.69 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 5978c14d-aaff-460a-b5a8-aae51a8755e9))
-    (pin "2" (uuid 0a88903a-9515-414c-886d-c127fbb60fe4))
-    (pin "3" (uuid 2df7f220-73ca-47f3-9c04-103969742190))
-    (pin "4" (uuid 2b836958-14b5-4670-ab3a-eccc33f2226e))
-    (pin "5" (uuid 577ab02c-839b-45bc-ac66-0bf310f24455))
-    (pin "6" (uuid 002221cd-5858-47e1-b793-c0e01b66f196))
+    (pin "1" (uuid a9c961f1-2448-4ca2-8a1a-05d1f7faa7c5))
+    (pin "2" (uuid a3d1284b-df4f-4ca8-89e6-70fbb8e349b5))
+    (pin "3" (uuid 172e311e-bf13-496a-9280-87cb97fc5a8b))
+    (pin "4" (uuid 398e1482-bc9c-42b1-a539-210d9d7e5f73))
+    (pin "5" (uuid 911894da-3706-45ed-95e6-500d1414d5c6))
+    (pin "6" (uuid 04503f48-3955-4fbe-93f0-7ab2e7eabe89))
     (instances
       (project "robot-5A"
         (path "/31c74e3e-5df4-4637-9173-3740574ecda5/d8294481-be6f-4a58-b460-96c71b592728"
@@ -1188,8 +1054,8 @@
     (property "Voltage Rating" "16V" (at 125.73 74.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 991b0ff1-eb55-453c-8c83-e14611e8686c))
-    (pin "2" (uuid 2668ef91-f2f2-4875-b5c6-b0cbd22c009b))
+    (pin "1" (uuid ea1688a0-013b-44a0-972b-2a6dfda3dc9a))
+    (pin "2" (uuid 8aa8f9d9-5f9b-4cbd-8b9e-2468e875b7c1))
     (instances
       (project "robot-5A"
         (path "/31c74e3e-5df4-4637-9173-3740574ecda5/0b0db332-2fe8-4011-b664-91b81fb498a3"
@@ -1253,8 +1119,8 @@
     (property "Power Rating" "0.25W" (at 172.72 109.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid cf3cf6c1-ab52-46a1-86e1-b06145910253))
-    (pin "2" (uuid 6c8fa839-79ab-4fe1-926c-71360e6bd008))
+    (pin "1" (uuid d89ab0dd-53cf-4e3f-8976-9bb23adb9226))
+    (pin "2" (uuid 48f2adac-3e61-45f5-aa5f-9ec70303ca46))
     (instances
       (project "robot-5A"
         (path "/31c74e3e-5df4-4637-9173-3740574ecda5/0b0db332-2fe8-4011-b664-91b81fb498a3"
@@ -1315,8 +1181,8 @@
     (property "Power Rating" "0.25W" (at 151.13 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid cc3c42f8-7ea9-46b2-bd6c-bf81a6c828da))
-    (pin "2" (uuid 862c359e-7629-4b4a-8dd7-810d07011a4a))
+    (pin "1" (uuid bba8a494-ce17-4782-b4a0-6605cb4a9e3e))
+    (pin "2" (uuid d808367b-52cc-4461-a8c6-c457d98404b9))
     (instances
       (project "robot-5A"
         (path "/31c74e3e-5df4-4637-9173-3740574ecda5/d8294481-be6f-4a58-b460-96c71b592728"
@@ -1356,11 +1222,11 @@
     (property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" (at 138.43 63.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid abfe03af-72fa-48c1-97cd-14b66ef1aec1))
-    (pin "5" (uuid cb9dd4f7-8458-418b-9480-998c6a3f0d57))
-    (pin "1" (uuid 47acbc49-7c0c-4293-a21a-b778d3a29e31))
-    (pin "3" (uuid d5dfac94-be2f-4d6f-a8f4-593c9fe8ee7a))
-    (pin "4" (uuid 148ac75d-4d66-4e83-b5d2-294999c5b76e))
+    (pin "2" (uuid b0275f2d-83b2-4673-aea9-069d4e1ce44a))
+    (pin "5" (uuid e9bd0aa7-1caf-41b6-8d4a-5f4e9148db51))
+    (pin "1" (uuid eedb709c-2c03-4961-937c-02006309cf66))
+    (pin "3" (uuid 3905415d-61b2-45d1-8697-51a59f5c46dd))
+    (pin "4" (uuid 089cad8a-0214-4210-bdf8-0f1a62f811aa))
     (instances
       (project "robot-5A"
         (path "/31c74e3e-5df4-4637-9173-3740574ecda5"
@@ -1424,8 +1290,8 @@
     (property "Voltage Rating" "16V" (at 240.03 90.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid a184c78f-1836-4ae7-bc80-d0469c362e5b))
-    (pin "2" (uuid 76ed2343-5997-4428-bd12-e5e78b9489f0))
+    (pin "1" (uuid 62b5a7ba-d98f-40af-a8b6-460e3c80d22a))
+    (pin "2" (uuid d4dee52a-dd7b-4e29-aae5-b77e6bc17807))
     (instances
       (project "robot-5A"
         (path "/31c74e3e-5df4-4637-9173-3740574ecda5/0b0db332-2fe8-4011-b664-91b81fb498a3"
@@ -1471,7 +1337,7 @@
     (property "Datasheet" "" (at 172.72 115.57 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 88d69b93-5d04-4e76-961a-be583219a2e2))
+    (pin "1" (uuid cb013a3d-76ed-4281-a5ce-fac78d7f28ef))
     (instances
       (project "Projet 3eme Annee - ROBOT"
         (path "/1aac3609-adba-4d2d-8e1d-af0a67a435be/ac33b847-a31b-465c-98ee-f2cd132dff51"
@@ -1527,12 +1393,12 @@
     (property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" (at 133.35 121.92 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 208820ee-4e58-4da8-8da2-ee15a6713fa4))
-    (pin "6" (uuid 05c4006b-db0b-4c67-bd54-14718e36c055))
-    (pin "3" (uuid 6d62e895-5319-41dc-a182-afcd9cb5e421))
-    (pin "4" (uuid a8515231-1df1-4910-91c8-dd57e91360b9))
-    (pin "2" (uuid 34d7406c-f8f1-44c9-8b87-1d2f2d119687))
-    (pin "5" (uuid 8b5e7d6e-3833-4d42-a9d0-f649ef4c622e))
+    (pin "1" (uuid bb08d3b2-2406-46ab-9eaa-67c78923bdc6))
+    (pin "6" (uuid 757dab50-9fc7-4ade-822e-04cb17ce3602))
+    (pin "3" (uuid 8ee68b60-9e83-4fe0-a17a-b585b7355fa6))
+    (pin "4" (uuid 1673a1aa-34d0-4bb0-9223-0707c962143b))
+    (pin "2" (uuid 801701c5-18e9-4fed-89ba-c8ab69249bb1))
+    (pin "5" (uuid a8eac33f-5e5f-4770-8cad-462c20e95b8f))
     (instances
       (project "robot-5A"
         (path "/31c74e3e-5df4-4637-9173-3740574ecda5/d8294481-be6f-4a58-b460-96c71b592728"
@@ -1590,8 +1456,8 @@
     (property "Power Rating" "0.25W" (at 170.18 72.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid f19a518b-2af8-4f91-a92b-50ad196a6f4c))
-    (pin "2" (uuid a432ce02-9c01-448e-8c48-f4a9e7a877dd))
+    (pin "1" (uuid 0c7ff24a-b1c2-471a-a231-233cb8a5a260))
+    (pin "2" (uuid 6e417943-e09a-46c9-ad4b-bb1b8b85941a))
     (instances
       (project "robot-5A"
         (path "/31c74e3e-5df4-4637-9173-3740574ecda5/0b0db332-2fe8-4011-b664-91b81fb498a3"
@@ -1634,7 +1500,7 @@
     (property "Datasheet" "" (at 180.34 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 216df673-17e4-4b48-b401-946bf60d9aaa))
+    (pin "1" (uuid b216a1e0-bdaf-4102-92b0-7f6f6ba31fb4))
     (instances
       (project "robot-5A"
         (path "/31c74e3e-5df4-4637-9173-3740574ecda5/5282b8dc-14d4-47d7-bac6-4c8478894f21"
@@ -1677,7 +1543,7 @@
     (property "Datasheet" "" (at 219.71 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid acab29f7-1638-4632-a5c1-6235f406f0e9))
+    (pin "1" (uuid 7253f1a7-cf20-48b9-aa5f-66f67e4ada07))
     (instances
       (project "Projet 3eme Annee - ROBOT"
         (path "/1aac3609-adba-4d2d-8e1d-af0a67a435be/ac33b847-a31b-465c-98ee-f2cd132dff51"
@@ -1733,7 +1599,7 @@
     (property "Datasheet" "" (at 125.73 81.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 1d2629e6-8bdd-4e11-9175-e6dc3545b67d))
+    (pin "1" (uuid 80e13a66-8e3d-4691-a81e-8f89ed98022e))
     (instances
       (project "Projet 3eme Annee - ROBOT"
         (path "/1aac3609-adba-4d2d-8e1d-af0a67a435be/ac33b847-a31b-465c-98ee-f2cd132dff51"
@@ -1789,7 +1655,7 @@
     (property "Datasheet" "" (at 175.26 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid a1497bdf-3d54-4ba2-9245-aed88e6d2200))
+    (pin "1" (uuid 6c13c850-3a11-4093-99aa-4ea6b189a2fe))
     (instances
       (project "robot-5A"
         (path "/31c74e3e-5df4-4637-9173-3740574ecda5/0b0db332-2fe8-4011-b664-91b81fb498a3"
@@ -1832,7 +1698,7 @@
     (property "Datasheet" "" (at 106.68 134.62 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 4a6e5d07-37f0-480a-8cef-621ec844658c))
+    (pin "1" (uuid 97567b45-db20-44dd-9097-aac856443ceb))
     (instances
       (project "Projet 3eme Annee - ROBOT"
         (path "/1aac3609-adba-4d2d-8e1d-af0a67a435be/ac33b847-a31b-465c-98ee-f2cd132dff51"
@@ -1873,6 +1739,74 @@
     )
   )
 
+  (symbol (lib_id "0db:capacitors/AVX 0805YC104J4Z") (at 111.76 74.93 0) (mirror x) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid b17ce74d-87a3-4eb2-84f8-2a1a4da276ff)
+    (property "Reference" "C201" (at 109.22 72.39 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Value" "100n 16V" (at 109.22 74.93 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 112.7252 71.12 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://datasheets.kyocera-avx.com/FlexitermMLCC.pdf" (at 111.76 74.93 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value 2" "0805 5%" (at 109.22 77.47 0)
+      (effects (font (size 0.8 0.8)) (justify right))
+    )
+    (property "Value 3" "X7R automotive" (at 109.22 80.01 0)
+      (effects (font (size 0.8 0.8)) (justify right))
+    )
+    (property "Manufacturer" "Kyocera AVX" (at 111.76 74.93 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MPN" "0805YC104J4Z" (at 111.76 74.93 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "compatible_mpns" "0805YC104J4Z2A 0805YC104J4Z4A" (at 111.76 74.93 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Tolerance" "5%" (at 111.76 74.93 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Voltage Rating" "16V" (at 111.76 74.93 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid a669a3ff-c43a-4601-8cf6-a72bea14fd2f))
+    (pin "2" (uuid ec761330-f129-48ef-baa4-67593316e77d))
+    (instances
+      (project "robot-5A"
+        (path "/31c74e3e-5df4-4637-9173-3740574ecda5/0b0db332-2fe8-4011-b664-91b81fb498a3"
+          (reference "C201") (unit 1)
+        )
+        (path "/31c74e3e-5df4-4637-9173-3740574ecda5/d8294481-be6f-4a58-b460-96c71b592728"
+          (reference "C511") (unit 1)
+        )
+        (path "/31c74e3e-5df4-4637-9173-3740574ecda5"
+          (reference "C101") (unit 1)
+        )
+        (path "/31c74e3e-5df4-4637-9173-3740574ecda5/10e55c87-0700-4a38-9d7d-4b1a08c1fb0e"
+          (reference "C521") (unit 1)
+        )
+        (path "/31c74e3e-5df4-4637-9173-3740574ecda5/2da7d61b-3a44-4475-aba8-51162102f12c"
+          (reference "C531") (unit 1)
+        )
+        (path "/31c74e3e-5df4-4637-9173-3740574ecda5/afc9d5fe-e90d-4002-8bce-8777ad0cd774"
+          (reference "C541") (unit 1)
+        )
+        (path "/31c74e3e-5df4-4637-9173-3740574ecda5/2a3e722a-d6a2-441d-92e4-f2d54293231f"
+          (reference "C551") (unit 1)
+        )
+        (path "/31c74e3e-5df4-4637-9173-3740574ecda5/1d4f0b65-d660-408d-b5d6-f560b1329d59"
+          (reference "C561") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "power:+3.3V") (at 219.71 77.47 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bc517fd5-4a58-4398-8f07-ce3d55eb1d8b)
@@ -1888,7 +1822,7 @@
     (property "Datasheet" "" (at 219.71 77.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid c9df9a04-b588-4e79-accd-585a28606915))
+    (pin "1" (uuid 6d2e7b0c-6fdd-4639-98c8-17ffad37ec7f))
     (instances
       (project "robot-5A"
         (path "/31c74e3e-5df4-4637-9173-3740574ecda5/0b0db332-2fe8-4011-b664-91b81fb498a3"
@@ -1931,12 +1865,12 @@
     (property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" (at 130.81 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid c5cc8eb2-58d3-47d4-87ab-8d5046b00783))
-    (pin "6" (uuid c04f06f4-5371-4933-bc53-c22aef8f15d1))
-    (pin "3" (uuid d2773c8f-2d39-4e28-8d54-1ecccf1e3a58))
-    (pin "4" (uuid dc6757d2-2662-4002-baca-8997c9312509))
-    (pin "2" (uuid a8976092-5f6f-48bd-860a-cec1331cde84))
-    (pin "5" (uuid c1411e5c-bd09-4469-8205-37ffac354944))
+    (pin "1" (uuid 2a162562-2142-46c8-b8f9-414deb4ec426))
+    (pin "6" (uuid f93b7dad-6054-4112-bc81-cc735e436794))
+    (pin "3" (uuid 302f0d18-ea95-424f-949c-0fd1a9930a96))
+    (pin "4" (uuid fa42ddd8-a8b5-48c4-858f-bd4b467c6d1c))
+    (pin "2" (uuid 4bd99816-e9e9-4239-a581-369a269b58d8))
+    (pin "5" (uuid 61c4273d-2c0a-45ec-be5c-85a0a0e4c455))
     (instances
       (project "robot-5A"
         (path "/31c74e3e-5df4-4637-9173-3740574ecda5/d8294481-be6f-4a58-b460-96c71b592728"
@@ -1994,8 +1928,8 @@
     (property "Power Rating" "0.25W" (at 106.68 68.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 66a7cbde-884f-44e9-aa2d-3a13a7f28be4))
-    (pin "2" (uuid bede4a90-4356-4213-bd7a-3c97d69e4e91))
+    (pin "1" (uuid 54c5c4b8-ffca-47bb-8f2a-98d36fe4279b))
+    (pin "2" (uuid 72ac5c39-7ad1-41d6-b1f8-a7dd54db30bd))
     (instances
       (project "robot-5A"
         (path "/31c74e3e-5df4-4637-9173-3740574ecda5/d8294481-be6f-4a58-b460-96c71b592728"
@@ -2035,7 +1969,7 @@
     (property "Datasheet" "" (at 125.73 53.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 630c1e29-680c-4e1d-be11-1409c1570ab1))
+    (pin "1" (uuid 5ec606f1-4f58-419b-907c-6a4e39107343))
     (instances
       (project "robot-5A"
         (path "/31c74e3e-5df4-4637-9173-3740574ecda5/0b0db332-2fe8-4011-b664-91b81fb498a3"
@@ -2096,8 +2030,8 @@
     (property "Power Rating" "0.25W" (at 106.68 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 765e84f3-889d-4a81-8750-50c7350cef4f))
-    (pin "2" (uuid 256f3a94-2432-43f6-b2b9-494f9e51130d))
+    (pin "1" (uuid 89828bf8-9a38-4b61-a641-b3748107ad73))
+    (pin "2" (uuid 32f64bfa-b2b4-4977-b097-5c68bf351ab5))
     (instances
       (project "robot-5A"
         (path "/31c74e3e-5df4-4637-9173-3740574ecda5/d8294481-be6f-4a58-b460-96c71b592728"
@@ -2137,7 +2071,7 @@
     (property "Datasheet" "" (at 177.8 128.27 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 14dea8d8-322a-4536-a987-0091c68f95d9))
+    (pin "1" (uuid 0f79f026-9f72-4e40-8ded-1512baa8794c))
     (instances
       (project "Projet 3eme Annee - ROBOT"
         (path "/1aac3609-adba-4d2d-8e1d-af0a67a435be/ac33b847-a31b-465c-98ee-f2cd132dff51"
@@ -2193,7 +2127,7 @@
     (property "Datasheet" "" (at 170.18 78.74 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 4042f7a1-5428-4a84-bc43-af7a63d1219d))
+    (pin "1" (uuid 33f54261-f0d9-4ccb-a76b-766a9ffd0746))
     (instances
       (project "Projet 3eme Annee - ROBOT"
         (path "/1aac3609-adba-4d2d-8e1d-af0a67a435be/ac33b847-a31b-465c-98ee-f2cd132dff51"
@@ -2267,8 +2201,8 @@
     (property "Power Rating" "0.25W" (at 151.13 121.92 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b9390fa6-8c4c-4e54-a831-7bd061e1b642))
-    (pin "2" (uuid c3e1f516-1ac5-437e-9afd-da363c991343))
+    (pin "1" (uuid d326b16d-1e9d-4e8d-983e-7dfad12113da))
+    (pin "2" (uuid 1eb61f08-3238-4dd8-a06e-1af67ab0984a))
     (instances
       (project "robot-5A"
         (path "/31c74e3e-5df4-4637-9173-3740574ecda5/d8294481-be6f-4a58-b460-96c71b592728"
@@ -2326,8 +2260,8 @@
     (property "Power Rating" "0.25W" (at 151.13 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid dc47c5ab-8660-4334-858c-98a5ef691cd3))
-    (pin "2" (uuid 9bbc2264-7cba-4bc1-bcf1-7c7306608419))
+    (pin "1" (uuid 323c05c8-00d4-450d-b959-8158071725b3))
+    (pin "2" (uuid 0f5a95da-b939-447d-8497-74dcb11dd954))
     (instances
       (project "robot-5A"
         (path "/31c74e3e-5df4-4637-9173-3740574ecda5/d8294481-be6f-4a58-b460-96c71b592728"
@@ -2385,8 +2319,8 @@
     (property "Power Rating" "0.25W" (at 151.13 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 583db82c-7b7c-4b10-a632-981b88c251be))
-    (pin "2" (uuid ff6570a6-4a20-4ddd-bfca-3cdad1b2dd58))
+    (pin "1" (uuid 3b83b127-d17a-4c20-9367-002c7b696cf7))
+    (pin "2" (uuid e02db95b-3138-4903-b981-2e47d513a265))
     (instances
       (project "robot-5A"
         (path "/31c74e3e-5df4-4637-9173-3740574ecda5/d8294481-be6f-4a58-b460-96c71b592728"
@@ -2426,7 +2360,7 @@
     (property "Datasheet" "" (at 111.76 81.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 966b9e0c-8a9c-4d3d-9dd6-658cb5398348))
+    (pin "1" (uuid 723f1a3e-a5f0-460b-a6bc-36aab4466f0f))
     (instances
       (project "Projet 3eme Annee - ROBOT"
         (path "/1aac3609-adba-4d2d-8e1d-af0a67a435be/ac33b847-a31b-465c-98ee-f2cd132dff51"
