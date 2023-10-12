@@ -2413,8 +2413,8 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 51e16eb7-34cd-4e9c-a1bd-6f1635513e4d)
   )
-  (text "Question:\n  - est-ce une bonne idée de changer les empreintes des 1210 vers du 0805 pour les capas ?\n  - j'ai remplacé capa TR/SS buck 3.3V de 100n 50V 0603 en 100n 16V 0805\n  - j'ai remplacé capa BST buck 3.3V et 5V de 100n 50V 0603 en 100n 16V 0805\n  - j'ai remplacé capa FB buck 3.3V et 5V de 10p 50V 0402 en 10p 16V 0805\n  - j'ai remplacé Package_SO:LTC_MSOP-16-1EP_3x4mm_P0.5mm_EP2.15x3.26mm\n                  par Package_SO:MSOP-16-1EP_3x4mm_P0.5mm_EP1.65x2.85mm\n  - est-ce que l'empreinte des NetTie est bonne ?"
-    (at 309.88 251.46 0)
+  (text "TODO:\n  - Buck moins cher https://www.tme.eu/fr/details/mcp16312-e_ms/regulateurs-de-tension-circuits-dc-dc/microchip-technology/\nQuestion:\n  - est-ce une bonne idée de changer les empreintes des 1210 vers du 0805 pour les capas ?\n  - j'ai remplacé capa TR/SS buck 3.3V de 100n 50V 0603 en 100n 16V 0805\n  - j'ai remplacé capa BST buck 3.3V et 5V de 100n 50V 0603 en 100n 16V 0805\n  - j'ai remplacé capa FB buck 3.3V et 5V de 10p 50V 0402 en 10p 16V 0805\n  - j'ai remplacé Package_SO:LTC_MSOP-16-1EP_3x4mm_P0.5mm_EP2.15x3.26mm\n                  par Package_SO:MSOP-16-1EP_3x4mm_P0.5mm_EP1.65x2.85mm"
+    (at 274.32 251.46 0)
     (effects (font (size 1.27 1.27) (thickness 0.254) bold (color 251 0 0 1)) (justify left bottom))
     (uuid 5975c35e-607e-4fdc-8069-0a99eba071de)
   )
