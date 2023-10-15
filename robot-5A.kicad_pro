@@ -458,8 +458,7 @@
       "+3.3V": "Alimentation",
       "+5V": "Alimentation",
       "/Power Supply/batt.in+": "Alimentation",
-      "GND": "Alimentation",
-      "Net-(J105-Pin_1)": "Alimentation"
+      "GND": "Alimentation"
     },
     "netclass_patterns": []
   },
