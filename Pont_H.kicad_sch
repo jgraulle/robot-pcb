@@ -3206,7 +3206,7 @@
     (property "Package" "2x 1x06 Pin Headers" (at 127 63.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC" "" (at 127 63.5 0)
+    (property "LCSC" "2x C40877" (at 127 63.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "others" "" (at 127 63.5 0)
