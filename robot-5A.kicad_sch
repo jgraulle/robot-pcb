@@ -2578,7 +2578,7 @@
   (symbol (lib_id "Switch:SW_DIP_x01") (at 250.19 52.07 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 31d0bbc3-b17b-481c-8813-f4fefc53e287)
-    (property "Reference" "SW401" (at 250.19 59.69 0)
+    (property "Reference" "SW101" (at 250.19 59.69 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_DIP_x01" (at 250.19 57.15 0)
@@ -2610,7 +2610,7 @@
     (instances
       (project "robot-5A"
         (path "/31c74e3e-5df4-4637-9173-3740574ecda5"
-          (reference "SW401") (unit 1)
+          (reference "SW101") (unit 1)
         )
       )
     )
@@ -2860,7 +2860,7 @@
   (symbol (lib_id "Connector:USB_C_Receptacle_PowerOnly_6P") (at 144.78 102.87 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 70a42a12-2839-40fe-b4b1-9f1d8c32b02b)
-    (property "Reference" "J401" (at 144.78 85.09 0)
+    (property "Reference" "J105" (at 144.78 85.09 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "USB_C_Receptacle_PowerOnly_6P" (at 144.78 87.63 0)
@@ -2894,7 +2894,7 @@
     (instances
       (project "robot-5A"
         (path "/31c74e3e-5df4-4637-9173-3740574ecda5"
-          (reference "J401") (unit 1)
+          (reference "J105") (unit 1)
         )
       )
     )
@@ -3455,7 +3455,7 @@
   (symbol (lib_id "Switch:SW_SPDT") (at 176.53 88.9 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c4490b83-2ad9-4184-9541-bfd3ff0d1d9b)
-    (property "Reference" "SW402" (at 176.53 81.28 0)
+    (property "Reference" "SW102" (at 176.53 81.28 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_SPDT" (at 176.53 83.82 0)
@@ -3488,7 +3488,7 @@
     (instances
       (project "robot-5A"
         (path "/31c74e3e-5df4-4637-9173-3740574ecda5"
-          (reference "SW402") (unit 1)
+          (reference "SW102") (unit 1)
         )
       )
     )
@@ -3636,7 +3636,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x03") (at 97.79 57.15 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d944cfd9-c456-4066-bf81-c750555fc290)
-    (property "Reference" "J104" (at 91.44 58.42 0)
+    (property "Reference" "J103" (at 91.44 58.42 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_01x03" (at 88.9 55.88 0)
@@ -3669,7 +3669,7 @@
     (instances
       (project "robot-5A"
         (path "/31c74e3e-5df4-4637-9173-3740574ecda5"
-          (reference "J104") (unit 1)
+          (reference "J103") (unit 1)
         )
       )
     )
