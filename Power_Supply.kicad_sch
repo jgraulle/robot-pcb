@@ -1493,13 +1493,18 @@
     (effects (font (size 2.54 2.54)) (justify left bottom))
     (uuid 1033944a-b216-43c7-b363-e3936125abff)
   )
+  (text "Remarques XH:\n  - Le controleur choisi est donné pour 1A, est-ce suffisant? (il me semblait que tu avais besoin de plus)\n  - La ref de l'inductance choisie n'est pas 1.1A (heureusement)\n  - Difficile de dire si c'est bon sans savoir quel est le besoin en courant de sortie pour ces alims? \n  - La thermique du controleur peut être amélioré (agrandir le plan su thermal pas et mieux connecteur au plas de masse avec des vias proches"
+    (at 259.08 233.68 0)
+    (effects (font (size 1.27 1.27) (thickness 0.254) bold (color 251 0 0 1)) (justify left bottom))
+    (uuid 17373137-e58d-46cd-886e-ae2c663b4518)
+  )
   (text "Rtop = Rbot x (Vout/Vfb - 1)\n     = 10k x (3.3 / 0.8 - 1)\n     = 31.25k => 31.6k\nVout = (Rtop/Rbot+1) x Vfb\n     = (31.6k/10k+1) x 0.8\n     = 3.328V"
     (at 209.55 177.8 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 2e406a05-55f6-4558-ae75-c747d9b71203)
   )
-  (text "Question:\n  - DC/DC changer par boitier DFN car pas en stock chez JLPCB, bonne idée ?"
-    (at 274.32 251.46 0)
+  (text "Question:\n  - DC/DC changer par boitier DFN\n    car pas en stock chez JLPCB, bonne idée ? \n     => XH: il faut faire attention au management thermique mais sinon je ne vois que de soucis"
+    (at 281.94 248.92 0)
     (effects (font (size 1.27 1.27) (thickness 0.254) bold (color 251 0 0 1)) (justify left bottom))
     (uuid 5975c35e-607e-4fdc-8069-0a99eba071de)
   )

@@ -2092,8 +2092,8 @@
     (effects (font (size 2.54 2.54)) (justify left bottom))
     (uuid 00684d2c-4fbf-4eef-9996-f8a3bfdaca24)
   )
-  (text "Question:\n  - Est-ce une bonne idée d'ajouter une diode pour alimenter le pond H en 5V quand il n'y a pas de batterie ?\n"
-    (at 295.91 250.19 0)
+  (text "Question:\n  - Est-ce une bonne idée d'ajouter une diode pour alimenter le pond H en 5V quand il n'y a pas de batterie ?\n    => XH: tout dépend de combien consomme ton moteur sous 5V (on en revient à la consommation que\n       tu ne connaitra vraiment qu'avec la maquette)"
+    (at 297.18 251.46 0)
     (effects (font (size 1.27 1.27) (thickness 0.254) bold (color 251 0 0 1)) (justify left bottom))
     (uuid 04cb2404-7713-4e5b-893a-004c0f542085)
   )
@@ -2101,6 +2101,11 @@
     (at 137.16 229.87 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 69e5b0e5-1b4c-44e0-bb1c-71163c5d48ce)
+  )
+  (text "Remarques XH:\n  - Connecteur USBC très court\n  - Pourquoi avoir ajouté le pont div de la baterie dans \"Power supply\"?\n  - L'emprunte de l'interupteur choisi pour SW102 présente des trous oblong\n    qui peuvent amener des surcouts de prod PCB."
+    (at 320.04 234.95 0)
+    (effects (font (size 1.27 1.27) (color 255 18 12 1)) (justify left bottom))
+    (uuid 7095e02e-1c5d-4dc7-865a-8462cd73e9c0)
   )
   (text "Vers enroulement\nmoteur 2\n\n" (at 328.93 53.34 0)
     (effects (font (size 2.54 2.54)) (justify left bottom))

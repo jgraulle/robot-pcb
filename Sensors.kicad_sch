@@ -917,8 +917,8 @@
     (uuid fbfbf110-58ea-4672-956e-3a862928b223)
   )
 
-  (text "Question:\n  - Remplacement Schmitt trigger 74HC7014 (hex version) par dual version 74LVC2G17 ?\n  - Remplacer les 100R par 200R puis 1K sur conseil Guillaume\n  - Je peux réutiliser la diode d'alim ESP pour protection AOP ?\n"
-    (at 177.8 162.56 0)
+  (text "Question:\n  - Remplacement Schmitt trigger 74HC7014 (hex version) par dual version 74LVC2G17 ?\n    => XH: question de gout\n  - Remplacer les 100R par 200R puis 1K sur conseil Guillaume\n    => XH: diminue le courant de court circuit mais augment la suceptibilité au bruit\n  - Je peux réutiliser la diode d'alim ESP pour protection AOP ?\n    => XH: oui"
+    (at 151.13 161.29 0)
     (effects (font (size 1.27 1.27) (thickness 0.254) bold (color 251 0 0 1)) (justify left bottom))
     (uuid 13bee199-84de-4f6b-9cba-ecafa07e8b91)
   )
@@ -926,6 +926,11 @@
     (at 77.47 86.36 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 67f7ce7a-498e-431e-a5c2-c8bf67e27dc7)
+  )
+  (text "Remarques HX:\n  - Je découplerais les rails d'alimentations avec une capa de 1uF pour éviter les courant HF\n    dans le PCB et aussi pour diminuer l'impédance HF de cette énorme piste en \"U\""
+    (at 166.37 142.24 0)
+    (effects (font (size 1.27 1.27) (thickness 0.254) bold (color 251 0 0 1)) (justify left bottom))
+    (uuid 775d9070-7e20-4819-b95a-d931655bbcca)
   )
   (text "Partie Capteurs:\nCapteur de position\nCapteur de contact\n\n"
     (at 13.97 201.93 0)
