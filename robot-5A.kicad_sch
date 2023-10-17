@@ -2092,7 +2092,8 @@
     (effects (font (size 2.54 2.54)) (justify left bottom))
     (uuid 00684d2c-4fbf-4eef-9996-f8a3bfdaca24)
   )
-  (text "TODO:\n  - ajouter le cavalier pour le J103\n" (at 302.26 250.19 0)
+  (text "Question:\n  - Est-ce une bonne idée d'ajouter une diode pour alimenter le pond H en 5V quand il n'y a pas de batterie ?\n"
+    (at 295.91 250.19 0)
     (effects (font (size 1.27 1.27) (thickness 0.254) bold (color 251 0 0 1)) (justify left bottom))
     (uuid 04cb2404-7713-4e5b-893a-004c0f542085)
   )
