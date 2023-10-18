@@ -4,6 +4,7 @@ Footprint pattern,Rotation,Offset X,Offset Y
 "^SOT-23-5$",180
 "^TDFN-8-1EP_3x2mm_P0.5mm_EP1.60x1.50mm$",-90
 "^USB_C_Receptacle_YIYUAN_YTC-TC6-555$",0,0.0,-0.75
+"^USB_C_Receptacle_SHOU-HAN_TYPE-C-6P-LT-10.5",0,0.0,-0.3
 "^MagneticBuzzer_PUI_AT-0927-TT-6-R$",0,-2.0,0.0
 "^SW_DIP_SPSTx01_Slide_9.78x4.72mm_W7.62mm_P2.54mm$",-90,0.0,-3.81
 "^PinHeader_1x04_P2.54mm_Vertical$",90,0.0,3.81
