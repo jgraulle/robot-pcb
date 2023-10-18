@@ -10,6 +10,8 @@ Footprint pattern,Rotation,Offset X,Offset Y
 "^PinSocket_1x06_P2.54mm_Vertical$",90,0.0,6.35
 "^DVR8833_EVM_IN",90
 "^DVR8833_EVM_OUT",90
+"^ESP32-DevKitC-Left",90
+"^ESP32-DevKitC-Right",90
 "^JST_XH_B2B-XH-AM_1x02_P2.50mm_Vertical$",180,0.0,1.25
 "^JST_XH_B3B-XH-AM_1x03_P2.50mm_Vertical$",0,-2.5,0.0
 "^JST_XH_B6B-XH-AM_1x06_P2.50mm_Vertical$",0,0.0,6.25
