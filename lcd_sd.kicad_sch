@@ -1215,7 +1215,7 @@
   )
 
   (symbol (lib_id "Connector_Generic:Conn_01x04") (at 146.05 120.65 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d6638a1d-6501-4ace-8c42-a40d80d7610a)
     (property "Reference" "J302" (at 148.59 120.65 0)
       (effects (font (size 1.27 1.27)) (justify left))

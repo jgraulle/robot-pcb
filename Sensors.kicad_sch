@@ -1337,7 +1337,7 @@
   )
 
   (symbol (lib_id "Connector_Generic:Conn_01x06") (at 186.69 88.9 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 279f7499-e90c-470e-a224-ed799d25f64d)
     (property "Reference" "J511" (at 189.23 88.9 0)
       (effects (font (size 1.27 1.27)) (justify left))
