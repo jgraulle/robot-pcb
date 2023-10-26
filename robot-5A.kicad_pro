@@ -56,8 +56,8 @@
         }
       ],
       "drc_exclusions": [
-        "silk_overlap|135030000|94265000|ce2b65e0-6084-4e72-acd1-6489d850fbcf|0a709f2e-53c1-4297-89d2-7d9a76eae406",
-        "silk_overlap|135030000|95735000|ce2b65e0-6084-4e72-acd1-6489d850fbcf|0c14c60b-2777-44da-b539-3074fb2adac0"
+        "silk_overlap|135030000|94265000|8fb8c1ba-4a04-4eb1-b116-ebc75b358b05|0a709f2e-53c1-4297-89d2-7d9a76eae406",
+        "silk_overlap|135030000|95735000|8fb8c1ba-4a04-4eb1-b116-ebc75b358b05|0c14c60b-2777-44da-b539-3074fb2adac0"
       ],
       "meta": {
         "version": 2
@@ -500,7 +500,7 @@
       "version": 1
     },
     "net_format_name": "",
-    "page_layout_descr_file": "shared_library/template/JS_schematic_sheet_template.kicad_wks",
+    "page_layout_descr_file": "",
     "plot_directory": "",
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
