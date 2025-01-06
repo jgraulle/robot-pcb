@@ -1,0 +1,50 @@
+Generate file for jlcpcb production:
+- Run DRC check
+- Generating Gerbers
+   - File -> Fabrication Outputs -> Gerbers (.gbr)
+   - Select the folder "build"
+   - Layer selection, List of layers that should be selected:
+      - F.Cu
+      - B.Cu
+      - F.Paste
+      - B.Paste
+      - F.Silkscreen
+      - B.Silkscreen
+      - F.Mask
+      - B.Mask
+      - Edge.Cuts - (contain the board outline/cutouts.)
+   - Jump to General Options and check these:
+      - Select Plot reference designators, otherwise designators will not appear on silkscreen layers
+      - Select Plot footprint text
+      - Select Check zone fills before plotting
+      - Select Tent vias
+      - Select Use Protel filename extensions, this is recommended as JLCPCB prefers Protel filename extensions
+      - Select Subtract soldermask from silkscreen, this ensures no silkscreen on pads
+   - Click the Plot button at the bottom of the window
+- Generate Drill files
+   - From previous window press the "Generate Drill files..." button
+   - Check Use alternate drill mode for "Oval Holes Drill Mode"
+   - Check Absolute for "Drill Origin"
+   - Check Millimeters for "Drill Units"
+   - Check Decimal format for "Zeros Format"
+   - Click the Generate Drill File button, the drill files will be generated and stored in the output folder
+- Generate Drill Map file
+   - From previous window press the "Generate Map File" button and everything is going to be done automatically.
+- Generate Bill of Materials
+   - From Schematic Layout Editor. From the menu bar, click Tool -> Generate Bill of Materials
+   - In edit tab, Only check in this order:
+      - "Value" with label "Comment"
+      - "Reference" with label "Designator"
+      - "Package" with label "Footprint"
+      - "LCSC" with label "LCSC part number"
+   - In export tab:
+       Set output file "build/robot-5A.csv"
+      - Clic on export
+- Generate Pick and Place files
+   - From the PCB editor, click on File -> Fabrication output -> Footprint position (.pos) file and export the file with the following settings:
+      - CSV
+      - mm
+      - One file per side
+      - Use drilling/placement origin
+   - Run the scrip "jlcGenerate.sh"
+

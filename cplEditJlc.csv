@@ -1,0 +1,18 @@
+Package pattern,PosX,PosY,Rot
+"^SOT-23$",0,0,180
+"^SOT-23-6$",0,0,-90
+"^SOT-23-5$",0,0,180
+"^TDFN-8-1EP_3x2mm_P0.5mm_EP1.60x1.50mm$",0,0,-90
+"^USB_C_Receptacle_YIYUAN_YTC-TC6-555$",0.0,-0.75,0
+"^USB_C_Receptacle_SHOU-HAN_TYPE-C-6P-LT-10.5",0.0,-0.3,0
+"^MagneticBuzzer_PUI_AT-0927-TT-6-R$",-2.0,0.0,0
+"^SW_DIP_SPSTx01_Slide_9.78x4.72mm_W7.62mm_P2.54mm$",0.0,-3.81,-90
+"^PinHeader_1x04_P2.54mm_Vertical$",0.0,3.81,90
+"^PinSocket_1x06_P2.54mm_Vertical$",0.0,6.35,90
+"^DVR8833_EVM_IN",0,0,90
+"^DVR8833_EVM_OUT",0,0,90
+"^ESP32-DevKitC-Left",0,0,90
+"^ESP32-DevKitC-Right",0,0,90
+"^JST_XH_B2B-XH-AM_1x02_P2.50mm_Vertical$",0.0,1.25,180
+"^JST_XH_B3B-XH-AM_1x03_P2.50mm_Vertical$",-2.5,0.0,0
+"^JST_XH_B6B-XH-AM_1x06_P2.50mm_Vertical$",0.0,6.25,0

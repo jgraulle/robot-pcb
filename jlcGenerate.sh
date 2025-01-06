@@ -1,7 +1,7 @@
 #!/bin/bash
 
 (
-    cd output
-    zip robot-5A.zip *
+    cd build
+    ls | grep -v .csv | xargs zip maresUsbCable.zip
 )
-jlc_kicad_tools --output output --database cpl_rotations_jlc.csv --project_name robot-5A --verbose .
+kikadJlcUpdatePos
