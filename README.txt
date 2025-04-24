@@ -38,7 +38,7 @@ Generate file for jlcpcb production:
       - "Package" with label "Footprint"
       - "LCSC" with label "LCSC part number"
    - In export tab:
-       Set output file "build/robot-5A.csv"
+       Set output file "build/robot-5A-bom.csv"
       - Clic on export
 - Generate Pick and Place files
    - From the PCB editor, click on File -> Fabrication output -> Footprint position (.pos) file and export the file with the following settings:

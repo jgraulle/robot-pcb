@@ -2,6 +2,6 @@
 
 (
     cd build
-    ls | grep -v .csv | xargs zip maresUsbCable.zip
+    ls | grep -v .csv | xargs zip --move robot-5A.zip
 )
 kikadJlcUpdatePos
